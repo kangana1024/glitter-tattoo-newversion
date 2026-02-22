@@ -45,7 +45,8 @@
     "messagePlaceholder": "How can we help you?",
     "successMessage": "Thank you! Your message has been sent successfully.",
     "requiredField": "This field is required",
-    "invalidEmail": "Please enter a valid email address"
+    "invalidEmail": "Please enter a valid email address",
+    "sendMessage": "Send Message"
   },
   "notFound": {
     "title": "Page Not Found",

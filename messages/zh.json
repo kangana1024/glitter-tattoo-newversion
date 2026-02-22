@@ -45,7 +45,8 @@
     "messagePlaceholder": "我们能为您做什么？",
     "successMessage": "谢谢！您的消息已成功发送。",
     "requiredField": "此字段为必填项",
-    "invalidEmail": "请输入有效的电子邮件地址"
+    "invalidEmail": "请输入有效的电子邮件地址",
+    "sendMessage": "发送消息"
   },
   "notFound": {
     "title": "页面未找到",

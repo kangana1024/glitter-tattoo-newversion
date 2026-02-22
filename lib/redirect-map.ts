@@ -10,7 +10,6 @@ export const redirectMap: Record<string, string> = {
   // Homepage variants
   '/home_en.html': '/',
   '/home_ch.html': '/',
-  '/index.html': '/',
   '/home.html': '/',
 
   // About page variants
@@ -38,7 +37,6 @@ export const redirectMap: Record<string, string> = {
   '/2015/contact_ch.html': '/contact',
   '/contact.html': '/contact',
 
-  // Other legacy paths
+  // /2015 and /2015/index.html - keep only /2015 to avoid static export path conflict
   '/2015': '/',
-  '/2015/index.html': '/',
 };
