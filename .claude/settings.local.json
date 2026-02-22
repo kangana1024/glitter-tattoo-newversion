@@ -26,7 +26,17 @@
       "Bash(git ls-remote:*)",
       "Bash(git merge-base:*)",
       "Bash(git cat-file:*)",
-      "Bash(git config:*)"
+      "Bash(git config:*)",
+      "Bash(git -C /Users/koppc/nodejs/glitter-tattoo-newversion/glitter-tattoo-new-version/.auto-claude/worktrees/tasks/001-init-project status)",
+      "Bash(git -C /Users/koppc/nodejs/glitter-tattoo-newversion/glitter-tattoo-new-version/.auto-claude/worktrees/tasks/001-init-project log --oneline)",
+      "Bash(git -C /Users/koppc/nodejs/glitter-tattoo-newversion/glitter-tattoo-new-version/.auto-claude/worktrees/tasks/001-init-project fetch origin auto-claude/001-init-project)",
+      "Bash(git -C /Users/koppc/nodejs/glitter-tattoo-newversion/glitter-tattoo-new-version/.auto-claude/worktrees/tasks/001-init-project diff --stat)",
+      "Bash(git -C /Users/koppc/nodejs/glitter-tattoo-newversion/glitter-tattoo-new-version/.auto-claude/worktrees/tasks/001-init-project diff .auto-claude/specs/001-init-project/implementation_plan.json)",
+      "Bash(git -C /Users/koppc/nodejs/glitter-tattoo-newversion/glitter-tattoo-new-version/.auto-claude/worktrees/tasks/001-init-project show HEAD:.auto-claude/specs/001-init-project/implementation_plan.json)",
+      "Bash(git -C /Users/koppc/nodejs/glitter-tattoo-newversion/glitter-tattoo-new-version/.auto-claude/worktrees/tasks/001-init-project stash)",
+      "Bash(git -C /Users/koppc/nodejs/glitter-tattoo-newversion/glitter-tattoo-new-version/.auto-claude/worktrees/tasks/001-init-project reset --hard origin/auto-claude/001-init-project)",
+      "Bash(git -C /Users/koppc/nodejs/glitter-tattoo-newversion/glitter-tattoo-new-version/.auto-claude/worktrees/tasks/001-init-project add .auto-claude/specs/001-init-project/implementation_plan.json .auto-claude/specs/001-init-project/context.json .auto-claude/specs/001-init-project/project_index.json .auto-claude/specs/001-init-project/spec.md)",
+      "Bash(git -C:*)"
     ]
   }
 }
