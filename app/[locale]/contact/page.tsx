@@ -2,6 +2,7 @@ import { setRequestLocale } from 'next-intl/server';
 import { locales } from '@/lib/i18n';
 import Container from '@/components/ui/Container';
 import ContactForm from '@/components/sections/ContactForm';
+import { generatePageMetadata } from '@/components/seo/MetaTags';
 import contactData from '@/content/pages/contact.json';
 import type { Metadata } from 'next';
 
@@ -21,19 +22,12 @@ export async function generateMetadata({
   const { locale } = await params;
   const heading = getLocalizedText(contactData.sections.heading, locale);
 
-  return {
+  return generatePageMetadata({
     title: heading,
     description: contactData.description,
-    openGraph: {
-      title: heading,
-      description: contactData.description,
-      url: `https://www.glitter-tattoo.com/${locale}/contact`,
-    },
-    alternates: {
-      canonical: `https://www.glitter-tattoo.com/${locale}/contact`,
-      languages: { en: '/en/contact', th: '/th/contact', zh: '/zh/contact' },
-    },
-  };
+    locale,
+    path: '/contact',
+  });
 }
 
 export default async function ContactPage({

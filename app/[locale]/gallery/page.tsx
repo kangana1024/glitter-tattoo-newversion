@@ -1,6 +1,7 @@
 import { setRequestLocale } from 'next-intl/server';
 import { locales } from '@/lib/i18n';
 import GalleryGrid from '@/components/sections/GalleryGrid';
+import { generatePageMetadata } from '@/components/seo/MetaTags';
 import galleryData from '@/content/pages/gallery.json';
 import type { Metadata } from 'next';
 
@@ -20,19 +21,12 @@ export async function generateMetadata({
   const { locale } = await params;
   const heading = getLocalizedText(galleryData.sections.heading, locale);
 
-  return {
+  return generatePageMetadata({
     title: heading,
     description: galleryData.description,
-    openGraph: {
-      title: heading,
-      description: galleryData.description,
-      url: `https://www.glitter-tattoo.com/${locale}/gallery`,
-    },
-    alternates: {
-      canonical: `https://www.glitter-tattoo.com/${locale}/gallery`,
-      languages: { en: '/en/gallery', th: '/th/gallery', zh: '/zh/gallery' },
-    },
-  };
+    locale,
+    path: '/gallery',
+  });
 }
 
 export default async function GalleryPage({
