@@ -44,6 +44,6 @@
     "i18n_routing": "app/[locale]/ structure, generateStaticParams() on every page, setRequestLocale() in every Server Component",
     "content_source": "Local JSON files in content/pages/*.json, no external API at runtime",
     "legacy_redirects": "Client-side via catch-all app/[locale]/[...rest]/page.tsx route",
-    "styling": "Tailwind v4 CSS-first config with @theme tokens in styles/globals.css"
+    "styling": "Tailwind v4 CSS-first config with @theme tokens in app/globals.css"
   }
 }

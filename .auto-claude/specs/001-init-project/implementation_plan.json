@@ -54,17 +54,17 @@
           "description": "Set up Tailwind v4 theme with brand colors, typography (Kanit/Sarabun fonts), and design tokens in globals.css. Update root app/layout.tsx with Google Fonts and base HTML structure",
           "service": "next-app",
           "files_to_modify": [
-            "styles/globals.css",
+            "app/globals.css",
             "app/layout.tsx"
           ],
           "files_to_create": [],
           "patterns_from": [
             "spec.md - Pattern 3: Tailwind CSS v4 Configuration"
           ],
-          "notes": "globals.css: @import 'tailwindcss' + @theme block with brand colors (--color-primary: #FF6B9D, --color-secondary: #00D4AA, etc.), font families (Kanit, Sarabun). Note: create-next-app may put globals.css in app/ dir - move to styles/ or update import path. Root layout.tsx: import Google Fonts via next/font/google or <link>, set <html> attributes",
+          "notes": "app/globals.css: @import 'tailwindcss' + @theme block with brand colors (--color-primary: #FF6B9D, --color-secondary: #00D4AA, etc.), font families (Kanit, Sarabun). Root layout.tsx: import Google Fonts via next/font/google or <link>, set <html> attributes",
           "verification": {
             "type": "command",
-            "command": "grep -c '@theme' styles/globals.css 2>/dev/null || grep -c '@theme' app/globals.css 2>/dev/null",
+            "command": "grep -c '@theme' app/globals.css",
             "expected": "1"
           },
           "status": "pending"

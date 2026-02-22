@@ -7,7 +7,7 @@
       "postcss.config.mjs",
       "app/layout.tsx",
       "app/page.tsx",
-      "styles/globals.css",
+      "app/globals.css",
       ".gitignore"
     ]
   },
