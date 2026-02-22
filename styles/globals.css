@@ -1,0 +1,25 @@
+@import 'tailwindcss';
+
+@theme {
+  /* Brand colors — vibrant multi-color palette from glitter-tattoo logo */
+  --color-primary: #FF6B9D;       /* Vibrant pink */
+  --color-secondary: #00D4AA;     /* Teal/mint */
+  --color-accent-yellow: #FFD93D; /* Bright yellow */
+  --color-accent-blue: #6C63FF;   /* Electric purple-blue */
+  --color-accent-orange: #FF8C42; /* Warm orange */
+  --color-accent-green: #4ECB71;  /* Bright green */
+
+  /* Neutrals */
+  --color-surface: #FFFFFF;
+  --color-surface-dark: #1A1A2E;
+  --color-text-primary: #16213E;
+  --color-text-secondary: #546A7B;
+  --color-text-light: #F0F0F0;
+
+  /* Typography — Thai-compatible Google Fonts */
+  --font-heading: 'Kanit', sans-serif;
+  --font-body: 'Sarabun', sans-serif;
+
+  /* Layout */
+  --container-max: 1280px;
+}
