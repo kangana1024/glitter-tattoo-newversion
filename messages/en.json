@@ -1,0 +1,61 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "common": {
+    "readMore": "Read More",
+    "viewAll": "View All",
+    "submit": "Submit",
+    "sendMessage": "Send Message",
+    "backToHome": "Back to Home",
+    "languageName": "English"
+  },
+  "home": {
+    "heroTitle": "Professional Glitter Tattoo Supplies",
+    "heroSubtitle": "Premium quality glitter tattoos, stencils, and body art supplies from Thailand",
+    "heroCta": "View Our Services",
+    "servicesTitle": "Our Services"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Learn about Glitter Tattoo Thailand — your trusted source for premium glitter tattoo supplies and stencils."
+  },
+  "services": {
+    "title": "Our Services",
+    "description": "Explore our full range of glitter tattoo products, stencils, glitter colors, and body art supplies."
+  },
+  "gallery": {
+    "title": "Gallery",
+    "description": "Browse our collection of stunning glitter tattoo designs and body art creations."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Get in touch with Glitter Tattoo Thailand for orders, inquiries, or wholesale partnerships.",
+    "nameLabel": "Name",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "messageLabel": "Message",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "your@email.com",
+    "phonePlaceholder": "Your phone number",
+    "messagePlaceholder": "How can we help you?",
+    "successMessage": "Thank you! Your message has been sent successfully.",
+    "requiredField": "This field is required",
+    "invalidEmail": "Please enter a valid email address"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "message": "Sorry, the page you are looking for does not exist.",
+    "backHome": "Back to Home"
+  },
+  "footer": {
+    "copyright": "© {year} Glitter Tattoo Thailand. All rights reserved.",
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact Info",
+    "followUs": "Follow Us"
+  }
+}
