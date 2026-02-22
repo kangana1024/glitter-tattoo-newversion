@@ -18,5 +18,6 @@
     "qa": "low"
   },
   "baseBranch": "main",
-  "fastMode": false
+  "fastMode": false,
+  "prUrl": "https://github.com/kangana1024/glitter-tattoo-newversion/pull/2"
 }
