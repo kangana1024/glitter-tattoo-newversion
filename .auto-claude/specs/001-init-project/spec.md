@@ -209,7 +209,7 @@ Since this is a greenfield project, all files must be created from scratch.
 
 | File | Purpose |
 |------|---------|
-| `styles/globals.css` | Tailwind v4 imports, @theme tokens, custom styles |
+| `app/globals.css` | Tailwind v4 imports, @theme tokens, custom styles |
 
 ## Patterns to Follow
 
@@ -307,7 +307,7 @@ export default async function LocaleLayout({
 ### 3. Tailwind CSS v4 Configuration
 
 ```css
-/* styles/globals.css */
+/* app/globals.css */
 @import 'tailwindcss';
 
 @theme {
