@@ -1,0 +1,93 @@
+=== AUTO-BUILD PROGRESS ===
+
+Project: Rebuild glitter-tattoo.com as Modern Next.js SSG Site
+Workspace: .auto-claude/specs/001-init-project
+Started: 2026-02-22
+
+Workflow Type: feature
+Rationale: Full greenfield website rebuild requiring project scaffolding, content scraping, i18n routing, UI component library, and SEO optimization across 2 services (next-app + scraper).
+
+Session 1 (Planner):
+- Created implementation_plan.json
+- Phases: 7
+- Total subtasks: 19
+- Created init.sh
+- Created build-progress.txt
+- Updated project_index.json with service details
+- Updated context.json with patterns and file references
+
+Phase Summary:
+- Phase 1 — Project Scaffolding (setup): 3 subtasks, no dependencies
+  - 1-1: Initialize Next.js 16 + install all deps
+  - 1-2: Configure next.config.ts + postcss for static export
+  - 1-3: Tailwind v4 theme + brand colors + Google Fonts
+
+- Phase 2 — i18n Foundation (implementation): 2 subtasks, depends on Phase 1
+  - 2-1: i18n config + translation message files (en, th, zh)
+  - 2-2: Locale layouts + root redirect + placeholder pages
+
+- Phase 3 — Content Scraping Infrastructure (implementation): 3 subtasks, depends on Phase 1
+  - 3-1: Scraping scripts (scrape.ts, scrape-content.ts, scrape-images.ts)
+  - 3-2: Redirect generator + content utilities
+  - 3-3: Execute scraper → populate content JSON + images
+
+- Phase 4 — Design System & UI Components (implementation): 3 subtasks, depends on Phase 2
+  - 4-1: UI components (Button, Card, Container, ImageGallery)
+  - 4-2: Layout components (Header, Footer, Navigation, LanguageSwitcher)
+  - 4-3: Integrate layout into locale layout
+
+- Phase 5 — Page Implementation (implementation): 3 subtasks, depends on Phases 3+4
+  - 5-1: Homepage + Hero + ServiceGrid
+  - 5-2: About + Services + Gallery pages + GalleryGrid
+  - 5-3: Contact page + ContactForm + custom 404
+
+- Phase 6 — SEO & Legacy Redirects (implementation): 3 subtasks, depends on Phase 5
+  - 6-1: Legacy URL catch-all redirect route
+  - 6-2: SEO metadata (generateMetadata) on all pages
+  - 6-3: Sitemap + robots.txt + JSON-LD structured data
+
+- Phase 7 — Build Verification & Testing (integration): 3 subtasks, depends on Phase 6
+  - 7-1: Static build verification (npm run build → /out)
+  - 7-2: Unit tests (i18n, redirect-map, content, navigation)
+  - 7-3: End-to-end verification
+
+Services Involved:
+- next-app: Primary Next.js 16 application — pages, components, layouts, i18n, SEO
+- scraper: Node.js scripts to crawl existing site, extract content/images, generate data files
+
+Tech Stack:
+- Next.js 16.1.6 + React 19.2
+- TypeScript 5.x
+- Tailwind CSS v4 (CSS-first config)
+- next-intl (without middleware, static export compatible)
+- Cheerio + Puppeteer (scraping)
+- sharp (image optimization)
+- Static export (output: 'export' → /out)
+
+Parallelism Analysis:
+- Max parallel phases: 2
+- Recommended workers: 2
+- Parallel groups:
+  - [Phase 2: i18n Foundation] + [Phase 3: Content Scraping]
+    Both depend only on Phase 1, with completely different file sets
+- Dependency chain: Phase 1 → [Phase 2 || Phase 3] → Phase 4 → Phase 5 → Phase 6 → Phase 7
+
+Key Architecture Decisions:
+- Static export only (no SSR, no middleware, no server-side redirects)
+- i18n via app/[locale]/ routing with next-intl, default locale: Thai (th)
+- Legacy URLs handled via client-side catch-all route [locale]/[...rest]/page.tsx
+- Content stored as local JSON in content/pages/*.json
+- All images downloaded to public/images/scraped/
+- Tailwind v4 with @theme directive for brand colors
+- Google Fonts: Kanit (headings) + Sarabun (body) for Thai support
+
+=== STARTUP COMMAND ===
+
+To continue building this spec, run:
+
+  source auto-claude/.venv/bin/activate && python auto-claude/run.py --spec 001 --parallel 2
+
+Example:
+  source auto-claude/.venv/bin/activate && python auto-claude/run.py --spec 001 --parallel 2
+
+=== END SESSION 1 ===

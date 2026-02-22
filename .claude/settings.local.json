@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(gh auth status:*)",
-      "Bash(git fetch:*)"
+      "Bash(git fetch:*)",
+      "Bash(git add:*)",
+      "Bash(GIT_EDITOR=true git rebase:*)"
     ]
   }
 }

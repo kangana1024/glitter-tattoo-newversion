@@ -1,0 +1,88 @@
+{
+  "critique_completed": true,
+  "issues_found": [
+    {
+      "severity": "high",
+      "category": "accuracy",
+      "description": "Next.js version wrong: spec stated 'Next.js 15.x' but user explicitly requested v16 and research confirmed v16.1.6 is the latest stable (released Oct 2025). The requirements phase incorrectly claimed v16 doesn't exist, which the research phase corrected, but the spec writer used the outdated requirements info.",
+      "location": "Line 45 (Tech Stack section)",
+      "fix_applied": "Changed 'Next.js 15.x (latest stable with App Router) + React 19.x' to 'Next.js 16.x (v16.1.6 latest stable with App Router) + React 19.2'",
+      "verified": true
+    },
+    {
+      "severity": "medium",
+      "category": "consistency",
+      "description": "tailwind.config.ts listed in project file structure contradicts Tailwind v4 CSS-first approach. The spec's own Pattern section states 'Tailwind v4 uses @theme directive instead of tailwind.config.js', yet the file tree included tailwind.config.ts.",
+      "location": "Line 98 (Key Directories file tree)",
+      "fix_applied": "Removed 'tailwind.config.ts' from the file tree. Added explicit note 'no tailwind.config.ts file needed' in the Tailwind Key Points section.",
+      "verified": true
+    },
+    {
+      "severity": "medium",
+      "category": "completeness",
+      "description": "Missing i18n-request.ts code example. The file is referenced in createNextIntlPlugin('./lib/i18n-request.ts') and listed in the Files table, but no code pattern was provided. This is the critical file that connects next-intl to the message loading system.",
+      "location": "Section '2. i18n Setup (next-intl without middleware)' — between i18n.ts and layout.tsx examples",
+      "fix_applied": "Added complete lib/i18n-request.ts code example using getRequestConfig() with requestLocale parameter, locale validation, and dynamic message import.",
+      "verified": true
+    },
+    {
+      "severity": "medium",
+      "category": "accuracy",
+      "description": "Locale layout code example was incomplete: used undefined 'messages' variable and missing NextIntlClientProvider/getMessages imports. The code would fail to compile.",
+      "location": "Section '2. i18n Setup' — app/[locale]/layout.tsx code block",
+      "fix_applied": "Added imports for NextIntlClientProvider from 'next-intl' and getMessages from 'next-intl/server'. Added 'const messages = await getMessages()' call before rendering.",
+      "verified": true
+    },
+    {
+      "severity": "medium",
+      "category": "accuracy",
+      "description": "Catch-all redirect page code missing imports for 'notFound' and 'locales'. The code called notFound() without importing it and referenced 'locales' array without importing from lib/i18n.",
+      "location": "Section '4. Client-Side Legacy URL Redirect Pattern'",
+      "fix_applied": "Changed import to 'import { redirect, notFound } from next/navigation' and added 'import { locales } from @/lib/i18n'.",
+      "verified": true
+    },
+    {
+      "severity": "low",
+      "category": "accuracy",
+      "description": "'--turbopack' flag in dev script is redundant. In Next.js 16, Turbopack is the default bundler — no flag needed.",
+      "location": "NPM Scripts section — dev script",
+      "fix_applied": "Changed 'next dev --turbopack' to 'next dev'. Updated all Turbopack comments to note it's default in Next.js 16.",
+      "verified": true
+    },
+    {
+      "severity": "low",
+      "category": "accuracy",
+      "description": "Spec referenced 'middleware.ts' without noting it was renamed to 'proxy.ts' in Next.js 16. Could confuse implementers about terminology.",
+      "location": "Implementation Notes — DON'T section",
+      "fix_applied": "Changed to 'Don't use proxy.ts (formerly middleware.ts in v15) — not supported in static export'.",
+      "verified": true
+    },
+    {
+      "severity": "low",
+      "category": "completeness",
+      "description": "Missing PostCSS config code example. postcss.config.mjs was listed as a file to create and referenced in Key Points, but no code pattern was shown.",
+      "location": "Section '3. Tailwind CSS v4 Configuration'",
+      "fix_applied": "Added postcss.config.mjs code block with @tailwindcss/postcss plugin configuration (matching research.json).",
+      "verified": true
+    },
+    {
+      "severity": "low",
+      "category": "accuracy",
+      "description": "Sharp was listed as a dev dependency in the install command, but it's used in production scraping scripts. Should be a regular dependency.",
+      "location": "Development Environment — Initialize Project section",
+      "fix_applied": "Moved sharp from 'npm install -D' to 'npm install next-intl sharp'. Added explanatory note about create-next-app installing Next.js 16.x with React 19.2.",
+      "verified": true
+    }
+  ],
+  "issues_fixed": true,
+  "no_issues_found": false,
+  "critique_summary": "Found 9 issues in spec.md (2 high, 4 medium, 3 low). The most critical issue was the Next.js version being specified as 15.x when the user explicitly requested v16 and research confirmed v16.1.6 exists. Multiple code examples had missing imports that would cause compilation failures. The Tailwind v4 file structure contradicted its own CSS-first configuration guidance. All issues have been fixed and verified. The spec is now technically accurate against the research findings, internally consistent, and complete with all necessary code patterns.",
+  "confidence_level": "high",
+  "recommendations": [
+    "ARCHITECTURE NOTE: Research recommended Option B (standard SSG on Vercel without output:'export') for better SEO redirect support (301s vs client-side). The spec chose static export (Option C) which uses client-side redirects that don't pass full SEO link equity. This is a valid choice but worth documenting the trade-off for the user.",
+    "The third locale (zh/Chinese) is an assumption — research noted the actual third language is unverified. Consider confirming with the user or discovering during the scraping phase.",
+    "app/sitemap.ts with static export: Verify during implementation that the built-in Next.js sitemap convention works correctly with output:'export'. The alternative next-sitemap package (researched) can be used as fallback.",
+    "Consider adding a root app/page.tsx code example showing the client-side redirect from / to /th/ (default locale), since this is a critical pattern for static export."
+  ],
+  "created_at": "2026-02-22T15:45:00Z"
+}

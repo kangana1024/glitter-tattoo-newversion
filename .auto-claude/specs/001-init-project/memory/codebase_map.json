@@ -1,0 +1,10 @@
+{
+  "discovered_files": {
+    ".auto-claude/specs/001-init-project/spec.md": {
+      "description": "Greenfield project - no existing code. Next.js 16.1.6 + React 19.2 + Tailwind v4 (CSS-first) + next-intl (no middleware). Static export only (output: 'export'). 3 locales: en, th (default), zh. params is a Promise in Next.js 16 - must await it.",
+      "category": "architecture",
+      "discovered_at": "2026-02-22T08:46:17.637906+00:00"
+    }
+  },
+  "last_updated": "2026-02-22T08:46:17.637917+00:00"
+}

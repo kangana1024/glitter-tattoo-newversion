@@ -1,0 +1,4 @@
+{
+  "task_description": "อยากจะสร้าง website https://www.glitter-tattoo.com ขึ้นมาใหม่ โดยที่อยากให้ทำดังนี้\n- ขึ้นด้วย nextjs version 16 ล่าสุด และปลอดภัยสุด\n- อยากให้เป็น ssg ที่รองรับ seo เต็มรูปแบบ\n- website มี 3 ภาษา\n- ดึงข้อมูลและรูป และเนื้อหาทั้งเว็บมาเก็บไว้ให้หน่อย\n- หน้าทั้งหมดเปลี่ยน URL ใหม่ และรองรับ URL เดิมด้วยเพื่อไม่ให้เสีย SEO\n- ออกแบบหน้าตาใหม่ให้ทันสมัย โทนสี สดใส หลากสีเหมือน logo นี้ https://www.glitter-tattoo.com/2015/images/logo.png",
+  "workflow_type": "documentation"
+}

@@ -1,0 +1,49 @@
+{
+  "project_root": "/Users/koppc/nodejs/glitter-tattoo-newversion/glitter-tattoo-new-version",
+  "project_type": "single",
+  "services": {
+    "next-app": {
+      "path": ".",
+      "tech_stack": ["typescript", "nextjs-16", "react-19", "tailwindcss-v4", "next-intl"],
+      "port": 3000,
+      "dev_command": "npm run dev",
+      "build_command": "npm run build",
+      "test_command": "npm test",
+      "description": "Next.js 16 SSG application with i18n (3 locales), static export"
+    },
+    "scraper": {
+      "path": "./scripts",
+      "tech_stack": ["typescript", "cheerio", "puppeteer", "sharp", "tsx"],
+      "port": null,
+      "dev_command": null,
+      "run_command": "npx tsx scripts/scrape.ts",
+      "description": "Content scraping scripts for extracting data from existing site"
+    }
+  },
+  "infrastructure": {
+    "docker": false,
+    "database": null,
+    "ci_cd": null,
+    "deployment": "Static hosting (any: Nginx, Cloudflare Pages, Vercel, S3)"
+  },
+  "conventions": {
+    "language": "typescript",
+    "package_manager": "npm",
+    "linter": "eslint (next lint)",
+    "formatter": null,
+    "testing": "jest or vitest (TBD during setup)",
+    "css_framework": "tailwindcss v4 (CSS-first config, @theme directive)",
+    "i18n_library": "next-intl (without middleware, static export compatible)",
+    "routing": "Next.js App Router with [locale] prefix"
+  },
+  "dependency_locations": [
+    "package.json"
+  ],
+  "key_patterns": {
+    "static_export": "output: 'export' in next.config.ts, images.unoptimized: true, trailingSlash: true",
+    "i18n_routing": "app/[locale]/ structure, generateStaticParams() on every page, setRequestLocale() in every Server Component",
+    "content_source": "Local JSON files in content/pages/*.json, no external API at runtime",
+    "legacy_redirects": "Client-side via catch-all app/[locale]/[...rest]/page.tsx route",
+    "styling": "Tailwind v4 CSS-first config with @theme tokens in styles/globals.css"
+  }
+}

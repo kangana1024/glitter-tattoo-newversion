@@ -1,0 +1,39 @@
+{
+  "sandbox": {
+    "enabled": true,
+    "autoAllowBashIfSandboxed": true
+  },
+  "permissions": {
+    "defaultMode": "acceptEdits",
+    "allow": [
+      "Read(./**)",
+      "Write(./**)",
+      "Edit(./**)",
+      "Glob(./**)",
+      "Grep(./**)",
+      "Read(/Users/koppc/nodejs/glitter-tattoo-newversion/glitter-tattoo-new-version/.auto-claude/worktrees/tasks/001-init-project/**)",
+      "Write(/Users/koppc/nodejs/glitter-tattoo-newversion/glitter-tattoo-new-version/.auto-claude/worktrees/tasks/001-init-project/**)",
+      "Edit(/Users/koppc/nodejs/glitter-tattoo-newversion/glitter-tattoo-new-version/.auto-claude/worktrees/tasks/001-init-project/**)",
+      "Glob(/Users/koppc/nodejs/glitter-tattoo-newversion/glitter-tattoo-new-version/.auto-claude/worktrees/tasks/001-init-project/**)",
+      "Grep(/Users/koppc/nodejs/glitter-tattoo-newversion/glitter-tattoo-new-version/.auto-claude/worktrees/tasks/001-init-project/**)",
+      "Read(/Users/koppc/nodejs/glitter-tattoo-newversion/glitter-tattoo-new-version/.auto-claude/worktrees/tasks/001-init-project/.auto-claude/specs/001-init-project/**)",
+      "Write(/Users/koppc/nodejs/glitter-tattoo-newversion/glitter-tattoo-new-version/.auto-claude/worktrees/tasks/001-init-project/.auto-claude/specs/001-init-project/**)",
+      "Edit(/Users/koppc/nodejs/glitter-tattoo-newversion/glitter-tattoo-new-version/.auto-claude/worktrees/tasks/001-init-project/.auto-claude/specs/001-init-project/**)",
+      "Read(/Users/koppc/nodejs/glitter-tattoo-newversion/glitter-tattoo-new-version/.auto-claude/**)",
+      "Write(/Users/koppc/nodejs/glitter-tattoo-newversion/glitter-tattoo-new-version/.auto-claude/**)",
+      "Edit(/Users/koppc/nodejs/glitter-tattoo-newversion/glitter-tattoo-new-version/.auto-claude/**)",
+      "Glob(/Users/koppc/nodejs/glitter-tattoo-newversion/glitter-tattoo-new-version/.auto-claude/**)",
+      "Grep(/Users/koppc/nodejs/glitter-tattoo-newversion/glitter-tattoo-new-version/.auto-claude/**)",
+      "Bash(*)",
+      "WebFetch(*)",
+      "WebSearch(*)",
+      "mcp__context7__resolve-library-id(*)",
+      "mcp__context7__query-docs(*)",
+      "mcp__graphiti-memory__search_nodes(*)",
+      "mcp__graphiti-memory__search_facts(*)",
+      "mcp__graphiti-memory__add_episode(*)",
+      "mcp__graphiti-memory__get_episodes(*)",
+      "mcp__graphiti-memory__get_entity_edge(*)"
+    ]
+  }
+}
