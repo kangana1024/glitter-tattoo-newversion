@@ -57,10 +57,54 @@ function urlToLocalPath(url: string): string {
 }
 
 /**
- * Extract all link URLs from an HTML document.
- * Handles <a href>, <area href>, <frame src>, <iframe src>.
+ * Detect JavaScript redirects (window.location = '...') and meta refresh tags.
+ * These are common on legacy sites that don't use <a> links for navigation.
  */
-function extractLinks($: cheerio.CheerioAPI, pageUrl: string): string[] {
+function extractRedirects($: cheerio.CheerioAPI, html: string, pageUrl: string): string[] {
+  const redirects: string[] = [];
+
+  // Detect <meta http-equiv="refresh" content="0;url=...">
+  $('meta[http-equiv="refresh"]').each((_, el) => {
+    const content = $(el).attr('content') || '';
+    const match = content.match(/url\s*=\s*['"]?([^'";\s>]+)/i);
+    if (match?.[1]) {
+      const resolved = resolveUrl(match[1], pageUrl);
+      if (resolved && isAllowedDomain(resolved)) {
+        redirects.push(normalizeUrl(resolved));
+      }
+    }
+  });
+
+  // Detect window.location = '...' or window.location.href = '...' patterns
+  // Also handles: window.location='...', location.href='...'
+  const jsRedirectPatterns = [
+    /window\.location\s*=\s*['"]([^'"]+)['"]/g,
+    /window\.location\.href\s*=\s*['"]([^'"]+)['"]/g,
+    /location\.href\s*=\s*['"]([^'"]+)['"]/g,
+    /location\.replace\s*\(\s*['"]([^'"]+)['"]\s*\)/g,
+  ];
+
+  for (const pattern of jsRedirectPatterns) {
+    let match;
+    while ((match = pattern.exec(html)) !== null) {
+      if (match[1]) {
+        const resolved = resolveUrl(match[1], pageUrl);
+        if (resolved && isAllowedDomain(resolved)) {
+          redirects.push(normalizeUrl(resolved));
+        }
+      }
+    }
+  }
+
+  return redirects;
+}
+
+/**
+ * Extract all link URLs from an HTML document.
+ * Handles <a href>, <area href>, <frame src>, <iframe src>,
+ * as well as JS redirects and meta refresh tags.
+ */
+function extractLinks($: cheerio.CheerioAPI, pageUrl: string, html: string): string[] {
   const links: string[] = [];
 
   const selectors = [
@@ -75,16 +119,19 @@ function extractLinks($: cheerio.CheerioAPI, pageUrl: string): string[] {
       const raw = $(el).attr(attr) || '';
       if (isSkippableHref(raw)) return;
 
-      const resolved = resolveUrl(raw, pageUrl.replace(/\/[^/]*$/, ''));
+      const resolved = resolveUrl(raw, pageUrl);
       if (!resolved) return;
 
-      const full = resolved.startsWith('http') ? resolved : resolveUrl(raw, pageUrl);
-      if (full && isAllowedDomain(full)) {
-        const normalized = normalizeUrl(full);
+      if (isAllowedDomain(resolved)) {
+        const normalized = normalizeUrl(resolved);
         if (normalized) links.push(normalized);
       }
     });
   }
+
+  // Also extract JS redirects and meta refresh
+  const redirects = extractRedirects($, html, pageUrl);
+  links.push(...redirects);
 
   return links;
 }
@@ -187,7 +234,7 @@ export async function crawlSite(options: CrawlOptions, logger: Logger): Promise<
       const $ = cheerio.load(result.html);
 
       // Extract and queue links
-      const links = extractLinks($, normalized);
+      const links = extractLinks($, normalized, result.html);
       for (const link of links) {
         const norm = normalizeUrl(link);
         if (norm && !visited.has(norm)) {

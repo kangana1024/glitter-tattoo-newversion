@@ -29,10 +29,9 @@ const PATH_RULES: Array<{ match: RegExp; newPath: string }> = [
 export function resolveUrl(src: string, baseUrl: string = DEFAULT_BASE_URL): string {
   if (!src) return '';
   try {
-    if (src.startsWith('http://') || src.startsWith('https://')) return src;
-    if (src.startsWith('//')) return `https:${src}`;
-    if (src.startsWith('/')) return `${baseUrl.replace(/\/+$/, '')}${src}`;
-    return `${baseUrl.replace(/\/+$/, '')}/${src}`;
+    // Use the URL constructor for proper relative URL resolution
+    const resolved = new URL(src, baseUrl);
+    return resolved.href;
   } catch {
     return '';
   }
