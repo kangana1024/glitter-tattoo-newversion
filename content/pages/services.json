@@ -1,0 +1,92 @@
+{
+  "page": "services",
+  "title": "Our Services - Glitter Tattoo",
+  "description": "Explore our range of glitter tattoo services for parties, events, weddings, and corporate functions.",
+  "sections": {
+    "heading": {
+      "th": "บริการของเรา",
+      "en": "Our Services",
+      "zh": "我们的服务"
+    },
+    "intro": {
+      "th": "เราให้บริการกลิตเตอร์แทททูสำหรับทุกโอกาส ไม่ว่าจะเป็นงานวันเกิด งานแต่งงาน หรืองานอีเวนต์ขององค์กร",
+      "en": "We provide glitter tattoo services for every occasion, from birthday parties and weddings to corporate events.",
+      "zh": "我们为各种场合提供闪粉纹身服务，从生日派对和婚礼到企业活动。"
+    },
+    "services": [
+      {
+        "id": "party",
+        "title": {
+          "th": "งานปาร์ตี้และวันเกิด",
+          "en": "Parties & Birthdays",
+          "zh": "派对和生日"
+        },
+        "description": {
+          "th": "ทำให้งานปาร์ตี้ของคุณพิเศษด้วยกลิตเตอร์แทททูสำหรับเด็กและผู้ใหญ่ มีลายให้เลือกมากมาย",
+          "en": "Make your party special with glitter tattoos for kids and adults. Wide selection of designs available.",
+          "zh": "用闪粉纹身让您的派对特别。提供各种设计供儿童和成人选择。"
+        },
+        "image": "/images/scraped/service-party.jpg",
+        "features": ["200+ designs", "All ages", "2-3 hour sessions"]
+      },
+      {
+        "id": "wedding",
+        "title": {
+          "th": "งานแต่งงาน",
+          "en": "Weddings",
+          "zh": "婚礼"
+        },
+        "description": {
+          "th": "เพิ่มความพิเศษให้งานแต่งงานด้วยกลิตเตอร์แทททูสำหรับเจ้าสาวและแขก",
+          "en": "Add a special touch to weddings with elegant glitter tattoos for the bride and guests.",
+          "zh": "用优雅的闪粉纹身为新娘和宾客增添婚礼的特别魅力。"
+        },
+        "image": "/images/scraped/service-wedding.jpg",
+        "features": ["Elegant designs", "Custom patterns", "Bridal packages"]
+      },
+      {
+        "id": "corporate",
+        "title": {
+          "th": "งานอีเวนต์องค์กร",
+          "en": "Corporate Events",
+          "zh": "企业活动"
+        },
+        "description": {
+          "th": "บริการกลิตเตอร์แทททูสำหรับงานอีเวนต์องค์กร งานเปิดตัวสินค้า และงานประชุม",
+          "en": "Glitter tattoo services for corporate events, product launches, and conferences.",
+          "zh": "为企业活动、产品发布会和会议提供闪粉纹身服务。"
+        },
+        "image": "/images/scraped/service-corporate.jpg",
+        "features": ["Custom branding", "High volume", "Professional setup"]
+      },
+      {
+        "id": "festival",
+        "title": {
+          "th": "เทศกาลและงานกลางแจ้ง",
+          "en": "Festivals & Outdoor Events",
+          "zh": "节日和户外活动"
+        },
+        "description": {
+          "th": "บริการกลิตเตอร์แทททูในงานเทศกาล ตลาดนัด และงานกลางแจ้งต่างๆ",
+          "en": "Glitter tattoo booth services for festivals, markets, and outdoor events.",
+          "zh": "为节日、市场和户外活动提供闪粉纹身摊位服务。"
+        },
+        "image": "/images/scraped/service-festival.jpg",
+        "features": ["Booth setup", "Quick application", "Weather resistant"]
+      }
+    ],
+    "pricing_note": {
+      "th": "ราคาขึ้นอยู่กับจำนวนคนและระยะเวลา กรุณาติดต่อเราเพื่อขอใบเสนอราคา",
+      "en": "Pricing depends on group size and duration. Please contact us for a custom quote.",
+      "zh": "价格取决于人数和时间。请联系我们获取报价。"
+    }
+  },
+  "images": [
+    {
+      "src": "/images/scraped/services-banner.jpg",
+      "alt": "Glitter tattoo services overview",
+      "width": 1200,
+      "height": 600
+    }
+  ]
+}

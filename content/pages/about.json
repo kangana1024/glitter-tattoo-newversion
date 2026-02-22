@@ -1,0 +1,82 @@
+{
+  "page": "about",
+  "title": "About Glitter Tattoo",
+  "description": "Learn about our professional glitter tattoo services, our story, and our commitment to safe, beautiful body art.",
+  "sections": {
+    "heading": {
+      "th": "เกี่ยวกับกลิตเตอร์แทททู",
+      "en": "About Glitter Tattoo",
+      "zh": "关于闪粉纹身"
+    },
+    "story": {
+      "heading": {
+        "th": "เรื่องราวของเรา",
+        "en": "Our Story",
+        "zh": "我们的故事"
+      },
+      "paragraphs": {
+        "th": [
+          "กลิตเตอร์แทททูเริ่มต้นจากความหลงใหลในศิลปะบนผิวกาย เราเริ่มให้บริการในกรุงเทพฯ และได้ขยายบริการไปทั่วประเทศไทย",
+          "ด้วยประสบการณ์มากกว่า 10 ปี เราได้ให้บริการในงานต่างๆ มากมาย ตั้งแต่งานวันเกิดเด็กไปจนถึงงานอีเวนต์ขององค์กรขนาดใหญ่",
+          "เราภูมิใจในการใช้วัสดุคุณภาพสูงที่ปลอดภัยต่อผิว และได้รับการรับรองมาตรฐานสากล"
+        ],
+        "en": [
+          "Glitter Tattoo began from a passion for body art. We started our services in Bangkok and have since expanded across Thailand.",
+          "With over 10 years of experience, we have served countless events ranging from children's birthday parties to large corporate events and festivals.",
+          "We take pride in using only high-quality, skin-safe materials that meet international safety standards."
+        ],
+        "zh": [
+          "闪粉纹身源于对身体艺术的热情。我们从曼谷开始，现已将服务扩展到泰国各地。",
+          "凭借超过10年的经验，我们已服务于无数活动，从儿童生日派对到大型企业活动和节日。",
+          "我们以仅使用符合国际安全标准的高质量、对皮肤安全的材料而自豪。"
+        ]
+      }
+    },
+    "values": [
+      {
+        "title": {
+          "th": "ความปลอดภัย",
+          "en": "Safety First",
+          "zh": "安全第一"
+        },
+        "description": {
+          "th": "วัสดุทุกชนิดที่เราใช้ผ่านการทดสอบและได้รับการรับรองว่าปลอดภัยสำหรับผิว",
+          "en": "Every material we use is tested and certified safe for skin application",
+          "zh": "我们使用的每种材料都经过测试并获得皮肤安全认证"
+        }
+      },
+      {
+        "title": {
+          "th": "ความคิดสร้างสรรค์",
+          "en": "Creativity",
+          "zh": "创造力"
+        },
+        "description": {
+          "th": "เราสร้างสรรค์ลวดลายใหม่ๆ อยู่เสมอเพื่อให้ลูกค้าได้เลือกหลากหลาย",
+          "en": "We constantly create new designs to give our clients a wide variety of choices",
+          "zh": "我们不断创造新设计，为客户提供多种选择"
+        }
+      },
+      {
+        "title": {
+          "th": "ความเป็นมืออาชีพ",
+          "en": "Professionalism",
+          "zh": "专业精神"
+        },
+        "description": {
+          "th": "ทีมงานของเราได้รับการฝึกฝนมาอย่างดีเพื่อให้บริการที่ดีที่สุด",
+          "en": "Our team is well-trained to deliver the best service experience",
+          "zh": "我们的团队训练有素，提供最佳服务体验"
+        }
+      }
+    ]
+  },
+  "images": [
+    {
+      "src": "/images/scraped/about-team.jpg",
+      "alt": "Glitter Tattoo team at work",
+      "width": 800,
+      "height": 500
+    }
+  ]
+}

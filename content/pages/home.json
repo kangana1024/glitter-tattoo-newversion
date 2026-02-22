@@ -1,0 +1,85 @@
+{
+  "page": "home",
+  "title": "Glitter Tattoo - Temporary Glitter Body Art",
+  "description": "Professional glitter tattoo services for events, parties, and celebrations. Beautiful, safe, and temporary body art in Bangkok, Thailand.",
+  "sections": {
+    "hero": {
+      "heading": {
+        "th": "กลิตเตอร์แทททู - ศิลปะบนผิวกายแบบชั่วคราว",
+        "en": "Glitter Tattoo - Temporary Glitter Body Art",
+        "zh": "闪粉纹身 - 临时闪粉身体艺术"
+      },
+      "subheading": {
+        "th": "สวยงาม ปลอดภัย และเหมาะสำหรับทุกวัย",
+        "en": "Beautiful, safe, and perfect for all ages",
+        "zh": "美丽、安全，适合所有年龄段"
+      },
+      "cta": {
+        "th": "ดูบริการของเรา",
+        "en": "View Our Services",
+        "zh": "查看我们的服务"
+      }
+    },
+    "features": [
+      {
+        "title": {
+          "th": "ปลอดภัยสำหรับทุกคน",
+          "en": "Safe for Everyone",
+          "zh": "人人安全"
+        },
+        "description": {
+          "th": "ใช้วัสดุที่ปลอดภัยต่อผิว ไม่ก่อให้เกิดอาการแพ้",
+          "en": "We use skin-safe, hypoallergenic materials approved for body art",
+          "zh": "我们使用对皮肤安全的低过敏性材料"
+        },
+        "icon": "shield"
+      },
+      {
+        "title": {
+          "th": "อยู่ได้นาน 3-7 วัน",
+          "en": "Lasts 3-7 Days",
+          "zh": "持续3-7天"
+        },
+        "description": {
+          "th": "กลิตเตอร์แทททูสามารถอยู่ได้นาน 3-7 วัน ขึ้นอยู่กับการดูแล",
+          "en": "Our glitter tattoos last 3-7 days depending on care and placement",
+          "zh": "我们的闪粉纹身可持续3-7天，取决于护理和位置"
+        },
+        "icon": "clock"
+      },
+      {
+        "title": {
+          "th": "แบบลายมากกว่า 200 แบบ",
+          "en": "200+ Designs Available",
+          "zh": "200多种设计可选"
+        },
+        "description": {
+          "th": "มีแบบลายให้เลือกมากกว่า 200 แบบ ตั้งแต่ผีเสื้อไปจนถึงมังกร",
+          "en": "Choose from over 200 stencil designs, from butterflies to dragons",
+          "zh": "从蝴蝶到龙，超过200种模板设计可供选择"
+        },
+        "icon": "palette"
+      }
+    ],
+    "about_preview": {
+      "heading": {
+        "th": "เกี่ยวกับเรา",
+        "en": "About Us",
+        "zh": "关于我们"
+      },
+      "text": {
+        "th": "เราเป็นผู้เชี่ยวชาญด้านกลิตเตอร์แทททูในประเทศไทย ให้บริการมากกว่า 10 ปี",
+        "en": "We are Thailand's leading glitter tattoo specialists with over 10 years of experience serving events across Bangkok and beyond.",
+        "zh": "我们是泰国领先的闪粉纹身专家，拥有超过10年的服务经验。"
+      }
+    }
+  },
+  "images": [
+    {
+      "src": "/images/scraped/hero-banner.jpg",
+      "alt": "Glitter tattoo art showcase",
+      "width": 1200,
+      "height": 600
+    }
+  ]
+}
