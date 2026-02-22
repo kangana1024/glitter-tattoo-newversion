@@ -5,8 +5,13 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "start": "npx serve@latest out",
+    "lint": "eslint .",
+    "test": "jest",
+    "scrape": "tsx scripts/scrape.ts",
+    "scrape:images": "tsx scripts/scrape-images.ts",
+    "generate:redirects": "tsx scripts/generate-redirects.ts",
+    "generate:sitemap": "tsx scripts/generate-sitemap.ts"
   },
   "dependencies": {
     "next": "16.1.6",
