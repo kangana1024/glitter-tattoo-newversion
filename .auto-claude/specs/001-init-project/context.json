@@ -1,0 +1,106 @@
+{
+  "task_description": "Rebuild glitter-tattoo.com as a modern Next.js 16 SSG site with 3 languages, scraped content, legacy URL support, and vibrant UI",
+  "scoped_services": ["next-app", "scraper"],
+  "files_to_modify": {
+    "next-app": [
+      "next.config.ts",
+      "postcss.config.mjs",
+      "app/layout.tsx",
+      "app/page.tsx",
+      "styles/globals.css",
+      ".gitignore"
+    ]
+  },
+  "files_to_create": {
+    "next-app-config": [
+      ".env.example"
+    ],
+    "next-app-i18n": [
+      "lib/i18n.ts",
+      "lib/i18n-request.ts",
+      "lib/navigation.ts",
+      "messages/en.json",
+      "messages/th.json",
+      "messages/zh.json"
+    ],
+    "next-app-pages": [
+      "app/[locale]/layout.tsx",
+      "app/[locale]/page.tsx",
+      "app/[locale]/about/page.tsx",
+      "app/[locale]/services/page.tsx",
+      "app/[locale]/gallery/page.tsx",
+      "app/[locale]/contact/page.tsx",
+      "app/[locale]/[...rest]/page.tsx",
+      "app/not-found.tsx",
+      "app/sitemap.ts"
+    ],
+    "next-app-components": [
+      "components/layout/Header.tsx",
+      "components/layout/Footer.tsx",
+      "components/layout/Navigation.tsx",
+      "components/layout/LanguageSwitcher.tsx",
+      "components/ui/Button.tsx",
+      "components/ui/Card.tsx",
+      "components/ui/Container.tsx",
+      "components/ui/ImageGallery.tsx",
+      "components/sections/Hero.tsx",
+      "components/sections/ServiceGrid.tsx",
+      "components/sections/GalleryGrid.tsx",
+      "components/sections/ContactForm.tsx",
+      "components/seo/MetaTags.tsx"
+    ],
+    "next-app-lib": [
+      "lib/content.ts",
+      "lib/redirect-map.ts"
+    ],
+    "scraper-scripts": [
+      "scripts/scrape.ts",
+      "scripts/scrape-content.ts",
+      "scripts/scrape-images.ts",
+      "scripts/generate-redirects.ts",
+      "scripts/generate-sitemap.ts"
+    ],
+    "content-data": [
+      "content/pages/home.json",
+      "content/pages/about.json",
+      "content/pages/services.json",
+      "content/pages/gallery.json",
+      "content/pages/contact.json",
+      "public/robots.txt"
+    ]
+  },
+  "files_to_reference": [
+    "spec.md (contains all code patterns and architecture decisions)"
+  ],
+  "patterns": {
+    "next_config_pattern": "Wrap with createNextIntlPlugin(), set output: 'export', images.unoptimized: true, trailingSlash: true",
+    "i18n_pattern": "next-intl without middleware: lib/i18n-request.ts exports getRequestConfig(), every page calls setRequestLocale() and exports generateStaticParams()",
+    "tailwind_v4_pattern": "CSS-first config with @import 'tailwindcss' and @theme directive in globals.css, PostCSS plugin @tailwindcss/postcss",
+    "page_pattern": "Each page exports generateStaticParams() returning all locales, calls setRequestLocale(locale), uses useTranslations() for text",
+    "redirect_pattern": "Catch-all [locale]/[...rest]/page.tsx looks up old path in redirectMap, calls redirect() if found, notFound() otherwise",
+    "content_pattern": "Scraped data stored as JSON in content/pages/*.json, loaded by lib/content.ts utility functions"
+  },
+  "existing_implementations": {
+    "description": "Greenfield project - no existing implementations. All patterns come from spec.md code examples and Next.js 16 / next-intl documentation.",
+    "relevant_files": []
+  },
+  "greenfield_notes": {
+    "create_next_app_command": "npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir=false --import-alias=\"@/*\"",
+    "additional_deps": "npm install next-intl sharp",
+    "dev_deps": "npm install -D cheerio puppeteer @types/node tsx",
+    "files_created_by_scaffold": [
+      "package.json",
+      "tsconfig.json",
+      "next.config.ts",
+      "postcss.config.mjs",
+      "app/layout.tsx",
+      "app/page.tsx",
+      "app/globals.css",
+      "public/",
+      ".gitignore",
+      "eslint.config.mjs"
+    ]
+  },
+  "created_at": "2026-02-22T15:29:59.301614",
+  "updated_at": "2026-02-22T16:00:00.000000"
+}

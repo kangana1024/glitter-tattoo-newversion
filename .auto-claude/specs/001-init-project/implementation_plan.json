@@ -1,0 +1,768 @@
+{
+  "feature": "Rebuild glitter-tattoo.com as modern Next.js SSG site",
+  "workflow_type": "feature",
+  "workflow_rationale": "Greenfield website rebuild requiring full project scaffolding, content scraping infrastructure, i18n routing, UI component library, and SEO optimization. Multiple services (next-app + scraper) with clear dependency ordering.",
+  "phases": [
+    {
+      "id": "phase-1-setup",
+      "name": "Project Scaffolding",
+      "type": "setup",
+      "description": "Initialize the Next.js 16 project with all dependencies, configure static export, Tailwind v4, and base project structure",
+      "depends_on": [],
+      "parallel_safe": false,
+      "subtasks": [
+        {
+          "id": "subtask-1-1",
+          "description": "Initialize Next.js 16 project with create-next-app and install all dependencies (next-intl, sharp, cheerio, puppeteer, tsx)",
+          "service": "next-app",
+          "files_to_modify": [],
+          "files_to_create": [],
+          "patterns_from": [],
+          "notes": "Starting Next.js project initialization",
+          "verification": {
+            "type": "command",
+            "command": "npm run dev -- --port 3001 &>/dev/null & PID=$!; sleep 5; curl -s -o /dev/null -w '%{http_code}' http://localhost:3001; kill $PID 2>/dev/null; wait $PID 2>/dev/null",
+            "expected": "200"
+          },
+          "status": "in_progress",
+          "updated_at": "2026-02-22T08:47:08.507410+00:00"
+        },
+        {
+          "id": "subtask-1-2",
+          "description": "Configure next.config.ts for static export with next-intl plugin, set up postcss.config.mjs with @tailwindcss/postcss, and create .env.example",
+          "service": "next-app",
+          "files_to_modify": [
+            "next.config.ts",
+            "postcss.config.mjs"
+          ],
+          "files_to_create": [
+            ".env.example"
+          ],
+          "patterns_from": [
+            "spec.md - Pattern 1: Next.js Static Export Configuration"
+          ],
+          "notes": "next.config.ts must: import createNextIntlPlugin from 'next-intl/plugin', wrap config with withNextIntl(), set output: 'export', images.unoptimized: true, trailingSlash: true. postcss.config.mjs: ensure @tailwindcss/postcss plugin. .env.example: NEXT_PUBLIC_SITE_URL, SCRAPE_TARGET_URL",
+          "verification": {
+            "type": "command",
+            "command": "node -e \"const c = require('./next.config.ts'); console.log('config loaded')\" 2>/dev/null || npx tsx -e \"import('./next.config.ts').then(() => console.log('OK')).catch(e => console.log('FAIL', e.message))\"",
+            "expected": "OK"
+          },
+          "status": "pending"
+        },
+        {
+          "id": "subtask-1-3",
+          "description": "Set up Tailwind v4 theme with brand colors, typography (Kanit/Sarabun fonts), and design tokens in globals.css. Update root app/layout.tsx with Google Fonts and base HTML structure",
+          "service": "next-app",
+          "files_to_modify": [
+            "styles/globals.css",
+            "app/layout.tsx"
+          ],
+          "files_to_create": [],
+          "patterns_from": [
+            "spec.md - Pattern 3: Tailwind CSS v4 Configuration"
+          ],
+          "notes": "globals.css: @import 'tailwindcss' + @theme block with brand colors (--color-primary: #FF6B9D, --color-secondary: #00D4AA, etc.), font families (Kanit, Sarabun). Note: create-next-app may put globals.css in app/ dir - move to styles/ or update import path. Root layout.tsx: import Google Fonts via next/font/google or <link>, set <html> attributes",
+          "verification": {
+            "type": "command",
+            "command": "grep -c '@theme' styles/globals.css 2>/dev/null || grep -c '@theme' app/globals.css 2>/dev/null",
+            "expected": "1"
+          },
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "phase-2-i18n",
+      "name": "i18n Foundation",
+      "type": "implementation",
+      "description": "Set up next-intl i18n routing with 3 locales (en, th, zh), translation message files, and locale-aware layouts",
+      "depends_on": [
+        "phase-1-setup"
+      ],
+      "parallel_safe": true,
+      "subtasks": [
+        {
+          "id": "subtask-2-1",
+          "description": "Create i18n configuration files (lib/i18n.ts, lib/i18n-request.ts, lib/navigation.ts) and translation message files for all 3 locales",
+          "service": "next-app",
+          "files_to_modify": [],
+          "files_to_create": [
+            "lib/i18n.ts",
+            "lib/i18n-request.ts",
+            "lib/navigation.ts",
+            "messages/en.json",
+            "messages/th.json",
+            "messages/zh.json"
+          ],
+          "patterns_from": [
+            "spec.md - Pattern 2: i18n Setup (next-intl without middleware)"
+          ],
+          "notes": "lib/i18n.ts: export locales array ['en','th','zh'], defaultLocale 'th', Locale type. lib/i18n-request.ts: getRequestConfig with dynamic message import. lib/navigation.ts: createNavigation from next-intl/navigation. Messages: include keys for nav (home, about, services, gallery, contact), common UI strings, page titles. Keep translations minimal but functional - content comes from scraped JSON, not i18n messages.",
+          "verification": {
+            "type": "command",
+            "command": "npx tsx -e \"import { locales, defaultLocale } from './lib/i18n'; console.log(locales.length === 3 && defaultLocale === 'th' ? 'OK' : 'FAIL')\"",
+            "expected": "OK"
+          },
+          "status": "pending"
+        },
+        {
+          "id": "subtask-2-2",
+          "description": "Create locale-aware routing: app/[locale]/layout.tsx with NextIntlClientProvider, root app/page.tsx with redirect to default locale, and placeholder app/[locale]/page.tsx",
+          "service": "next-app",
+          "files_to_modify": [
+            "app/layout.tsx",
+            "app/page.tsx"
+          ],
+          "files_to_create": [
+            "app/[locale]/layout.tsx",
+            "app/[locale]/page.tsx"
+          ],
+          "patterns_from": [
+            "spec.md - Pattern 2: i18n Setup (next-intl without middleware)"
+          ],
+          "notes": "app/[locale]/layout.tsx: export generateStaticParams returning all locales, call setRequestLocale(locale), wrap children with NextIntlClientProvider. app/page.tsx: client-side redirect to /{defaultLocale}. app/[locale]/page.tsx: basic placeholder with useTranslations. app/layout.tsx: keep as root HTML shell (lang will vary by locale). CRITICAL: params is a Promise in Next.js 16 - must await it.",
+          "verification": {
+            "type": "browser",
+            "url": "http://localhost:3000",
+            "checks": [
+              "Root / redirects to /th/",
+              "/th/ renders Thai placeholder",
+              "/en/ renders English placeholder",
+              "/zh/ renders Chinese placeholder",
+              "No console errors"
+            ]
+          },
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "phase-3-scraper",
+      "name": "Content Scraping Infrastructure",
+      "type": "implementation",
+      "description": "Build scraping scripts to extract content, images, and URL structure from the existing glitter-tattoo.com site",
+      "depends_on": [
+        "phase-1-setup"
+      ],
+      "parallel_safe": true,
+      "subtasks": [
+        {
+          "id": "subtask-3-1",
+          "description": "Create main scraping orchestrator and content extraction scripts using Cheerio for HTML parsing",
+          "service": "scraper",
+          "files_to_modify": [],
+          "files_to_create": [
+            "scripts/scrape.ts",
+            "scripts/scrape-content.ts",
+            "scripts/scrape-images.ts"
+          ],
+          "patterns_from": [
+            "spec.md - Pattern 5: Content Scraping Pattern"
+          ],
+          "notes": "scrape.ts: orchestrator that calls scrape-content and scrape-images. scrape-content.ts: use Cheerio to parse HTML, extract title, description, headings, body content, images, links. Store as PageContent interface. scrape-images.ts: download all discovered images to public/images/scraped/, handle relative URLs, deduplicate. Use sharp for optimization. Handle errors gracefully (site may have broken pages).",
+          "verification": {
+            "type": "command",
+            "command": "npx tsx -e \"import './scripts/scrape-content'; console.log('import OK')\" 2>&1 | tail -1",
+            "expected": "import OK"
+          },
+          "status": "pending"
+        },
+        {
+          "id": "subtask-3-2",
+          "description": "Create URL redirect generator, sitemap data generator, and content loading utilities",
+          "service": "scraper",
+          "files_to_modify": [],
+          "files_to_create": [
+            "scripts/generate-redirects.ts",
+            "scripts/generate-sitemap.ts",
+            "lib/content.ts",
+            "lib/redirect-map.ts"
+          ],
+          "patterns_from": [
+            "spec.md - Pattern 4: Client-Side Legacy URL Redirect Pattern"
+          ],
+          "notes": "generate-redirects.ts: crawl existing site to discover all URLs, create mapping of old→new paths. generate-sitemap.ts: generate sitemap data for all pages across all locales. lib/redirect-map.ts: export redirectMap object (old path → new path). lib/content.ts: utility functions to load and parse content JSON files from content/pages/.",
+          "verification": {
+            "type": "command",
+            "command": "npx tsx -e \"import { redirectMap } from './lib/redirect-map'; console.log(typeof redirectMap === 'object' ? 'OK' : 'FAIL')\"",
+            "expected": "OK"
+          },
+          "status": "pending"
+        },
+        {
+          "id": "subtask-3-3",
+          "description": "Execute scraper scripts to populate content/pages/*.json with page data and public/images/scraped/ with downloaded images",
+          "service": "scraper",
+          "files_to_modify": [
+            "lib/redirect-map.ts"
+          ],
+          "files_to_create": [
+            "content/pages/home.json",
+            "content/pages/about.json",
+            "content/pages/services.json",
+            "content/pages/gallery.json",
+            "content/pages/contact.json"
+          ],
+          "patterns_from": [],
+          "notes": "Run scraping scripts against https://www.glitter-tattoo.com. If the site is unreachable, create placeholder content JSON files with realistic structure so page implementation can proceed. Update lib/redirect-map.ts with discovered URL mappings. Ensure content/pages/ directory exists. Each JSON file should have: title, description, sections (array of content blocks), images (array of image refs).",
+          "verification": {
+            "type": "command",
+            "command": "ls content/pages/*.json 2>/dev/null | wc -l | tr -d ' '",
+            "expected": "5"
+          },
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "phase-4-design",
+      "name": "Design System & UI Components",
+      "type": "implementation",
+      "description": "Build reusable UI components and layout components (Header, Footer, Navigation) with i18n integration and vibrant brand styling",
+      "depends_on": [
+        "phase-2-i18n"
+      ],
+      "parallel_safe": false,
+      "subtasks": [
+        {
+          "id": "subtask-4-1",
+          "description": "Create reusable UI components: Button, Card, Container, and ImageGallery with Tailwind v4 styling",
+          "service": "next-app",
+          "files_to_modify": [],
+          "files_to_create": [
+            "components/ui/Button.tsx",
+            "components/ui/Card.tsx",
+            "components/ui/Container.tsx",
+            "components/ui/ImageGallery.tsx"
+          ],
+          "patterns_from": [],
+          "notes": "Button: variants (primary, secondary, outline), sizes (sm, md, lg), uses brand colors. Card: image + title + description + link, with hover effects. Container: max-width wrapper (--container-max: 1280px). ImageGallery: responsive grid with lightbox/modal functionality for full-size viewing. All components should use TypeScript props interfaces and be well-typed.",
+          "verification": {
+            "type": "command",
+            "command": "npx tsx -e \"import './components/ui/Button'; import './components/ui/Card'; import './components/ui/Container'; import './components/ui/ImageGallery'; console.log('OK')\"",
+            "expected": "OK"
+          },
+          "status": "pending"
+        },
+        {
+          "id": "subtask-4-2",
+          "description": "Create layout components: Header (with logo, nav, language switcher), Footer (links, contact info, copyright), Navigation (responsive with mobile hamburger menu), and LanguageSwitcher",
+          "service": "next-app",
+          "files_to_modify": [],
+          "files_to_create": [
+            "components/layout/Header.tsx",
+            "components/layout/Footer.tsx",
+            "components/layout/Navigation.tsx",
+            "components/layout/LanguageSwitcher.tsx"
+          ],
+          "patterns_from": [],
+          "notes": "All layout components use next-intl useTranslations() for text. Header: sticky, contains logo, Navigation, LanguageSwitcher. Navigation: responsive - horizontal on desktop, hamburger/drawer on mobile. LanguageSwitcher: dropdown or pill buttons for en/th/zh, uses usePathname and Link from next-intl/navigation. Footer: multi-column with nav links, contact info, social links, copyright. Use vibrant brand colors.",
+          "verification": {
+            "type": "command",
+            "command": "ls components/layout/*.tsx 2>/dev/null | wc -l | tr -d ' '",
+            "expected": "4"
+          },
+          "status": "pending"
+        },
+        {
+          "id": "subtask-4-3",
+          "description": "Integrate Header and Footer into the locale layout so all pages share consistent navigation and branding",
+          "service": "next-app",
+          "files_to_modify": [
+            "app/[locale]/layout.tsx"
+          ],
+          "files_to_create": [],
+          "patterns_from": [],
+          "notes": "Update app/[locale]/layout.tsx to wrap {children} with Header above and Footer below. Structure: <NextIntlClientProvider><Header /><main>{children}</main><Footer /></NextIntlClientProvider>. Ensure proper semantic HTML structure with <main> tag. Verify that locale context passes through correctly to all layout components.",
+          "verification": {
+            "type": "browser",
+            "url": "http://localhost:3000/th",
+            "checks": [
+              "Header renders with logo and navigation",
+              "Footer renders with links and copyright",
+              "Language switcher is visible",
+              "Navigation links are present (Home, About, Services, Gallery, Contact)",
+              "Layout is consistent across /en/ and /zh/"
+            ]
+          },
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "phase-5-pages",
+      "name": "Page Implementation",
+      "type": "implementation",
+      "description": "Build all content pages using scraped data, section components, and proper i18n with generateStaticParams",
+      "depends_on": [
+        "phase-3-scraper",
+        "phase-4-design"
+      ],
+      "parallel_safe": false,
+      "subtasks": [
+        {
+          "id": "subtask-5-1",
+          "description": "Create the Homepage with Hero section and ServiceGrid preview section, loading content from scraped JSON data",
+          "service": "next-app",
+          "files_to_modify": [
+            "app/[locale]/page.tsx"
+          ],
+          "files_to_create": [
+            "components/sections/Hero.tsx",
+            "components/sections/ServiceGrid.tsx"
+          ],
+          "patterns_from": [
+            "spec.md - Pattern 2 (page pattern with generateStaticParams and setRequestLocale)"
+          ],
+          "notes": "Hero.tsx: full-width hero with background image/gradient, heading text, CTA button, uses vibrant brand colors and gradient effects. ServiceGrid.tsx: grid of service cards with images, titles, descriptions. Homepage: imports Hero + ServiceGrid, loads content from content/pages/home.json via lib/content.ts. Must export generateStaticParams() and call setRequestLocale(). Use useTranslations() for static UI text.",
+          "verification": {
+            "type": "browser",
+            "url": "http://localhost:3000/th",
+            "checks": [
+              "Hero section renders with heading and CTA",
+              "Service grid shows service cards",
+              "Content loads from JSON data",
+              "Same page works at /en/ and /zh/",
+              "No console errors"
+            ]
+          },
+          "status": "pending"
+        },
+        {
+          "id": "subtask-5-2",
+          "description": "Create About, Services, and Gallery pages with GalleryGrid component, all loading scraped content",
+          "service": "next-app",
+          "files_to_modify": [],
+          "files_to_create": [
+            "app/[locale]/about/page.tsx",
+            "app/[locale]/services/page.tsx",
+            "app/[locale]/gallery/page.tsx",
+            "components/sections/GalleryGrid.tsx"
+          ],
+          "patterns_from": [
+            "spec.md - Pattern 2 (page pattern)"
+          ],
+          "notes": "About page: company story, team info, mission - load from content/pages/about.json. Services page: full service listing with ServiceGrid, detailed descriptions - load from content/pages/services.json. Gallery page: photo gallery with GalleryGrid component using ImageGallery for lightbox - load from content/pages/gallery.json. GalleryGrid.tsx: responsive masonry/grid layout of images with click-to-zoom. ALL pages must export generateStaticParams() and call setRequestLocale().",
+          "verification": {
+            "type": "browser",
+            "url": "http://localhost:3000/th/about",
+            "checks": [
+              "About page renders with content",
+              "Services page renders at /th/services/",
+              "Gallery page renders at /th/gallery/ with image grid",
+              "All pages work in all 3 locales",
+              "Navigation between pages works"
+            ]
+          },
+          "status": "pending"
+        },
+        {
+          "id": "subtask-5-3",
+          "description": "Create Contact page with ContactForm component and custom 404 not-found page",
+          "service": "next-app",
+          "files_to_modify": [],
+          "files_to_create": [
+            "app/[locale]/contact/page.tsx",
+            "components/sections/ContactForm.tsx",
+            "app/not-found.tsx"
+          ],
+          "patterns_from": [
+            "spec.md - Pattern 2 (page pattern)"
+          ],
+          "notes": "Contact page: contact form + map/location info + business hours - load from content/pages/contact.json. ContactForm.tsx: client-side form with fields (name, email, phone, message), validation, submit handler (frontend-only, no backend). not-found.tsx: custom 404 page with brand styling, link back to homepage. Contact page must export generateStaticParams() and call setRequestLocale().",
+          "verification": {
+            "type": "browser",
+            "url": "http://localhost:3000/th/contact",
+            "checks": [
+              "Contact page renders with form",
+              "Form validation works (required fields)",
+              "Custom 404 shows at /th/nonexistent-page/",
+              "404 page has brand styling and home link"
+            ]
+          },
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "phase-6-seo",
+      "name": "SEO & Legacy URL Redirects",
+      "type": "implementation",
+      "description": "Implement legacy URL redirect system, per-page SEO metadata, sitemap, robots.txt, structured data, and hreflang tags",
+      "depends_on": [
+        "phase-5-pages"
+      ],
+      "parallel_safe": false,
+      "subtasks": [
+        {
+          "id": "subtask-6-1",
+          "description": "Implement legacy URL catch-all redirect route with comprehensive old→new URL mapping",
+          "service": "next-app",
+          "files_to_modify": [
+            "lib/redirect-map.ts"
+          ],
+          "files_to_create": [
+            "app/[locale]/[...rest]/page.tsx"
+          ],
+          "patterns_from": [
+            "spec.md - Pattern 4: Client-Side Legacy URL Redirect Pattern"
+          ],
+          "notes": "app/[locale]/[...rest]/page.tsx: export generateStaticParams() that produces params for all known legacy URLs across all locales, look up old path in redirectMap, call redirect() if found, notFound() if unknown. Ensure lib/redirect-map.ts has complete mapping from scraper output. Include meta http-equiv refresh as fallback.",
+          "verification": {
+            "type": "command",
+            "command": "npx tsx -e \"import { redirectMap } from './lib/redirect-map'; console.log(Object.keys(redirectMap).length > 0 ? 'OK' : 'EMPTY')\"",
+            "expected": "OK"
+          },
+          "status": "pending"
+        },
+        {
+          "id": "subtask-6-2",
+          "description": "Add SEO metadata (generateMetadata) to all pages with unique titles, descriptions, Open Graph tags, and canonical URLs",
+          "service": "next-app",
+          "files_to_modify": [
+            "app/[locale]/page.tsx",
+            "app/[locale]/about/page.tsx",
+            "app/[locale]/services/page.tsx",
+            "app/[locale]/gallery/page.tsx",
+            "app/[locale]/contact/page.tsx",
+            "app/[locale]/layout.tsx"
+          ],
+          "files_to_create": [
+            "components/seo/MetaTags.tsx"
+          ],
+          "patterns_from": [],
+          "notes": "Each page exports generateMetadata() returning: title, description, openGraph (title, description, images, url), alternates (canonical, hreflang for all locales). MetaTags.tsx: helper component or utility for consistent metadata generation. Add hreflang alternate links in locale layout. Titles should be unique per page and include site name.",
+          "verification": {
+            "type": "command",
+            "command": "curl -s http://localhost:3000/th/ 2>/dev/null | grep -c '<meta property=\"og:' || echo '0'",
+            "expected": "At least 3 OG meta tags present"
+          },
+          "status": "pending"
+        },
+        {
+          "id": "subtask-6-3",
+          "description": "Create dynamic sitemap.ts, robots.txt, and add JSON-LD structured data (LocalBusiness schema) to all pages",
+          "service": "next-app",
+          "files_to_modify": [
+            "app/[locale]/layout.tsx"
+          ],
+          "files_to_create": [
+            "app/sitemap.ts",
+            "public/robots.txt"
+          ],
+          "patterns_from": [],
+          "notes": "app/sitemap.ts: export default function that returns sitemap entries for all pages in all locales with lastModified dates. public/robots.txt: Allow all crawlers, reference sitemap URL. JSON-LD: add LocalBusiness or Organization structured data script tag in locale layout. Include business name, address, phone, opening hours, service types.",
+          "verification": {
+            "type": "command",
+            "command": "test -f public/robots.txt && test -f app/sitemap.ts && echo 'OK' || echo 'MISSING'",
+            "expected": "OK"
+          },
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "phase-7-integration",
+      "name": "Build Verification & Testing",
+      "type": "integration",
+      "description": "Verify static build succeeds, create unit tests for utilities, and perform final end-to-end quality check",
+      "depends_on": [
+        "phase-6-seo"
+      ],
+      "parallel_safe": false,
+      "subtasks": [
+        {
+          "id": "subtask-7-1",
+          "description": "Run static build (npm run build) and verify /out directory structure: all locale directories, HTML files for every page, images, sitemap.xml, robots.txt",
+          "service": "next-app",
+          "files_to_modify": [],
+          "files_to_create": [],
+          "patterns_from": [],
+          "notes": "Run npm run build. Expected output directory structure: out/en/, out/th/, out/zh/ each containing index.html, about/index.html, services/index.html, gallery/index.html, contact/index.html. Also: out/sitemap.xml (or sitemap-0.xml), out/robots.txt, out/images/. Fix any build errors encountered. Minimum 15+ HTML files expected (5 pages x 3 locales + root redirect + legacy redirects).",
+          "verification": {
+            "type": "command",
+            "command": "npm run build 2>&1 | tail -5 && find out -name '*.html' 2>/dev/null | wc -l | tr -d ' '",
+            "expected": "Build succeeds with 15+ HTML files in /out"
+          },
+          "status": "pending"
+        },
+        {
+          "id": "subtask-7-2",
+          "description": "Create unit tests for i18n config, redirect-map, content loader, and navigation utilities. Run tests and verify all pass",
+          "service": "next-app",
+          "files_to_modify": [
+            "package.json"
+          ],
+          "files_to_create": [
+            "__tests__/i18n.test.ts",
+            "__tests__/redirect-map.test.ts",
+            "__tests__/content.test.ts",
+            "__tests__/navigation.test.ts"
+          ],
+          "patterns_from": [],
+          "notes": "Install test framework if needed (jest or vitest). i18n.test.ts: verify locales array has 3 entries, defaultLocale is 'th', all message files are valid JSON. redirect-map.test.ts: verify all old URLs map to valid new URLs, no circular redirects, no empty values. content.test.ts: verify JSON content files parse correctly, required fields exist (title, description, sections). navigation.test.ts: verify locale-aware URL generation for all locales. Update package.json test script.",
+          "verification": {
+            "type": "command",
+            "command": "npm test 2>&1 | tail -10",
+            "expected": "All tests pass"
+          },
+          "status": "pending"
+        },
+        {
+          "id": "subtask-7-3",
+          "description": "End-to-end verification: all pages in all locales render correctly, language switching works, legacy URLs redirect, SEO metadata present, no console errors",
+          "service": "next-app",
+          "all_services": true,
+          "files_to_modify": [],
+          "files_to_create": [],
+          "patterns_from": [],
+          "notes": "Comprehensive verification checklist: (1) Each page in each locale loads without errors, (2) Language switcher navigates between locales correctly, (3) Legacy URLs redirect to correct new pages, (4) SEO metadata (title, description, OG, hreflang, JSON-LD) present on all pages, (5) Images load correctly, (6) Mobile responsive layout works, (7) Custom 404 page displays for unknown URLs, (8) Static build output is complete and deployable.",
+          "verification": {
+            "type": "e2e",
+            "steps": [
+              "Visit / → verify redirect to /th/",
+              "Visit /th/ → verify homepage with Hero, services preview",
+              "Visit /en/ → verify English content",
+              "Visit /zh/ → verify Chinese content",
+              "Click language switcher → verify locale change",
+              "Navigate to all pages (about, services, gallery, contact)",
+              "Visit a legacy URL → verify redirect to new page",
+              "Visit unknown URL → verify custom 404",
+              "View page source → verify meta tags, OG, hreflang, JSON-LD",
+              "Test at mobile viewport (375px) → verify responsive layout",
+              "Run npm run build → verify /out directory completeness"
+            ]
+          },
+          "status": "pending"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_phases": 7,
+    "total_subtasks": 19,
+    "services_involved": [
+      "next-app",
+      "scraper"
+    ],
+    "estimated_files_to_create": 42,
+    "estimated_files_to_modify": 12,
+    "parallelism": {
+      "max_parallel_phases": 2,
+      "parallel_groups": [
+        {
+          "phases": [
+            "phase-2-i18n",
+            "phase-3-scraper"
+          ],
+          "reason": "Both depend only on phase-1-setup, completely different file sets (i18n config vs scraper scripts)"
+        }
+      ],
+      "recommended_workers": 2,
+      "speedup_estimate": "~1.3x faster than sequential (phases 2+3 run in parallel, ~25% time savings)"
+    },
+    "dependency_chain": [
+      "phase-1-setup",
+      [
+        "phase-2-i18n",
+        "phase-3-scraper"
+      ],
+      "phase-4-design",
+      "phase-5-pages",
+      "phase-6-seo",
+      "phase-7-integration"
+    ],
+    "startup_command": "source auto-claude/.venv/bin/activate && python auto-claude/run.py --spec 001 --parallel 2"
+  },
+  "verification_strategy": {
+    "risk_level": "medium",
+    "skip_validation": false,
+    "test_creation_phase": "post_implementation",
+    "test_types_required": [
+      "unit",
+      "integration"
+    ],
+    "security_scanning_required": false,
+    "staging_deployment_required": false,
+    "acceptance_criteria": [
+      "npm run dev starts without errors",
+      "npm run build produces complete /out directory with static files",
+      "All 3 locales (en, th, zh) accessible with proper content",
+      "Language switcher works across all pages",
+      "Legacy URLs redirect to correct new pages",
+      "SEO metadata present on all pages (title, description, OG, hreflang, JSON-LD)",
+      "Sitemap.xml and robots.txt generated",
+      "All unit tests pass",
+      "No console errors during development or build",
+      "UI is modern, responsive, and uses vibrant brand palette"
+    ],
+    "verification_steps": [
+      {
+        "name": "Dev Server Starts",
+        "command": "npm run dev",
+        "expected_outcome": "Server starts on port 3000 without errors",
+        "type": "test",
+        "required": true,
+        "blocking": true
+      },
+      {
+        "name": "Static Build",
+        "command": "npm run build",
+        "expected_outcome": "/out directory with 15+ HTML files across 3 locale directories",
+        "type": "test",
+        "required": true,
+        "blocking": true
+      },
+      {
+        "name": "Unit Tests",
+        "command": "npm test",
+        "expected_outcome": "All unit tests pass (i18n, redirect-map, content, navigation)",
+        "type": "test",
+        "required": true,
+        "blocking": true
+      },
+      {
+        "name": "Lint Check",
+        "command": "npm run lint",
+        "expected_outcome": "No linting errors",
+        "type": "test",
+        "required": true,
+        "blocking": false
+      }
+    ],
+    "reasoning": "Medium risk greenfield static site. No auth, payments, or user data. Unit tests for utility functions and integration tests via static build verification are sufficient. Security scanning not needed for static site with no secrets handling."
+  },
+  "qa_acceptance": {
+    "unit_tests": {
+      "required": true,
+      "commands": [
+        "npm test"
+      ],
+      "minimum_coverage": null,
+      "test_files": [
+        "__tests__/i18n.test.ts",
+        "__tests__/redirect-map.test.ts",
+        "__tests__/content.test.ts",
+        "__tests__/navigation.test.ts"
+      ]
+    },
+    "integration_tests": {
+      "required": true,
+      "commands": [
+        "npm run build"
+      ],
+      "services_to_test": [
+        "next-app"
+      ],
+      "checks": [
+        "Build completes without errors",
+        "All pages generated for all 3 locales",
+        "/out directory has expected structure"
+      ]
+    },
+    "e2e_tests": {
+      "required": false,
+      "commands": [],
+      "flows": [
+        "homepage-load-and-redirect",
+        "language-switch",
+        "legacy-url-redirect",
+        "full-navigation",
+        "mobile-responsive"
+      ]
+    },
+    "browser_verification": {
+      "required": true,
+      "pages": [
+        {
+          "url": "http://localhost:3000/th",
+          "checks": [
+            "Hero renders",
+            "images display",
+            "Thai text"
+          ]
+        },
+        {
+          "url": "http://localhost:3000/en",
+          "checks": [
+            "English content",
+            "same layout"
+          ]
+        },
+        {
+          "url": "http://localhost:3000/th/about",
+          "checks": [
+            "content loads",
+            "images display"
+          ]
+        },
+        {
+          "url": "http://localhost:3000/th/services",
+          "checks": [
+            "service cards render"
+          ]
+        },
+        {
+          "url": "http://localhost:3000/th/gallery",
+          "checks": [
+            "image grid loads"
+          ]
+        },
+        {
+          "url": "http://localhost:3000/th/contact",
+          "checks": [
+            "form renders",
+            "validation works"
+          ]
+        },
+        {
+          "url": "http://localhost:3000/th/nonexistent",
+          "checks": [
+            "custom 404 page displays"
+          ]
+        }
+      ]
+    },
+    "database_verification": {
+      "required": false,
+      "checks": []
+    },
+    "seo_verification": {
+      "required": true,
+      "checks": [
+        "Unique title per page with site name",
+        "Unique meta description per page",
+        "Open Graph tags (og:title, og:description, og:image) on all pages",
+        "hreflang alternate links for all 3 locales",
+        "JSON-LD structured data (LocalBusiness/Organization)",
+        "Canonical URL set for each page",
+        "sitemap.xml includes all pages in all locales",
+        "robots.txt references sitemap URL"
+      ]
+    },
+    "static_export_verification": {
+      "required": true,
+      "checks": [
+        "out/ directory exists after build",
+        "out/en/, out/th/, out/zh/ directories present",
+        "At least 15+ HTML files generated",
+        "Images present in output",
+        "sitemap.xml present in output",
+        "robots.txt present in output"
+      ]
+    }
+  },
+  "qa_signoff": null,
+  "status": "in_progress",
+  "planStatus": "in_progress",
+  "xstateState": "coding",
+  "executionPhase": "coding",
+  "updated_at": "2026-02-22T08:46:56.046Z",
+  "lastEvent": {
+    "eventId": "23a2301b-88f7-4930-a6e0-b8eb38754674",
+    "sequence": 0,
+    "type": "PLANNING_COMPLETE",
+    "timestamp": "2026-02-22T08:46:52.707117+00:00"
+  },
+  "last_updated": "2026-02-22T08:47:08.507424+00:00"
+}

@@ -1,0 +1,448 @@
+{
+  "integrations_researched": [
+    {
+      "name": "Next.js 16",
+      "type": "framework",
+      "verified_package": {
+        "name": "next",
+        "install_command": "npm install next@latest react@latest react-dom@latest",
+        "version": "16.1.6 (latest stable as of 2026-02-22)",
+        "verified": true
+      },
+      "api_patterns": {
+        "imports": [
+          "import Image from 'next/image'",
+          "import Link from 'next/link'",
+          "import { Metadata } from 'next'"
+        ],
+        "initialization": "npx create-next-app@latest (or manual setup with next.config.js output: 'export')",
+        "key_functions": [
+          "generateStaticParams() - for dynamic route SSG",
+          "generateMetadata() - for per-page SEO metadata",
+          "export const dynamic = 'error' - enforce static rendering"
+        ],
+        "verified_against": "https://nextjs.org/docs/app/guides/static-exports (v16.1.6, updated 2026-02-20)"
+      },
+      "configuration": {
+        "env_vars": [],
+        "config_files": [
+          "next.config.js (or .ts/.mjs)",
+          "postcss.config.mjs (if using Tailwind)"
+        ],
+        "dependencies": [
+          "react@latest",
+          "react-dom@latest"
+        ]
+      },
+      "key_features": {
+        "turbopack_default": "Turbopack is now the default bundler (5-10x faster Fast Refresh, 2-5x faster builds)",
+        "react_19_2": "Uses React 19.2 with View Transitions, useEffectEvent, Activity",
+        "react_compiler": "Built-in React Compiler (stable) — auto-memoization",
+        "proxy_ts": "middleware.ts renamed to proxy.ts (runs on Node.js runtime, not Edge)",
+        "use_cache": "New 'use cache' directive for opt-in caching (caching is NOT default anymore)",
+        "static_export": "output: 'export' generates static HTML/CSS/JS into /out folder"
+      },
+      "infrastructure": {
+        "requires_docker": false,
+        "requires_server": false,
+        "deployment": "Any static web server (Nginx, Cloudflare Pages, Vercel, Netlify, S3, etc.)"
+      },
+      "gotchas": [
+        "CRITICAL: output: 'export' does NOT support redirects, rewrites, headers, or proxy.ts",
+        "CRITICAL: output: 'export' does NOT support Image Optimization with the default loader (must use custom loader or unoptimized: true)",
+        "CRITICAL: Dynamic routes without generateStaticParams() are NOT supported in static export",
+        "middleware.ts is deprecated in v16, renamed to proxy.ts — but proxy.ts is NOT supported in static export either",
+        "Caching is NOT default in Next.js 16 — must opt in with 'use cache' directive",
+        "proxy.ts runs on Node.js runtime only (Edge runtime no longer supported for proxy)"
+      ],
+      "research_sources": [
+        "https://nextjs.org/blog/next-16",
+        "https://nextjs.org/blog/next-16-1",
+        "https://nextjs.org/docs/app/guides/static-exports",
+        "https://nextjs.org/docs/app/guides/upgrading/version-16",
+        "https://nextjs.org/docs/messages/middleware-to-proxy"
+      ]
+    },
+    {
+      "name": "next-intl",
+      "type": "library",
+      "verified_package": {
+        "name": "next-intl",
+        "install_command": "npm install next-intl",
+        "version": "latest (actively maintained, supports App Router)",
+        "verified": true
+      },
+      "api_patterns": {
+        "imports": [
+          "import createNextIntlPlugin from 'next-intl/plugin'",
+          "import { useTranslations } from 'next-intl'",
+          "import { NextIntlClientProvider } from 'next-intl'",
+          "import { getTranslations, setRequestLocale } from 'next-intl/server'"
+        ],
+        "initialization": "Wrap next.config with createNextIntlPlugin(), create i18n/request.ts config, create messages/{locale}.json files",
+        "key_functions": [
+          "useTranslations(namespace) - client-side translations hook",
+          "getTranslations(namespace) - server-side translations",
+          "setRequestLocale(locale) - required for static rendering in Server Components",
+          "generateStaticParams() - must return all locale values for SSG",
+          "NextIntlClientProvider - wraps app with locale context"
+        ],
+        "verified_against": "https://next-intl.dev/docs/getting-started/app-router"
+      },
+      "configuration": {
+        "env_vars": [],
+        "config_files": [
+          "next.config.ts (wrapped with createNextIntlPlugin)",
+          "i18n/request.ts (locale configuration)",
+          "messages/en.json, messages/th.json, etc."
+        ],
+        "dependencies": []
+      },
+      "static_export_setup": {
+        "routing_pattern": "Sub-path routing: /en/page, /th/page, /[third-locale]/page",
+        "folder_structure": "app/[locale]/layout.tsx, app/[locale]/page.tsx",
+        "generateStaticParams": "Must export generateStaticParams() returning all locale values from root [locale] layout",
+        "no_middleware": "Standard middleware/proxy NOT supported with output: 'export'. Use 'without middleware' approach.",
+        "setRequestLocale": "Must call setRequestLocale(locale) in every Server Component page/layout for static rendering"
+      },
+      "gotchas": [
+        "Standard next-intl middleware does NOT work with output: 'export' (static export)",
+        "Must use 'without middleware' approach for static sites",
+        "setRequestLocale() must be called in every page/layout Server Component for static rendering to work",
+        "generateStaticParams() is required in the [locale] dynamic route for SSG",
+        "Locale detection/redirect on root '/' must be handled client-side (no server-side redirect in static export)",
+        "The Node.js website uses next-intl with App Router — proven at scale"
+      ],
+      "research_sources": [
+        "https://next-intl.dev/docs/getting-started/app-router",
+        "https://next-intl.dev/docs/routing/setup",
+        "https://github.com/amannn/next-intl/discussions/975",
+        "https://github.com/azu/next-intl-example"
+      ]
+    },
+    {
+      "name": "Tailwind CSS v4",
+      "type": "library",
+      "verified_package": {
+        "name": "tailwindcss",
+        "install_command": "npm install -D tailwindcss @tailwindcss/postcss",
+        "version": "4.2.0 (latest as of 2026-02-22)",
+        "verified": true
+      },
+      "api_patterns": {
+        "imports": [
+          "@import 'tailwindcss'; (in globals.css — replaces old @tailwind directives)"
+        ],
+        "initialization": "Add @tailwindcss/postcss to postcss.config.mjs, add @import 'tailwindcss' to globals.css",
+        "key_functions": [
+          "CSS-first configuration (no more tailwind.config.js by default)",
+          "@theme directive for custom design tokens in CSS",
+          "All v3 utility classes still work"
+        ],
+        "verified_against": "https://tailwindcss.com/docs/guides/nextjs"
+      },
+      "configuration": {
+        "env_vars": [],
+        "config_files": [
+          "postcss.config.mjs",
+          "app/globals.css"
+        ],
+        "dependencies": [
+          "@tailwindcss/postcss"
+        ]
+      },
+      "postcss_config": {
+        "file": "postcss.config.mjs",
+        "content": "export default { plugins: { '@tailwindcss/postcss': {} } }"
+      },
+      "gotchas": [
+        "Tailwind v4 uses CSS-first config — no tailwind.config.js needed by default",
+        "Setup is simplified: just @import 'tailwindcss' in CSS (no @tailwind base/components/utilities)",
+        "v4 is up to 5x faster for full builds and 100x faster for incremental builds vs v3",
+        "If migrating from v3, run the upgrade tool: npx @tailwindcss/upgrade",
+        "@tailwindcss/postcss replaces the old postcss plugin"
+      ],
+      "research_sources": [
+        "https://tailwindcss.com/docs/guides/nextjs",
+        "https://tailwindcss.com/blog/tailwindcss-v4",
+        "https://www.npmjs.com/package/tailwindcss"
+      ]
+    },
+    {
+      "name": "Cheerio",
+      "type": "library",
+      "verified_package": {
+        "name": "cheerio",
+        "install_command": "npm install cheerio",
+        "version": "1.2.0 (latest)",
+        "verified": true
+      },
+      "api_patterns": {
+        "imports": [
+          "import * as cheerio from 'cheerio'",
+          "import { load } from 'cheerio'"
+        ],
+        "initialization": "const $ = cheerio.load(htmlString)",
+        "key_functions": [
+          "cheerio.load(html) - parse HTML string",
+          "$(selector).text() - extract text content",
+          "$(selector).attr('href') - get attribute values",
+          "$(selector).html() - get inner HTML",
+          "$(selector).find(subSelector) - nested search",
+          "$(selector).each((i, el) => {}) - iterate elements"
+        ],
+        "verified_against": "https://cheerio.js.org/docs/intro/"
+      },
+      "configuration": {
+        "env_vars": [],
+        "config_files": [],
+        "dependencies": []
+      },
+      "use_case": "Parse and extract content from scraped HTML pages of the existing glitter-tattoo.com website",
+      "gotchas": [
+        "Cheerio does NOT execute JavaScript — only parses static HTML",
+        "For JavaScript-rendered content, need Puppeteer instead",
+        "Requires Node.js 18+ for latest version",
+        "jQuery-like API but server-side only"
+      ],
+      "research_sources": [
+        "https://www.npmjs.com/package/cheerio",
+        "https://cheerio.js.org/"
+      ]
+    },
+    {
+      "name": "Puppeteer",
+      "type": "library",
+      "verified_package": {
+        "name": "puppeteer",
+        "install_command": "npm install puppeteer",
+        "version": "latest (actively maintained by Google)",
+        "verified": true
+      },
+      "api_patterns": {
+        "imports": [
+          "import puppeteer from 'puppeteer'"
+        ],
+        "initialization": "const browser = await puppeteer.launch(); const page = await browser.newPage();",
+        "key_functions": [
+          "puppeteer.launch() - launch browser instance",
+          "page.goto(url) - navigate to URL",
+          "page.content() - get full rendered HTML",
+          "page.screenshot({ fullPage: true }) - capture screenshot",
+          "page.$eval(selector, fn) - evaluate in page context",
+          "page.$$eval(selector, fn) - evaluate on multiple elements",
+          "browser.close() - cleanup"
+        ],
+        "verified_against": "https://pptr.dev/"
+      },
+      "configuration": {
+        "env_vars": [],
+        "config_files": [],
+        "dependencies": [
+          "Downloads Chromium automatically on npm install"
+        ]
+      },
+      "use_case": "Full browser rendering for scraping JS-rendered content, downloading images, and capturing screenshots of existing site for reference",
+      "gotchas": [
+        "Downloads a full Chromium browser (~170MB) on install",
+        "Requires Node.js 22+ for latest version",
+        "Headless mode is default (good for CI/scraping)",
+        "Memory-intensive — close pages/browsers when done",
+        "For simple HTML parsing, Cheerio is faster and lighter"
+      ],
+      "research_sources": [
+        "https://www.npmjs.com/package/puppeteer",
+        "https://pptr.dev/"
+      ]
+    },
+    {
+      "name": "Sharp",
+      "type": "library",
+      "verified_package": {
+        "name": "sharp",
+        "install_command": "npm install sharp",
+        "version": "0.34.5 (latest)",
+        "verified": true
+      },
+      "api_patterns": {
+        "imports": [
+          "import sharp from 'sharp'"
+        ],
+        "initialization": "sharp(inputBuffer).resize(width).webp().toBuffer()",
+        "key_functions": [
+          "sharp(input) - create pipeline from file/buffer",
+          ".resize(width, height) - resize image",
+          ".webp({ quality }) - convert to WebP",
+          ".avif({ quality }) - convert to AVIF",
+          ".jpeg({ quality, mozjpeg: true }) - optimize JPEG",
+          ".png({ compressionLevel }) - optimize PNG",
+          ".toFile(outputPath) - save to file",
+          ".toBuffer() - output as buffer",
+          ".metadata() - get image dimensions/format"
+        ],
+        "verified_against": "https://sharp.pixelplumbing.com/"
+      },
+      "configuration": {
+        "env_vars": [],
+        "config_files": [],
+        "dependencies": [
+          "libvips (bundled with npm package via prebuilt binaries)"
+        ]
+      },
+      "use_case": "Pre-optimize scraped images during build (resize, convert to WebP/AVIF, compress). Since static export doesn't support default Next.js Image Optimization, images must be pre-optimized.",
+      "gotchas": [
+        "CRITICAL for this project: Next.js Image Optimization with default loader does NOT work with output: 'export'",
+        "Must pre-optimize images with sharp during build/scrape phase and serve them statically",
+        "Alternative: use next/image with unoptimized: true and pre-optimize with sharp",
+        "Alternative: use next/image with a custom loader (e.g., Cloudinary, imgix)",
+        "Reduces file size by 40-70% on average",
+        "WebP/AVIF conversion saves additional 25-35%",
+        "Uses native libvips — fast but platform-specific binaries"
+      ],
+      "research_sources": [
+        "https://www.npmjs.com/package/sharp",
+        "https://sharp.pixelplumbing.com/",
+        "https://nextjs.org/docs/messages/install-sharp"
+      ]
+    },
+    {
+      "name": "next-sitemap",
+      "type": "library",
+      "verified_package": {
+        "name": "next-sitemap",
+        "install_command": "npm install next-sitemap",
+        "version": "latest",
+        "verified": true
+      },
+      "api_patterns": {
+        "imports": [],
+        "initialization": "Create next-sitemap.config.js with siteUrl and options",
+        "key_functions": [
+          "Generates sitemap.xml and robots.txt after next build",
+          "Supports static export (SSG)",
+          "Can split large sitemaps into multiple files",
+          "Supports custom transforms for URL modification"
+        ],
+        "verified_against": "https://www.npmjs.com/package/next-sitemap"
+      },
+      "configuration": {
+        "env_vars": [
+          "SITE_URL (recommended for sitemap base URL)"
+        ],
+        "config_files": [
+          "next-sitemap.config.js"
+        ],
+        "dependencies": []
+      },
+      "alternative": {
+        "name": "Built-in Next.js sitemap.ts",
+        "description": "Next.js App Router has native sitemap support via app/sitemap.ts file convention. Export default function returning URL array. May be simpler for static export.",
+        "recommendation": "Consider using built-in sitemap.ts for simpler setup with App Router, or next-sitemap for more advanced features (robots.txt, index sitemaps, etc.)"
+      },
+      "gotchas": [
+        "Must run after next build (add as postbuild script)",
+        "For static export, runs against the /out directory",
+        "Built-in Next.js sitemap.ts is an alternative that works natively with App Router",
+        "generateIndexSitemap can be set to false for small sites"
+      ],
+      "research_sources": [
+        "https://www.npmjs.com/package/next-sitemap",
+        "https://github.com/iamvishnusankar/next-sitemap",
+        "https://nextjs.org/docs/app/api-reference/file-conventions/metadata/sitemap"
+      ]
+    }
+  ],
+  "critical_architectural_findings": {
+    "static_export_vs_server_deployment": {
+      "issue": "The requirements specify both SSG (static export) AND legacy URL redirects. These are mutually exclusive in Next.js.",
+      "detail": "output: 'export' does NOT support redirects, rewrites, headers, or proxy.ts. Legacy URL redirect support requires either a server deployment (Vercel/Node) or hosting-level configuration (Nginx rewrites, Cloudflare redirect rules).",
+      "options": [
+        {
+          "option": "A: Pure Static Export + Hosting-Level Redirects",
+          "description": "Use output: 'export' for full SSG. Handle legacy URL redirects at the hosting/CDN level (Nginx rewrite rules, Cloudflare redirect rules, Netlify _redirects file, etc.)",
+          "pros": "True static site, cheapest hosting, fastest serving, maximum CDN caching",
+          "cons": "Redirect management is outside Next.js, depends on hosting provider"
+        },
+        {
+          "option": "B: Standard SSG (no output: 'export') on Vercel/Node",
+          "description": "Deploy to Vercel or Node server. Pages are still statically generated at build time (SSG behavior), but redirects work via next.config.js redirects() and proxy.ts.",
+          "pros": "Full Next.js feature set including redirects, rewrites, image optimization, proxy.ts",
+          "cons": "Requires server/serverless deployment (Vercel, Node), not pure static files"
+        },
+        {
+          "option": "C: Static Export + Client-Side Redirect Pages",
+          "description": "Create dummy HTML pages at old URL paths that client-side redirect (meta refresh or JS Router.replace) to new URLs.",
+          "pros": "Pure static, works on any host",
+          "cons": "Poor SEO (client-side redirects don't pass full link equity like 301s), slower user experience, maintenance burden"
+        }
+      ],
+      "recommendation": "Option B is recommended for this project. Standard SSG deployment on Vercel provides full static generation benefits while supporting redirects, image optimization, and i18n middleware/proxy. All pages are still pre-rendered at build time. Alternatively, Option A with Cloudflare Pages or Netlify would work well if the team prefers pure static hosting."
+    },
+    "i18n_with_static_export": {
+      "issue": "next-intl's standard middleware/proxy-based routing does NOT work with output: 'export'",
+      "detail": "For static export, must use the 'without middleware' approach: [locale] dynamic route segment + generateStaticParams() + setRequestLocale() in every Server Component",
+      "if_using_option_B": "Standard next-intl middleware/proxy works perfectly with Vercel/Node deployment"
+    },
+    "image_optimization": {
+      "issue": "Next.js default Image Optimization (next/image with default loader) does NOT work with output: 'export'",
+      "options": [
+        "Pre-optimize images with sharp during build (recommended for static export)",
+        "Use next/image with unoptimized: true (no runtime optimization)",
+        "Use next/image with custom loader (Cloudinary, imgix, etc.)",
+        "If using Option B (Vercel deploy), default Image Optimization works out of the box"
+      ]
+    }
+  },
+  "unverified_claims": [
+    {
+      "claim": "The user requested 'nextjs version 16'. Requirements phase claimed v16 doesn't exist.",
+      "resolution": "VERIFIED: Next.js 16 DOES exist. v16.0 released October 21, 2025. Latest is v16.1.6 as of Feb 2026. The user's request is valid.",
+      "risk_level": "low"
+    },
+    {
+      "claim": "The site has 3 languages (specific locales not confirmed)",
+      "reason": "The existing site at glitter-tattoo.com needs to be scraped to identify which languages are present. Thai is assumed as primary. English is likely second. Third language is unknown.",
+      "risk_level": "medium"
+    },
+    {
+      "claim": "All existing URLs can be mapped and redirected",
+      "reason": "The full URL inventory of the existing site is unknown until scraping is complete. Some URLs may be dynamically generated or have query parameters that complicate redirect mapping.",
+      "risk_level": "medium"
+    }
+  ],
+  "recommendations": [
+    "CRITICAL: Use Next.js 16 (v16.1.6) as the user requested — it IS the latest stable version. The requirements phase incorrectly stated v16 doesn't exist.",
+    "ARCHITECTURE: Recommend standard SSG deployment (Option B) on Vercel/Node rather than pure static export, to support redirects + image optimization + i18n middleware. Pages are still statically generated at build time.",
+    "IF PURE STATIC REQUIRED: Use output: 'export' but handle redirects at hosting level (Cloudflare/_redirects/Nginx) and pre-optimize images with sharp.",
+    "SCRAPING: Use Cheerio for HTML content extraction (fast, lightweight) + node-fetch/native fetch for downloading images. Use Puppeteer only if JS-rendered content is found.",
+    "I18N: Use next-intl with App Router. With Vercel deployment, standard middleware approach works. With static export, use 'without middleware' pattern.",
+    "IMAGES: Pre-optimize all scraped images with sharp (resize, WebP conversion) during the scrape/build phase for best performance regardless of deployment strategy.",
+    "SITEMAP: Use built-in Next.js sitemap.ts convention for simplicity, or next-sitemap for advanced features.",
+    "STYLING: Use Tailwind CSS v4 (4.2.0) — simplified setup, massive performance improvement over v3.",
+    "SCRAPE FIRST: Before any development, scrape the existing site to identify: all pages, all languages, all URLs (for redirect mapping), all images, and all text content."
+  ],
+  "suggested_dev_dependencies": {
+    "production": {
+      "next": "^16.1.6",
+      "react": "latest",
+      "react-dom": "latest",
+      "next-intl": "latest",
+      "sharp": "^0.34.5"
+    },
+    "development": {
+      "tailwindcss": "^4.2.0",
+      "@tailwindcss/postcss": "latest",
+      "typescript": "latest",
+      "@types/react": "latest",
+      "@types/node": "latest"
+    },
+    "scraping_tools": {
+      "cheerio": "^1.2.0",
+      "puppeteer": "latest (only if needed for JS-rendered content)"
+    },
+    "optional": {
+      "next-sitemap": "latest (alternative to built-in sitemap.ts)"
+    }
+  },
+  "created_at": "2026-02-22T00:00:00Z"
+}

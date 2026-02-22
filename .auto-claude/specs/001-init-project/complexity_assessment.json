@@ -1,0 +1,95 @@
+{
+  "complexity": "complex",
+  "workflow_type": "feature",
+  "confidence": 0.90,
+  "reasoning": "This is a full greenfield website rebuild requiring multiple complex subsystems: Next.js App Router project setup, web scraping/content extraction from the existing site, i18n with 3 languages (cross-cutting concern affecting every page/component), comprehensive SEO with legacy URL redirect mapping, and a complete visual redesign. The combination of greenfield scope, content migration, i18n architecture, and SEO redirect mapping puts this firmly in complex territory.",
+
+  "analysis": {
+    "scope": {
+      "estimated_files": 40,
+      "estimated_services": 1,
+      "is_cross_cutting": true,
+      "notes": "Greenfield Next.js project with i18n affecting every page, component, and layout. Estimated 40+ files including: project config (5-8), layouts/templates (3-5), page components (8-12), shared UI components (8-10), i18n translation files (6-9), content data/scripts (3-5), styles/design tokens (3-5), SEO/redirect config (2-3)."
+    },
+    "integrations": {
+      "external_services": ["glitter-tattoo.com (scraping source)"],
+      "new_dependencies": ["next", "react", "react-dom", "next-intl (or similar i18n)", "cheerio or puppeteer (scraping)", "tailwindcss (or CSS framework)"],
+      "research_needed": true,
+      "notes": "Need to research: (1) Next.js 15 App Router i18n best practices for SSG, (2) optimal scraping strategy for the existing site, (3) SSG-compatible i18n routing patterns (/en/, /th/, etc.), (4) Next.js redirects configuration for legacy URL preservation."
+    },
+    "infrastructure": {
+      "docker_changes": false,
+      "database_changes": false,
+      "config_changes": true,
+      "notes": "Full Next.js project initialization needed. Config includes: next.config.js (redirects, i18n, SSG output), package.json, tsconfig.json, tailwind config, environment setup. No Docker or database required — this is a static site."
+    },
+    "knowledge": {
+      "patterns_exist": false,
+      "research_required": true,
+      "unfamiliar_tech": ["Next.js 15 App Router SSG patterns", "next-intl with App Router", "Content scraping strategy"],
+      "notes": "Greenfield project — no existing patterns to follow. Need to research: Next.js 15 App Router conventions for static export with i18n, best i18n library for App Router SSG, and scraping approach for existing site content. Also need to audit the existing site structure to map old URLs to new ones."
+    },
+    "risk": {
+      "level": "medium",
+      "concerns": [
+        "Web scraping may be fragile depending on existing site structure and availability",
+        "i18n with SSG requires careful routing architecture — wrong choice is expensive to fix",
+        "Legacy URL redirect map must be comprehensive to avoid SEO equity loss",
+        "3 languages multiply content/translation effort and page count",
+        "Next.js 15 App Router is relatively new — some patterns may have limited community examples",
+        "Existing site may have dynamic or JavaScript-rendered content that complicates scraping"
+      ],
+      "notes": "Primary risk is architectural: i18n routing strategy and SSG export mode must be chosen correctly upfront. Secondary risk is content completeness — must ensure all pages, images, and translations are captured from the existing site."
+    }
+  },
+
+  "recommended_phases": [
+    "discovery",
+    "requirements",
+    "research",
+    "context",
+    "spec_writing",
+    "self_critique",
+    "planning",
+    "validation"
+  ],
+
+  "flags": {
+    "needs_research": true,
+    "needs_self_critique": true,
+    "needs_infrastructure_setup": true
+  },
+
+  "validation_recommendations": {
+    "risk_level": "medium",
+    "skip_validation": false,
+    "minimal_mode": false,
+    "test_types_required": ["unit", "integration"],
+    "security_scan_required": false,
+    "staging_deployment_required": false,
+    "reasoning": "Static site rebuild with no auth, payments, or user data handling. Medium risk due to greenfield complexity and i18n architecture decisions. Unit tests for utility functions (URL mapping, i18n helpers) and integration tests for page rendering/routing are sufficient. No security-sensitive operations involved."
+  },
+
+  "notes": {
+    "workflow_type_override": "Requirements JSON listed workflow_type as 'documentation' but this is clearly a full feature build (greenfield website). Overriding to 'feature'.",
+    "key_architectural_decisions": [
+      "i18n strategy: next-intl vs next-i18next vs custom — affects entire routing structure",
+      "SSG export mode: static export vs hybrid — affects deployment options",
+      "Content storage: JSON files vs MDX vs CMS — affects content management workflow",
+      "Scraping approach: build-time script vs one-time extraction — affects content freshness model",
+      "URL structure: /[locale]/[...slug] pattern — must be decided before any pages are built"
+    ],
+    "suggested_implementation_order": [
+      "1. Scrape and audit existing site (content + URL inventory)",
+      "2. Initialize Next.js project with core config",
+      "3. Set up i18n routing architecture",
+      "4. Build design system / tokens from logo colors",
+      "5. Create page templates and layouts",
+      "6. Populate content from scraped data",
+      "7. Configure legacy URL redirects",
+      "8. SEO optimization (metadata, sitemap, structured data)"
+    ]
+  },
+
+  "created_at": "2026-02-22T15:30:00.000Z"
+}
