@@ -5,18 +5,26 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "start": "npx serve@latest out",
+    "lint": "eslint .",
+    "test": "jest",
+    "scrape": "tsx scripts/scrape.ts",
+    "scrape:images": "tsx scripts/scrape-images.ts",
+    "generate:redirects": "tsx scripts/generate-redirects.ts",
+    "generate:sitemap": "tsx scripts/generate-sitemap.ts"
   },
   "dependencies": {
     "next": "16.1.6",
     "next-intl": "^4.8.3",
     "react": "19.2.3",
     "react-dom": "19.2.3",
+    "schema-dts": "^1.1.5",
+    "serve": "^14.2.5",
     "sharp": "^0.34.5"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@types/jest": "^30.0.0",
     "@types/node": "^20.19.33",
     "@types/react": "^19",
     "@types/react-dom": "^19",
@@ -24,8 +32,10 @@
     "cheerio": "^1.2.0",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
+    "jest": "^30.2.0",
     "puppeteer": "^24.37.5",
     "tailwindcss": "^4",
+    "ts-jest": "^29.4.6",
     "tsx": "^4.21.0",
     "typescript": "^5"
   }

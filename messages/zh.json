@@ -1,0 +1,62 @@
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于我们",
+    "services": "服务",
+    "gallery": "画廊",
+    "contact": "联系我们"
+  },
+  "common": {
+    "readMore": "阅读更多",
+    "viewAll": "查看全部",
+    "submit": "提交",
+    "sendMessage": "发送消息",
+    "backToHome": "返回首页",
+    "languageName": "中文"
+  },
+  "home": {
+    "heroTitle": "专业闪粉纹身用品",
+    "heroSubtitle": "来自泰国的优质闪粉纹身、模板和人体彩绘用品",
+    "heroCta": "查看我们的服务",
+    "servicesTitle": "我们的服务"
+  },
+  "about": {
+    "title": "关于我们",
+    "description": "了解 Glitter Tattoo Thailand — 您值得信赖的优质闪粉纹身用品和模板供应商。"
+  },
+  "services": {
+    "title": "我们的服务",
+    "description": "探索我们全系列的闪粉纹身产品、模板、闪粉颜色和人体彩绘用品。"
+  },
+  "gallery": {
+    "title": "画廊",
+    "description": "浏览我们精美的闪粉纹身设计和人体彩绘作品集。"
+  },
+  "contact": {
+    "title": "联系我们",
+    "description": "联系 Glitter Tattoo Thailand 进行订购、咨询或批发合作。",
+    "nameLabel": "姓名",
+    "emailLabel": "电子邮件",
+    "phoneLabel": "电话",
+    "messageLabel": "留言",
+    "namePlaceholder": "您的姓名",
+    "emailPlaceholder": "your@email.com",
+    "phonePlaceholder": "您的电话号码",
+    "messagePlaceholder": "我们能为您做什么？",
+    "successMessage": "谢谢！您的消息已成功发送。",
+    "requiredField": "此字段为必填项",
+    "invalidEmail": "请输入有效的电子邮件地址",
+    "sendMessage": "发送消息"
+  },
+  "notFound": {
+    "title": "页面未找到",
+    "message": "抱歉，您查找的页面不存在。",
+    "backHome": "返回首页"
+  },
+  "footer": {
+    "copyright": "© {year} Glitter Tattoo Thailand. 保留所有权利。",
+    "quickLinks": "快速链接",
+    "contactInfo": "联系信息",
+    "followUs": "关注我们"
+  }
+}

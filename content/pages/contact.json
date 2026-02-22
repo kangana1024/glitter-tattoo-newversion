@@ -1,0 +1,95 @@
+{
+  "page": "contact",
+  "title": "Contact Us - Glitter Tattoo",
+  "description": "Get in touch with Glitter Tattoo for bookings, quotes, and inquiries. We serve Bangkok and all of Thailand.",
+  "sections": {
+    "heading": {
+      "th": "ติดต่อเรา",
+      "en": "Contact Us",
+      "zh": "联系我们"
+    },
+    "intro": {
+      "th": "สนใจบริการของเรา? ติดต่อเราเพื่อสอบถามข้อมูลเพิ่มเติมหรือจองบริการ",
+      "en": "Interested in our services? Contact us for more information or to book our services.",
+      "zh": "对我们的服务感兴趣？请联系我们了解更多信息或预约服务。"
+    },
+    "contact_info": {
+      "phone": {
+        "label": {
+          "th": "โทรศัพท์",
+          "en": "Phone",
+          "zh": "电话"
+        },
+        "value": "+66-81-XXX-XXXX"
+      },
+      "email": {
+        "label": {
+          "th": "อีเมล",
+          "en": "Email",
+          "zh": "电子邮件"
+        },
+        "value": "info@glitter-tattoo.com"
+      },
+      "line": {
+        "label": {
+          "th": "LINE",
+          "en": "LINE",
+          "zh": "LINE"
+        },
+        "value": "@glittertattoo"
+      },
+      "facebook": {
+        "label": {
+          "th": "Facebook",
+          "en": "Facebook",
+          "zh": "Facebook"
+        },
+        "value": "https://www.facebook.com/glittertattoo"
+      }
+    },
+    "location": {
+      "label": {
+        "th": "ที่ตั้ง",
+        "en": "Location",
+        "zh": "地点"
+      },
+      "address": {
+        "th": "กรุงเทพมหานคร ประเทศไทย",
+        "en": "Bangkok, Thailand",
+        "zh": "泰国曼谷"
+      },
+      "note": {
+        "th": "เราให้บริการนอกสถานที่ทั่วประเทศไทย",
+        "en": "We provide on-site services throughout Thailand",
+        "zh": "我们在泰国各地提供上门服务"
+      }
+    },
+    "form": {
+      "name_label": {
+        "th": "ชื่อ",
+        "en": "Name",
+        "zh": "姓名"
+      },
+      "email_label": {
+        "th": "อีเมล",
+        "en": "Email",
+        "zh": "电子邮件"
+      },
+      "phone_label": {
+        "th": "เบอร์โทรศัพท์",
+        "en": "Phone Number",
+        "zh": "电话号码"
+      },
+      "message_label": {
+        "th": "ข้อความ",
+        "en": "Message",
+        "zh": "留言"
+      },
+      "submit_label": {
+        "th": "ส่งข้อความ",
+        "en": "Send Message",
+        "zh": "发送消息"
+      }
+    }
+  }
+}

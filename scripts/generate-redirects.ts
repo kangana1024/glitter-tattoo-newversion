@@ -1,0 +1,171 @@
+import * as cheerio from 'cheerio';
+import * as fs from 'fs';
+import * as path from 'path';
+
+const BASE_URL = process.env.SCRAPE_TARGET_URL || 'https://www.glitter-tattoo.com';
+const RATE_LIMIT_MS = 500;
+const MAX_RETRIES = 3;
+
+/**
+ * Mapping rules: convert discovered old paths to new paths.
+ */
+const PATH_RULES: Array<{ match: RegExp; newPath: string }> = [
+  { match: /^\/(index|home)\.html?$/i, newPath: '/' },
+  { match: /^\/home_(en|ch)\.html?$/i, newPath: '/' },
+  { match: /^\/2015\/?(index\.html)?$/i, newPath: '/' },
+  { match: /^\/2015\/about(_en|_ch)?\.html?$/i, newPath: '/about' },
+  { match: /^\/about\.html?$/i, newPath: '/about' },
+  { match: /^\/2015\/products(_en|_ch)?\.html?$/i, newPath: '/services' },
+  { match: /^\/products?\.html?$/i, newPath: '/services' },
+  { match: /^\/2015\/gallery(_en|_ch)?\.html?$/i, newPath: '/gallery' },
+  { match: /^\/gallery\.html?$/i, newPath: '/gallery' },
+  { match: /^\/2015\/contact(_en|_ch)?\.html?$/i, newPath: '/contact' },
+  { match: /^\/contact\.html?$/i, newPath: '/contact' },
+];
+
+function delay(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+async function fetchWithRetry(url: string): Promise<string> {
+  let lastError: Error | null = null;
+
+  for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+    try {
+      const response = await fetch(url);
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+      }
+      return await response.text();
+    } catch (error) {
+      lastError = error as Error;
+      if (attempt < MAX_RETRIES) {
+        const backoff = RATE_LIMIT_MS * Math.pow(2, attempt - 1);
+        process.stderr.write(`  Retry ${attempt}/${MAX_RETRIES} for ${url} (waiting ${backoff}ms)\n`);
+        await delay(backoff);
+      }
+    }
+  }
+
+  throw lastError;
+}
+
+function mapPathToNew(oldPath: string): string | null {
+  for (const rule of PATH_RULES) {
+    if (rule.match.test(oldPath)) {
+      return rule.newPath;
+    }
+  }
+  return null;
+}
+
+/**
+ * Crawl the site homepage to discover internal links, then map them.
+ */
+async function discoverUrls(): Promise<Map<string, string>> {
+  const redirects = new Map<string, string>();
+
+  try {
+    const html = await fetchWithRetry(BASE_URL);
+    const $ = cheerio.load(html);
+
+    const discoveredPaths = new Set<string>();
+
+    $('a[href]').each((_, el) => {
+      const href = $(el).attr('href') || '';
+      let urlPath: string;
+
+      try {
+        if (href.startsWith('http://') || href.startsWith('https://')) {
+          const parsed = new URL(href);
+          if (!parsed.hostname.includes('glitter-tattoo.com')) return;
+          urlPath = parsed.pathname;
+        } else if (href.startsWith('/')) {
+          urlPath = href;
+        } else if (href.startsWith('#') || href.startsWith('mailto:') || href.startsWith('tel:')) {
+          return;
+        } else {
+          urlPath = '/' + href;
+        }
+      } catch {
+        return;
+      }
+
+      // Normalize
+      urlPath = urlPath.split('?')[0].split('#')[0];
+      if (urlPath && urlPath !== '/') {
+        discoveredPaths.add(urlPath);
+      }
+    });
+
+    for (const oldPath of discoveredPaths) {
+      const newPath = mapPathToNew(oldPath);
+      if (newPath !== null) {
+        redirects.set(oldPath, newPath);
+      }
+    }
+  } catch (error) {
+    process.stderr.write(`Warning: Could not crawl ${BASE_URL}: ${(error as Error).message}\n`);
+    process.stderr.write('Using predefined redirect rules only.\n');
+  }
+
+  // Always include known legacy paths
+  const knownPaths = [
+    '/home_en.html', '/home_ch.html', '/index.html', '/home.html',
+    '/2015/about.html', '/2015/about_en.html', '/2015/about_ch.html', '/about.html',
+    '/2015/products.html', '/2015/products_en.html', '/2015/products_ch.html', '/products.html',
+    '/2015/gallery.html', '/2015/gallery_en.html', '/2015/gallery_ch.html', '/gallery.html',
+    '/2015/contact.html', '/2015/contact_en.html', '/2015/contact_ch.html', '/contact.html',
+    '/2015', '/2015/index.html',
+  ];
+
+  for (const oldPath of knownPaths) {
+    if (!redirects.has(oldPath)) {
+      const newPath = mapPathToNew(oldPath);
+      if (newPath !== null) {
+        redirects.set(oldPath, newPath);
+      }
+    }
+  }
+
+  return redirects;
+}
+
+function generateRedirectMapSource(redirects: Map<string, string>): string {
+  const entries = Array.from(redirects.entries())
+    .sort(([a], [b]) => a.localeCompare(b));
+
+  const lines = entries.map(([oldPath, newPath]) => `  '${oldPath}': '${newPath}',`);
+
+  return `/**
+ * Mapping of old (legacy) URL paths to new URL paths.
+ * Used by the catch-all route app/[locale]/[...rest]/page.tsx
+ * to redirect visitors from old URLs to the correct new pages.
+ *
+ * Keys are old paths (without locale prefix).
+ * Values are new paths (without locale prefix).
+ *
+ * Auto-generated by scripts/generate-redirects.ts
+ */
+export const redirectMap: Record<string, string> = {
+${lines.join('\n')}
+};
+`;
+}
+
+async function main(): Promise<void> {
+  process.stderr.write('Discovering URLs and generating redirect map...\n');
+
+  const redirects = await discoverUrls();
+
+  const source = generateRedirectMapSource(redirects);
+  const outputPath = path.join(process.cwd(), 'lib', 'redirect-map.ts');
+  fs.writeFileSync(outputPath, source);
+
+  process.stderr.write(`Generated redirect map with ${redirects.size} entries: lib/redirect-map.ts\n`);
+}
+
+main().catch((err) => {
+  process.stderr.write(`Fatal error: ${err.message}\n`);
+  process.exit(1);
+});

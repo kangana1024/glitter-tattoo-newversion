@@ -1,0 +1,62 @@
+{
+  "nav": {
+    "home": "หน้าแรก",
+    "about": "เกี่ยวกับเรา",
+    "services": "บริการ",
+    "gallery": "แกลเลอรี่",
+    "contact": "ติดต่อเรา"
+  },
+  "common": {
+    "readMore": "อ่านเพิ่มเติม",
+    "viewAll": "ดูทั้งหมด",
+    "submit": "ส่ง",
+    "sendMessage": "ส่งข้อความ",
+    "backToHome": "กลับหน้าแรก",
+    "languageName": "ไทย"
+  },
+  "home": {
+    "heroTitle": "อุปกรณ์กลิตเตอร์แทททูระดับมืออาชีพ",
+    "heroSubtitle": "กลิตเตอร์แทททู สเตนซิล และอุปกรณ์บอดี้อาร์ตคุณภาพสูงจากประเทศไทย",
+    "heroCta": "ดูบริการของเรา",
+    "servicesTitle": "บริการของเรา"
+  },
+  "about": {
+    "title": "เกี่ยวกับเรา",
+    "description": "เรียนรู้เกี่ยวกับ Glitter Tattoo Thailand — แหล่งอุปกรณ์กลิตเตอร์แทททูและสเตนซิลคุณภาพสูงที่คุณไว้วางใจ"
+  },
+  "services": {
+    "title": "บริการของเรา",
+    "description": "สำรวจผลิตภัณฑ์กลิตเตอร์แทททู สเตนซิล สีกลิตเตอร์ และอุปกรณ์บอดี้อาร์ตครบวงจร"
+  },
+  "gallery": {
+    "title": "แกลเลอรี่",
+    "description": "ชมคอลเลกชันผลงานกลิตเตอร์แทททูและงานบอดี้อาร์ตที่สวยงาม"
+  },
+  "contact": {
+    "title": "ติดต่อเรา",
+    "description": "ติดต่อ Glitter Tattoo Thailand สำหรับสั่งซื้อ สอบถาม หรือร่วมเป็นพาร์ทเนอร์ค้าส่ง",
+    "nameLabel": "ชื่อ",
+    "emailLabel": "อีเมล",
+    "phoneLabel": "โทรศัพท์",
+    "messageLabel": "ข้อความ",
+    "namePlaceholder": "ชื่อของคุณ",
+    "emailPlaceholder": "your@email.com",
+    "phonePlaceholder": "หมายเลขโทรศัพท์ของคุณ",
+    "messagePlaceholder": "เราช่วยอะไรคุณได้บ้าง?",
+    "successMessage": "ขอบคุณ! ข้อความของคุณถูกส่งเรียบร้อยแล้ว",
+    "requiredField": "กรุณากรอกข้อมูลในช่องนี้",
+    "invalidEmail": "กรุณากรอกอีเมลที่ถูกต้อง",
+    "sendMessage": "ส่งข้อความ"
+  },
+  "notFound": {
+    "title": "ไม่พบหน้าที่ค้นหา",
+    "message": "ขออภัย ไม่พบหน้าที่คุณกำลังค้นหา",
+    "backHome": "กลับหน้าแรก"
+  },
+  "footer": {
+    "copyright": "© {year} Glitter Tattoo Thailand สงวนลิขสิทธิ์",
+    "quickLinks": "ลิงก์ด่วน",
+    "contactInfo": "ข้อมูลการติดต่อ",
+    "followUs": "ติดตามเรา"
+  }
+}

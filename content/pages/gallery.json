@@ -1,0 +1,145 @@
+{
+  "page": "gallery",
+  "title": "Gallery - Glitter Tattoo",
+  "description": "Browse our gallery of glitter tattoo designs and event photos. See our work on kids, adults, and at special events.",
+  "sections": {
+    "heading": {
+      "th": "แกลเลอรี่",
+      "en": "Gallery",
+      "zh": "画廊"
+    },
+    "intro": {
+      "th": "ชมผลงานกลิตเตอร์แทททูของเราจากงานอีเวนต์ต่างๆ",
+      "en": "Browse our glitter tattoo work from various events and occasions.",
+      "zh": "浏览我们在各种活动中的闪粉纹身作品。"
+    },
+    "categories": [
+      {
+        "id": "butterflies",
+        "title": {
+          "th": "ผีเสื้อ",
+          "en": "Butterflies",
+          "zh": "蝴蝶"
+        }
+      },
+      {
+        "id": "flowers",
+        "title": {
+          "th": "ดอกไม้",
+          "en": "Flowers",
+          "zh": "花卉"
+        }
+      },
+      {
+        "id": "animals",
+        "title": {
+          "th": "สัตว์",
+          "en": "Animals",
+          "zh": "动物"
+        }
+      },
+      {
+        "id": "fantasy",
+        "title": {
+          "th": "แฟนตาซี",
+          "en": "Fantasy",
+          "zh": "幻想"
+        }
+      },
+      {
+        "id": "events",
+        "title": {
+          "th": "งานอีเวนต์",
+          "en": "Events",
+          "zh": "活动"
+        }
+      }
+    ],
+    "items": [
+      {
+        "src": "/images/scraped/gallery-01.jpg",
+        "alt": "Butterfly glitter tattoo on arm",
+        "category": "butterflies",
+        "width": 400,
+        "height": 400
+      },
+      {
+        "src": "/images/scraped/gallery-02.jpg",
+        "alt": "Rose flower glitter tattoo",
+        "category": "flowers",
+        "width": 400,
+        "height": 400
+      },
+      {
+        "src": "/images/scraped/gallery-03.jpg",
+        "alt": "Dolphin glitter tattoo on shoulder",
+        "category": "animals",
+        "width": 400,
+        "height": 400
+      },
+      {
+        "src": "/images/scraped/gallery-04.jpg",
+        "alt": "Dragon glitter tattoo design",
+        "category": "fantasy",
+        "width": 400,
+        "height": 400
+      },
+      {
+        "src": "/images/scraped/gallery-05.jpg",
+        "alt": "Unicorn glitter tattoo for kids",
+        "category": "fantasy",
+        "width": 400,
+        "height": 400
+      },
+      {
+        "src": "/images/scraped/gallery-06.jpg",
+        "alt": "Star pattern glitter tattoo",
+        "category": "fantasy",
+        "width": 400,
+        "height": 400
+      },
+      {
+        "src": "/images/scraped/gallery-07.jpg",
+        "alt": "Birthday party glitter tattoo event",
+        "category": "events",
+        "width": 400,
+        "height": 400
+      },
+      {
+        "src": "/images/scraped/gallery-08.jpg",
+        "alt": "Corporate event glitter tattoo booth",
+        "category": "events",
+        "width": 400,
+        "height": 400
+      },
+      {
+        "src": "/images/scraped/gallery-09.jpg",
+        "alt": "Hibiscus flower glitter tattoo",
+        "category": "flowers",
+        "width": 400,
+        "height": 400
+      },
+      {
+        "src": "/images/scraped/gallery-10.jpg",
+        "alt": "Cat glitter tattoo on ankle",
+        "category": "animals",
+        "width": 400,
+        "height": 400
+      },
+      {
+        "src": "/images/scraped/gallery-11.jpg",
+        "alt": "Butterfly with flowers glitter tattoo",
+        "category": "butterflies",
+        "width": 400,
+        "height": 400
+      },
+      {
+        "src": "/images/scraped/gallery-12.jpg",
+        "alt": "Festival booth with glitter tattoos",
+        "category": "events",
+        "width": 400,
+        "height": 400
+      }
+    ]
+  }
+}
