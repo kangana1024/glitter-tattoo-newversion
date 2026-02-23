@@ -1,0 +1,260 @@
+{
+  "groupName": "event_view_view_event61",
+  "urlPaths": [
+    "/event/view/event61.php"
+  ],
+  "locales": {
+    "th": {
+      "urlPath": "/event/view/event61.php",
+      "filePath": "event/view/event61.php",
+      "locale": "th",
+      "groupName": "event_view_view_event61",
+      "title": "",
+      "description": "",
+      "keywords": "",
+      "headings": [
+        "My-02 Sporty Styte"
+      ],
+      "bodyText": "My-02 Sporty Styte « previous | next »",
+      "bodyHtml": "<h1><span class=\"t4-m12\">My-02 Sporty Styte</span></h1>\n<div class=\"demo\">\n<div id=\"main_image\"></div>\n<ul class=\"gallery_demo_unstyled\">\n    <li><img src=\"img/event61/img (5).jpg\"></li>\n    \n    <li><img src=\"img/event61/img (1).jpg\"></li>\n    \n    <li><img src=\"img/event61/img (16).jpg\"></li>\n    \n    <li><img src=\"img/event61/ev61_9.jpg\"></li>\n    \n    <li><img src=\"img/event61/img (17).jpg\"></li>\n    \n    <li><img src=\"img/event61/img (1).JPG\"></li>\n    \n    <li><img src=\"img/event61/img (4).jpg\"></li>\n    \n    <li><img src=\"img/event61/img (2).jpg\"></li>\n    \n    <li><img src=\"img/event61/img (11).jpg\"></li>\n    \n    <li><img src=\"img/event61/img (9).jpg\"></li>\n    \n    <li><img src=\"img/event61/ev61_8.jpg\"></li>\n    \n    <li><img src=\"img/event61/img (12).jpg\"></li>\n    \n    <li><img src=\"img/event61/img (10).jpg\"></li>\n    \n    <li><img src=\"img/event61/ev61_2.jpg\"></li>\n    \n    <li><img src=\"img/event61/img (14).jpg\"></li>\n    \n    <li><img src=\"img/event61/img (6).jpg\"></li>\n    \n    <li><img src=\"img/event61/img (18).jpg\"></li>\n    \n    <li><img src=\"img/event61/img (3).jpg\"></li>\n    \n    <li><img src=\"img/event61/ev61_3.jpg\"></li>\n    \n    <li><img src=\"img/event61/ev61_5.jpg\"></li>\n    \n    <li><img src=\"img/event61/img (7).jpg\"></li>\n    \n    <li><img src=\"img/event61/ev61_7.jpg\"></li>\n    \n    <li><img src=\"img/event61/img (8).jpg\"></li>\n    \n    <li><img src=\"img/event61/ev61_6.jpg\"></li>\n    \n    <li><img src=\"img/event61/ev61_1.JPG\"></li>\n    \n    <li><img src=\"img/event61/ev61_4.jpg\"></li>\n    \n    <li><img src=\"img/event61/img (13).jpg\"></li>\n    \n    <li><img src=\"img/event61/img (1).db\"></li>\n    \n    <li><img src=\"img/event61/img (15).jpg\"></li>\n    \n</ul>\n<p class=\"nav\"><a href=\"#\" onclick=\"$.galleria.prev(); return false;\">« previous</a> | <a href=\"#\" onclick=\"$.galleria.next(); return false;\">next »</a></p>\n</div>",
+      "images": [
+        {
+          "src": "/event/view/img/event61/img (5).jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event61/img (1).jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event61/img (16).jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event61/ev61_9.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event61/img (17).jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event61/img (1).JPG",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event61/img (4).jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event61/img (2).jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event61/img (11).jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event61/img (9).jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event61/ev61_8.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event61/img (12).jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event61/img (10).jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event61/ev61_2.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event61/img (14).jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event61/img (6).jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event61/img (18).jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event61/img (3).jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event61/ev61_3.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event61/ev61_5.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event61/img (7).jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event61/ev61_7.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event61/img (8).jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event61/ev61_6.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event61/ev61_1.JPG",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event61/ev61_4.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event61/img (13).jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event61/img (1).db",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event61/img (15).jpg",
+          "alt": ""
+        }
+      ]
+    }
+  },
+  "canonicalPath": "/event/view/event61.php",
+  "keywords": [],
+  "images": [
+    {
+      "src": "/event/view/img/event61/img (5).jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event61/img (1).jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event61/img (16).jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event61/ev61_9.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event61/img (17).jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event61/img (1).JPG",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event61/img (4).jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event61/img (2).jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event61/img (11).jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event61/img (9).jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event61/ev61_8.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event61/img (12).jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event61/img (10).jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event61/ev61_2.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event61/img (14).jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event61/img (6).jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event61/img (18).jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event61/img (3).jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event61/ev61_3.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event61/ev61_5.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event61/img (7).jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event61/ev61_7.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event61/img (8).jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event61/ev61_6.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event61/ev61_1.JPG",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event61/ev61_4.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event61/img (13).jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event61/img (1).db",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event61/img (15).jpg",
+      "alt": ""
+    }
+  ]
+}

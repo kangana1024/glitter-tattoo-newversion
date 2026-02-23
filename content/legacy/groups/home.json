@@ -1,0 +1,125 @@
+{
+  "groupName": "home",
+  "urlPaths": [
+    "/home_ch.html",
+    "/home_eng.php"
+  ],
+  "locales": {
+    "zh": {
+      "urlPath": "/home_ch.html",
+      "filePath": "home_ch.html",
+      "locale": "zh",
+      "groupName": "home",
+      "title": "www.glitter-tattoo.com",
+      "description": "",
+      "keywords": "",
+      "headings": [],
+      "bodyText": "We are wholesale of Glitter-Tattoo for Professional kit. We are wholesale of Glitter-Tattoo for Professional kit. We are wholesale of Glitter-Tattoo for Professional kit. Copyright www.glitter-tattoo.com 2220/11 Soi Ramkhamhaeng , 36/1 Ramkhamhaeng , Huamark, Bangkapi, Bangkok 10240 Thailand Tel. (66) 2732-9870-1 Fax. (66) 2732-0879",
+      "bodyHtml": "<br>\n<table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n  <tbody><tr>\n    <td>\n  \n<!--    <table width=\"100%\" border=\"0\" align=\"center\" cellpadding=\"5\" cellspacing=\"0\" style=\"text-align:center;\">\n        <tr>\n          <td style=\"text-align:center;\">\n          <a href=\"home_thai.html\" ><img src=\"flag/thai.png\" style=\"width:24px; height:20px; border:none;\"/></a>\n          <a href=\"home_en.html\" ><img src=\"flag/eng.png\" style=\"width:24px; height:20px; border:none;\"/></a>\n          <a href=\"home_ch.html\" ><img src=\"flag/chn.png\" style=\"width:24px; height:20px; border:none;\"/></a>\n        </td>\n        </tr>\n        </table>\n--> \n   \n<p style=\"text-align:center; margin-left:auto; margin-right:auto;\">\n</p><table width=\"99%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"text-align:center;\">\n\t<tbody><tr>\n\t<td style=\"width:47%; text-align:right;\"><a href=\"home_thai.php\" target=\"_parent\"><img src=\"flag/thai.png\" style=\"width:35px; height:30px; border:none;\"></a></td>\n\t<td style=\"width:6%; text-align:center;\"><a href=\"home_en.html\" target=\"_parent\"><img src=\"flag/eng.png\" style=\"width:35px; height:30px; border:none;\"></a></td>\n\t<td style=\"width:47%; text-align:left;\"><a href=\"home_ch.html\" target=\"_parent\"><img src=\"flag/chn.png\" style=\"width:35px; height:30px; border:none;\"></a></td>\n\t</tr>\n </tbody></table>\n  \n<p></p>\n    \n    \n    </td>\n  </tr>\n  <tr>\n    <td align=\"center\"></td>\n  </tr>\n  <tr>\n    <td align=\"center\">\n    <p style=\"color:#FFFFFF;\">\n\t<link type=\"text/css\" href=\"https://www.select2web.com/demo/jquery.marquee/css/jquery.marquee.css\" rel=\"stylesheet\" title=\"default\" media=\"all\">\n\t\n    \n    \n    </p><ul id=\"marquee1\" class=\"marquee\">\n\t<li>We are wholesale of Glitter-Tattoo for Professional kit.</li>\n\t<li>We are wholesale of Glitter-Tattoo for Professional kit.</li>\n\t<li>We are wholesale of Glitter-Tattoo for Professional kit.</li>\n</ul>\n      <span class=\"t2 style6\"><strong><span class=\"style8\">    <br>\n    <a href=\"https://www.facebook.com/pages/glitter-tattoo/109904935727480?ref=hl\" target=\"_blank\">\n      <img src=\"images/banner/facebook2.png\" style=\"width:150px; height:45px; border:none;\"></a>\n      \n      <a href=\"http://www.dermaprothailand.com\" target=\"_blank\">\n      <img src=\"images/banner/dermapro.png\" style=\"width:150px; height:45px; border:none;\"></a>\n         \n      \n      <a href=\"http://www.beauty-supplier.com\" target=\"_blank\">\n      <img src=\"images/banner/beauty-supplier.png\" style=\"width:150px; height:45px; border:none;\"></a>\n      \n      \n      <a href=\"http://www.haircrystal.com/\" target=\"_blank\">\n      <img src=\"images/banner/haircrystal.png\" style=\"width:150px; height:45px; border:none;\"></a>\n      <br>\n\n      Copyright   www.glitter-tattoo.com</span></strong></span><br>\n      <span class=\"t3 style6\">2220/11 Soi Ramkhamhaeng , 36/1 Ramkhamhaeng , Huamark, Bangkapi, Bangkok 10240 Thailand<br>\nTel. (66) 2732-9870-1  Fax. (66) 2732-0879</span><p></p></td>\n  </tr>\n  <tr>\n    <td align=\"center\">&nbsp;</td>\n  </tr>\n</tbody></table>",
+      "images": [
+        {
+          "src": "/flag/thai.png",
+          "alt": ""
+        },
+        {
+          "src": "/flag/eng.png",
+          "alt": ""
+        },
+        {
+          "src": "/flag/chn.png",
+          "alt": ""
+        },
+        {
+          "src": "/images/banner/facebook2.png",
+          "alt": ""
+        },
+        {
+          "src": "/images/banner/dermapro.png",
+          "alt": ""
+        },
+        {
+          "src": "/images/banner/beauty-supplier.png",
+          "alt": ""
+        },
+        {
+          "src": "/images/banner/haircrystal.png",
+          "alt": ""
+        }
+      ]
+    },
+    "en": {
+      "urlPath": "/home_eng.php",
+      "filePath": "home_eng.php",
+      "locale": "en",
+      "groupName": "home",
+      "title": "www.glitter-tattoo.com",
+      "description": "",
+      "keywords": "",
+      "headings": [],
+      "bodyText": "< | | | | | | > < | | | We are the wholesale of Glitter-Tattoo for Professional kit. Distributor wanted. | | | > < | | | ����繼���Ե������͡ �������ԡ�� �ô���ѧ�Թ����ͺ��ҧ/���¹Ẻ ���������ҵðҹ | | | > Copyright www.glitter-tattoo.com 2220/11 Soi Ramkhamhaeng , 36/1 Ramkhamhaeng , Huamark, Bangkapi, Bangkok 10240 Thailand Tel. (66) 2732-9870-1 Fax. (66) 2732-0879",
+      "bodyHtml": "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=windows-874\">\n\n<!-- eng MENU -->\n\n<!--===============Credit www.apycom.com==========================--> \n<div id=\"copyright\"> <a href=\"http://apycom.com/\"> </a></div>\n\n\n<table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n  <tbody><tr>\n   <td>\n\n<p style=\"text-align:center; margin-left:auto; margin-right:auto;\">\n</p><table width=\"99%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"text-align:center;\">\n\t<tbody><tr>\n\t<td style=\"width:47%; text-align:right;\"><a href=\"home_thai.php\" target=\"_parent\"><img src=\"flag/thai.png\" style=\"width:35px; height:30px; border:none;\"></a></td>\n\t<td style=\"width:6%; text-align:center;\"><a href=\"home_en.html\" target=\"_parent\"><img src=\"flag/eng.png\" style=\"width:35px; height:30px; border:none;\"></a></td>\n\t<td style=\"width:47%; text-align:left;\"><a href=\"home_ch.html\" target=\"_parent\"><img src=\"flag/chn.png\" style=\"width:35px; height:30px; border:none;\"></a></td>\n\t</tr>\n </tbody></table>\n  <br>\n<p></p>\n    \n    \n    </td>\n  </tr>\n\n\n\n\n\n  <tr class=\"flashms\">\n    <td align=\"center\" class=\"flashms\">\n\n    </td>\n  </tr>\n\n\n\n\n  <tr class=\"noflash\">\n  \t<td>\n    </td>\n  </tr>\n  <tr>\n<td align=\"center\">\n\n<!--    <script type=\"text/javascript\" src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js\"></script>\n    <script type=\"text/javascript\" src=\"http://www.select2web.com/demo/jquery.marquee/lib/jquery.marquee.js\"></script>\n-->\n\n\n    \n<!--<ul id=\"marquee1\" class=\"marquee\">\n\t<li>We are the wholesale of Glitter-Tattoo for Professional kit. Distributor wanted.</li>\n\t<li>We are the wholesale of Glitter-Tattoo for Professional kit. Distributor wanted.</li>\n\t<li>We are the wholesale of Glitter-Tattoo for Professional kit. Distributor wanted.</li>\n</ul>\n-->\n<br>\n\n        <p style=\"text-align:center;\">\n        \n        \n        \n        \n       </p><table width=\"65%\" border=\"0\" bordercolor=\"#FFFFFF\">\n       \n     \n       <tbody><tr bgcolor=\"#FFFFFF\" style=\"text-align:center;\">\n       <td bgcolor=\"#FFFFFF\" style=\"text-align:center;\">\n\t\t\n        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=windows-874\">\n   </td></tr><tr bgcolor=\"#FFFFFF\" style=\"text-align:center;\">\n       <td bgcolor=\"#FFFFFF\" style=\"text-align:center;\">\n\t\t\t\t<marquee behavior=\"alternate\" direction=\"left\" scrollamount=\"3\" width=\"5%\" bgcolor=\"white\">\n        <font style=\"color:#000; text-align:center;\" bgcolor=\"white\">\n        <font size=\"-1\">\n\t\t&lt;\n        </font>\n        </font>\n\t\t</marquee>\n        <marquee scrollamount=\"1\" direction=\"left\" width=\"3%\" bgcolor=\"white\">\n        <font style=\"color:#000; text-align:center;\" bgcolor=\"white\">\n        <font size=\"-1\">\n        | | |\n        </font>\n        </font>\n        </marquee>\n                       <!--<font size=\"-1\">7 Year anniversary, Our special promotion <strong><a href=\"eng/promotion_eng.php\">October</a></strong> <a href=\"eng/promotion_eng.php\">Click << </a></font>-->\n                \n        \n        <marquee scrollamount=\"1\" direction=\"right\" width=\"3%\" bgcolor=\"white\">\n        <font style=\"color:#000; text-align:center;\" bgcolor=\"white\">\n        <font size=\"-1\">\n\t\t| | |\n        </font>\n        </font>\n        </marquee>\n        <marquee behavior=\"alternate\" direction=\"right\" scrollamount=\"3\" width=\"5%\" bgcolor=\"white\">\n        <font style=\"color:#000; text-align:center;\" bgcolor=\"white\">\n        <font size=\"-1\">\n        &gt;\n        </font>\n        </font>\n        </marquee> \n        \n        \n        \n        \n\t</td>\n    </tr>       \n        \n  \t\t\n\n\n\n       \n       <tr bgcolor=\"#FFFFFF\" style=\"text-align:center;\">\n       <td bgcolor=\"#FFFFFF\" style=\"text-align:center;\">\n\t\t<marquee behavior=\"alternate\" direction=\"left\" scrollamount=\"3\" width=\"5%\" bgcolor=\"white\">\n        <font style=\"color:#000; text-align:center;\" bgcolor=\"white\">\n        <font size=\"-1\">\n\t\t&lt;\n        </font>\n        </font>\n\t\t</marquee>\n        <marquee scrollamount=\"1\" direction=\"left\" width=\"3%\" bgcolor=\"white\">\n        <font style=\"color:#000; text-align:center;\" bgcolor=\"white\">\n        <font size=\"-1\">\n        | | |\n        </font>\n        </font>\n        </marquee>\n        <font style=\"color:#000; text-align:center;\" bgcolor=\"white\">\n        <font size=\"-1\" bgcolor=\"white\">\n        <u bgcolor=\"white\">\n\t\t\n\t\tWe are the wholesale of Glitter-Tattoo for Professional kit. Distributor wanted.\n\t\t\n        </u>\n        </font>\n        </font>\n        <marquee scrollamount=\"1\" direction=\"right\" width=\"3%\" bgcolor=\"white\">\n        <font style=\"color:#000; text-align:center;\" bgcolor=\"white\">\n        <font size=\"-1\">\n\t\t| | |\n        </font>\n        </font>\n        </marquee>\n        <marquee behavior=\"alternate\" direction=\"right\" scrollamount=\"3\" width=\"5%\" bgcolor=\"white\">\n        <font style=\"color:#000; text-align:center;\" bgcolor=\"white\">\n        <font size=\"-1\">\n        &gt;\n        </font>\n        </font>\n        </marquee>\n        <br>\n\t</td>\n    </tr>\n    \n    \n       <tr bgcolor=\"#FFFFFF\" style=\"text-align:center;\">\n       <td bgcolor=\"#FFFFFF\" style=\"text-align:center;\">\n       \n\t\t<marquee behavior=\"alternate\" direction=\"left\" scrollamount=\"3\" width=\"5%\" bgcolor=\"white\">\n        <font style=\"color:#000; text-align:center;\" bgcolor=\"white\">\n        <font size=\"-1\">\n\t\t&lt;\n        </font>\n        </font>\n\t\t</marquee>\n        <marquee scrollamount=\"1\" direction=\"left\" width=\"3%\" bgcolor=\"white\">\n        <font style=\"color:#000; text-align:center;\" bgcolor=\"white\">\n        <font size=\"-1\">\n        | | |\n        </font>\n        </font>\n        </marquee>\n        <font style=\"color:#000; text-align:center;\" bgcolor=\"white\">\n        <font size=\"-1\">\n        <u bgcolor=\"white\">\n\t\t\n        ����繼���Ե������͡ �������ԡ�� �ô���ѧ�Թ����ͺ��ҧ/���¹Ẻ ���������ҵðҹ\n       \n        </u>\n        </font>\n        </font>\n        <marquee scrollamount=\"1\" direction=\"right\" width=\"3%\">\n        <font style=\"color:#000; text-align:center;\" bgcolor=\"white\">\n        <font size=\"-1\">\n\t\t| | |\n        </font>\n        </font>\n        </marquee>\n        <marquee behavior=\"alternate\" direction=\"right\" scrollamount=\"3\" width=\"5%\" bgcolor=\"white\">\n        <font style=\"color:#000; text-align:center;\" bgcolor=\"white\">\n        <font size=\"-1\">\n        &gt;\n        </font>\n        </font>\n        </marquee>\n\t\t</td>\n        </tr>\n        </tbody></table>\n        \n        \n        <p></p>\n\n\n<br>\n<span class=\"style8\">\n    \n      <a href=\"https://www.facebook.com/pages/glitter-tattoo/109904935727480?ref=hl\" target=\"_blank\">\n      <img src=\"images/banner/facebook2.png\" style=\"width:150px; height:45px; border:none;\"></a>\n      \n      <a href=\"http://www.dermaprothailand.com\" target=\"_blank\">\n      <img src=\"images/banner/dermapro.png\" style=\"width:150px; height:45px; border:none;\"></a>\n         \n      \n<!--      &nbsp;&nbsp;\n      <a href=\"http://www.naillover.com\" target=\"_blank\"><img src=\"images/banner/naillover.gif\" width=\"105\" height=\"37\" border=\"0\" /></a>\n-->  \n\n\n      <a href=\"http://www.beauty-supplier.com\" target=\"_blank\">\n      <img src=\"images/banner/beauty-supplier.png\" style=\"width:150px; height:45px; border:none;\"></a>\n      \n      \n      <a href=\"http://www.haircrystal.com/\" target=\"_blank\">\n      <img src=\"images/banner/haircrystal.png\" style=\"width:150px; height:45px; border:none;\"></a>\n      </span>\n    \n    \n    <span class=\"t2 style6\">\n    <strong>\n        <span class=\"style8\" style=\"color:#009;\">\n        \n        <br>\n        Copyright   www.glitter-tattoo.com</span></strong></span><br>\n\t\t<span class=\"t3 style6\" style=\"color:#009;\">\n        2220/11 Soi Ramkhamhaeng , 36/1 Ramkhamhaeng , Huamark, Bangkapi, Bangkok 10240 Thailand<br>\n   \t\tTel. (66) 2732-9870-1   Fax. (66) 2732-0879</span>\n    \t<br>\n    <br>\n\n\n        </td>\n  </tr>\n</tbody></table>\n\n<div id=\"copyright\"> <a href=\"http://apycom.com/\"> </a></div>",
+      "images": [
+        {
+          "src": "/flag/thai.png",
+          "alt": ""
+        },
+        {
+          "src": "/flag/eng.png",
+          "alt": ""
+        },
+        {
+          "src": "/flag/chn.png",
+          "alt": ""
+        },
+        {
+          "src": "/images/banner/facebook2.png",
+          "alt": ""
+        },
+        {
+          "src": "/images/banner/dermapro.png",
+          "alt": ""
+        },
+        {
+          "src": "/images/banner/beauty-supplier.png",
+          "alt": ""
+        },
+        {
+          "src": "/images/banner/haircrystal.png",
+          "alt": ""
+        }
+      ]
+    }
+  },
+  "canonicalPath": "/home_ch.html",
+  "keywords": [],
+  "images": [
+    {
+      "src": "/flag/thai.png",
+      "alt": ""
+    },
+    {
+      "src": "/flag/eng.png",
+      "alt": ""
+    },
+    {
+      "src": "/flag/chn.png",
+      "alt": ""
+    },
+    {
+      "src": "/images/banner/facebook2.png",
+      "alt": ""
+    },
+    {
+      "src": "/images/banner/dermapro.png",
+      "alt": ""
+    },
+    {
+      "src": "/images/banner/beauty-supplier.png",
+      "alt": ""
+    },
+    {
+      "src": "/images/banner/haircrystal.png",
+      "alt": ""
+    }
+  ]
+}

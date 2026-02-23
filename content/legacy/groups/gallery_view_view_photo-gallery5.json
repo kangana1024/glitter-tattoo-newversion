@@ -1,0 +1,420 @@
+{
+  "groupName": "gallery_view_view_photo-gallery5",
+  "urlPaths": [
+    "/gallery/view/photo-gallery5.htm"
+  ],
+  "locales": {
+    "th": {
+      "urlPath": "/gallery/view/photo-gallery5.htm",
+      "filePath": "gallery/view/photo-gallery5.htm",
+      "locale": "th",
+      "groupName": "gallery_view_view_photo-gallery5",
+      "title": "",
+      "description": "",
+      "keywords": "",
+      "headings": [
+        "Photo Gallery 3"
+      ],
+      "bodyText": "Photo Gallery 3 « previous | next »",
+      "bodyHtml": "<h1>Photo Gallery 3</h1>\n<div class=\"demo\">\n<div id=\"main_image\"></div>\n<ul class=\"gallery_demo_unstyled\">\n    <li><img src=\"img/p121.jpg\"></li>\n    <li><img src=\"img/p122.jpg\"></li>\n    <li><img src=\"img/p123.jpg\"></li>\n    <li><img src=\"img/p124.jpg\"></li>\n    <li><img src=\"img/p125.jpg\"></li>\n    <li><img src=\"img/p126.jpg\"></li>\n    <li><img src=\"img/p127.jpg\"></li>\n    <li><img src=\"img/p128.jpg\"></li>\n    <li><img src=\"img/p129.jpg\"></li>\n    <li><img src=\"img/p130.jpg\"></li>\n    <li><img src=\"img/p131.jpg\"></li>\n    <li><img src=\"img/p132.jpg\"></li>\n    <li><img src=\"img/p133.jpg\"></li>\n    <li><img src=\"img/p134.jpg\"></li>\n    <li><img src=\"img/p135.jpg\"></li>\n    <li><img src=\"img/p136.jpg\"></li>\n    <li><img src=\"img/p137.jpg\"></li>\n    <li><img src=\"img/p138.jpg\"></li>\n    <li><img src=\"img/p139.jpg\"></li>\n    <li><img src=\"img/p140.jpg\"></li>\n    <li><img src=\"img/p141.jpg\"></li>\n    <li><img src=\"img/p142.jpg\"></li>\n    <li><img src=\"img/p143.jpg\"></li>\n    <li><img src=\"img/p144.jpg\"></li>\n    <li><img src=\"img/p145.jpg\"></li>\n    <li><img src=\"img/p146.jpg\"></li>\n    <li><img src=\"img/p147.jpg\"></li>\n    <li><img src=\"img/p148.jpg\"></li>\n    <li><img src=\"img/p149.jpg\"></li>\n    <li><img src=\"img/p150.jpg\"></li>\n    <li><img src=\"img/p151.jpg\"></li>\n    <li><img src=\"img/p152.jpg\"></li>\n    <li><img src=\"img/p153.jpg\"></li>\n    <li><img src=\"img/p154.jpg\"></li>\n    <li><img src=\"img/p155.jpg\"></li>\n    <li><img src=\"img/p156.jpg\"></li>\n    <li><img src=\"img/p157.jpg\"></li>\n    <li><img src=\"img/p158.jpg\"></li>\n    <li><img src=\"img/p159.jpg\"></li>\n    <li><img src=\"img/p160.jpg\"></li>\n    <li><img src=\"img/p161.jpg\"></li>\n    <li><img src=\"img/p162.jpg\"></li>\n    <li><img src=\"img/p163.jpg\"></li>\n    <li><img src=\"img/p164.jpg\"></li>\n    <li><img src=\"img/p165.jpg\"></li>\n    <li><img src=\"img/p166.jpg\"></li>\n    <li><img src=\"img/p167.jpg\"></li>\n    <li><img src=\"img/p168.jpg\"></li>\n    <li><img src=\"img/p169.jpg\"></li>\n</ul>\n<p class=\"nav\"><a href=\"#\" onclick=\"$.galleria.prev(); return false;\">« previous</a> | <a href=\"#\" onclick=\"$.galleria.next(); return false;\">next »</a></p>\n</div>",
+      "images": [
+        {
+          "src": "/gallery/view/img/p121.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p122.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p123.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p124.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p125.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p126.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p127.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p128.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p129.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p130.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p131.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p132.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p133.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p134.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p135.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p136.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p137.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p138.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p139.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p140.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p141.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p142.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p143.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p144.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p145.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p146.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p147.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p148.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p149.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p150.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p151.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p152.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p153.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p154.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p155.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p156.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p157.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p158.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p159.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p160.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p161.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p162.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p163.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p164.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p165.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p166.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p167.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p168.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/img/p169.jpg",
+          "alt": ""
+        }
+      ]
+    }
+  },
+  "canonicalPath": "/gallery/view/photo-gallery5.htm",
+  "keywords": [],
+  "images": [
+    {
+      "src": "/gallery/view/img/p121.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p122.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p123.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p124.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p125.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p126.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p127.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p128.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p129.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p130.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p131.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p132.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p133.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p134.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p135.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p136.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p137.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p138.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p139.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p140.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p141.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p142.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p143.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p144.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p145.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p146.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p147.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p148.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p149.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p150.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p151.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p152.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p153.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p154.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p155.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p156.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p157.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p158.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p159.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p160.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p161.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p162.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p163.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p164.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p165.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p166.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p167.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p168.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/img/p169.jpg",
+      "alt": ""
+    }
+  ]
+}

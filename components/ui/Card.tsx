@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import Link from 'next/link';
+import Image from "next/image";
+import Link from "next/link";
 
 interface CardProps {
   title: string;
@@ -14,14 +14,14 @@ export default function Card({
   title,
   description,
   image,
-  imageAlt = '',
+  imageAlt = "",
   href,
-  className = '',
+  className = "",
 }: CardProps) {
   const content = (
     <>
       {image && (
-        <div className="relative aspect-[4/3] overflow-hidden rounded-t-xl">
+        <div className="relative aspect-4/3 overflow-hidden rounded-t-2xl">
           <Image
             src={image}
             alt={imageAlt || title}
@@ -43,7 +43,8 @@ export default function Card({
     </>
   );
 
-  const cardClasses = `group bg-surface rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden ${className}`.trim();
+  const cardClasses =
+    `group bg-surface/80 backdrop-blur-md border border-gray-100 rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] hover:-translate-y-1 transition-all duration-300 overflow-hidden ${className}`.trim();
 
   if (href) {
     return (

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Kanit, Sarabun } from "next/font/google";
+import { ThemeProvider } from "@/components/ThemeProvider";
 import "@/styles/globals.css";
 
 const kanit = Kanit({
@@ -27,11 +28,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="th">
+    <html lang="th" suppressHydrationWarning>
       <body
         className={`${kanit.variable} ${sarabun.variable} font-body antialiased`}
       >
-        {children}
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );

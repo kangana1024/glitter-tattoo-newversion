@@ -1,134 +1,44 @@
-import * as cheerio from 'cheerio';
 import * as fs from 'fs';
 import * as path from 'path';
 
-const BASE_URL = process.env.SCRAPE_TARGET_URL || 'https://www.glitter-tattoo.com';
-const RATE_LIMIT_MS = 500;
-const MAX_RETRIES = 3;
+const MANIFEST_PATH = path.join(process.cwd(), 'scraped-data', 'manifest.json');
+const LEGACY_INDEX_PATH = path.join(process.cwd(), 'content', 'legacy', 'pages.json');
 
 /**
- * Mapping rules: convert discovered old paths to new paths.
+ * Mapping rules: convert discovered old paths to new curated pages.
+ * These take priority over legacy page rendering.
  */
 const PATH_RULES: Array<{ match: RegExp; newPath: string }> = [
   { match: /^\/(index|home)\.html?$/i, newPath: '/' },
-  { match: /^\/home_(en|ch)\.html?$/i, newPath: '/' },
-  { match: /^\/2015\/?(index\.html)?$/i, newPath: '/' },
+  { match: /^\/home_(en|eng|ch)\.html?$/i, newPath: '/' },
+  { match: /^\/home_(en|eng|ch)\.php$/i, newPath: '/' },
+  { match: /^\/2015\/?(index\.html?)?$/i, newPath: '/' },
+  { match: /^\/2015\/index_th\.php$/i, newPath: '/' },
+  { match: /^\/2015\/index\.php$/i, newPath: '/' },
+  { match: /^\/2015\/th\.about_us\.php$/i, newPath: '/about' },
+  { match: /^\/about_us_(en|th)\.html?$/i, newPath: '/about' },
   { match: /^\/2015\/about(_en|_ch)?\.html?$/i, newPath: '/about' },
   { match: /^\/about\.html?$/i, newPath: '/about' },
+  { match: /^\/2015\/th\.product_(professional|diy2|stencil_pack|stencil\d*|powder\d*|accessories)\.php$/i, newPath: '/services' },
   { match: /^\/2015\/products(_en|_ch)?\.html?$/i, newPath: '/services' },
   { match: /^\/products?\.html?$/i, newPath: '/services' },
+  { match: /^\/2015\/th\.(paint_service|event_service|create_premium|create_glitter)\.php$/i, newPath: '/services' },
   { match: /^\/2015\/gallery(_en|_ch)?\.html?$/i, newPath: '/gallery' },
   { match: /^\/gallery\.html?$/i, newPath: '/gallery' },
+  { match: /^\/2015\/th\.contact_us\.php$/i, newPath: '/contact' },
+  { match: /^\/contact_us_(en|th)\.php$/i, newPath: '/contact' },
   { match: /^\/2015\/contact(_en|_ch)?\.html?$/i, newPath: '/contact' },
   { match: /^\/contact\.html?$/i, newPath: '/contact' },
 ];
 
-function delay(ms: number): Promise<void> {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
-
-async function fetchWithRetry(url: string): Promise<string> {
-  let lastError: Error | null = null;
-
-  for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
-    try {
-      const response = await fetch(url);
-      if (!response.ok) {
-        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
-      }
-      return await response.text();
-    } catch (error) {
-      lastError = error as Error;
-      if (attempt < MAX_RETRIES) {
-        const backoff = RATE_LIMIT_MS * Math.pow(2, attempt - 1);
-        process.stderr.write(`  Retry ${attempt}/${MAX_RETRIES} for ${url} (waiting ${backoff}ms)\n`);
-        await delay(backoff);
-      }
-    }
-  }
-
-  throw lastError;
-}
-
 function mapPathToNew(oldPath: string): string | null {
+  const cleaned = oldPath.split('?')[0].split('#')[0];
   for (const rule of PATH_RULES) {
-    if (rule.match.test(oldPath)) {
+    if (rule.match.test(cleaned)) {
       return rule.newPath;
     }
   }
   return null;
-}
-
-/**
- * Crawl the site homepage to discover internal links, then map them.
- */
-async function discoverUrls(): Promise<Map<string, string>> {
-  const redirects = new Map<string, string>();
-
-  try {
-    const html = await fetchWithRetry(BASE_URL);
-    const $ = cheerio.load(html);
-
-    const discoveredPaths = new Set<string>();
-
-    $('a[href]').each((_, el) => {
-      const href = $(el).attr('href') || '';
-      let urlPath: string;
-
-      try {
-        if (href.startsWith('http://') || href.startsWith('https://')) {
-          const parsed = new URL(href);
-          if (!parsed.hostname.includes('glitter-tattoo.com')) return;
-          urlPath = parsed.pathname;
-        } else if (href.startsWith('/')) {
-          urlPath = href;
-        } else if (href.startsWith('#') || href.startsWith('mailto:') || href.startsWith('tel:')) {
-          return;
-        } else {
-          urlPath = '/' + href;
-        }
-      } catch {
-        return;
-      }
-
-      // Normalize
-      urlPath = urlPath.split('?')[0].split('#')[0];
-      if (urlPath && urlPath !== '/') {
-        discoveredPaths.add(urlPath);
-      }
-    });
-
-    for (const oldPath of discoveredPaths) {
-      const newPath = mapPathToNew(oldPath);
-      if (newPath !== null) {
-        redirects.set(oldPath, newPath);
-      }
-    }
-  } catch (error) {
-    process.stderr.write(`Warning: Could not crawl ${BASE_URL}: ${(error as Error).message}\n`);
-    process.stderr.write('Using predefined redirect rules only.\n');
-  }
-
-  // Always include known legacy paths
-  const knownPaths = [
-    '/home_en.html', '/home_ch.html', '/index.html', '/home.html',
-    '/2015/about.html', '/2015/about_en.html', '/2015/about_ch.html', '/about.html',
-    '/2015/products.html', '/2015/products_en.html', '/2015/products_ch.html', '/products.html',
-    '/2015/gallery.html', '/2015/gallery_en.html', '/2015/gallery_ch.html', '/gallery.html',
-    '/2015/contact.html', '/2015/contact_en.html', '/2015/contact_ch.html', '/contact.html',
-    '/2015', '/2015/index.html',
-  ];
-
-  for (const oldPath of knownPaths) {
-    if (!redirects.has(oldPath)) {
-      const newPath = mapPathToNew(oldPath);
-      if (newPath !== null) {
-        redirects.set(oldPath, newPath);
-      }
-    }
-  }
-
-  return redirects;
 }
 
 function generateRedirectMapSource(redirects: Map<string, string>): string {
@@ -154,18 +64,71 @@ ${lines.join('\n')}
 }
 
 async function main(): Promise<void> {
-  process.stderr.write('Discovering URLs and generating redirect map...\n');
+  process.stderr.write('=== Generating Redirect Map ===\n');
 
-  const redirects = await discoverUrls();
+  const redirects = new Map<string, string>();
 
+  // 1. Load manifest to get all scraped URLs
+  if (fs.existsSync(MANIFEST_PATH)) {
+    const manifest = JSON.parse(fs.readFileSync(MANIFEST_PATH, 'utf-8'));
+    const pages: Array<{ url: string }> = manifest.pages || [];
+
+    for (const page of pages) {
+      try {
+        const urlPath = new URL(page.url).pathname;
+        const newPath = mapPathToNew(urlPath);
+        if (newPath !== null) {
+          redirects.set(urlPath, newPath);
+        }
+      } catch {
+        // skip invalid URLs
+      }
+    }
+
+    process.stderr.write(`  From manifest: ${redirects.size} redirect entries\n`);
+  } else {
+    process.stderr.write('  Warning: manifest.json not found. Using predefined rules only.\n');
+  }
+
+  // 2. Load legacy index to find pages that already have direct content
+  // These should NOT be in redirect map (they're rendered directly)
+  let legacyPaths = new Set<string>();
+  if (fs.existsSync(LEGACY_INDEX_PATH)) {
+    const legacyIndex = JSON.parse(fs.readFileSync(LEGACY_INDEX_PATH, 'utf-8'));
+    legacyPaths = new Set(legacyIndex.paths || []);
+    process.stderr.write(`  Legacy pages (excluded from redirects): ${legacyPaths.size}\n`);
+  }
+
+  // 3. Remove redirects for paths that have direct legacy content
+  for (const legacyPath of legacyPaths) {
+    redirects.delete(legacyPath);
+  }
+
+  // 4. Add known legacy paths that should always redirect
+  const knownRedirects: Array<[string, string]> = [
+    ['/home_en.html', '/'],
+    ['/home_ch.html', '/'],
+    ['/home.html', '/'],
+    ['/2015/index.html', '/'],
+  ];
+
+  for (const [oldPath, newPath] of knownRedirects) {
+    if (!legacyPaths.has(oldPath) && !redirects.has(oldPath)) {
+      redirects.set(oldPath, newPath);
+    }
+  }
+
+  // 5. Generate the TypeScript source
   const source = generateRedirectMapSource(redirects);
   const outputPath = path.join(process.cwd(), 'lib', 'redirect-map.ts');
   fs.writeFileSync(outputPath, source);
 
-  process.stderr.write(`Generated redirect map with ${redirects.size} entries: lib/redirect-map.ts\n`);
+  process.stderr.write(`\n=== Done ===\n`);
+  process.stderr.write(`  Total redirects: ${redirects.size}\n`);
+  process.stderr.write(`  Output: lib/redirect-map.ts\n`);
 }
 
 main().catch((err) => {
-  process.stderr.write(`Fatal error: ${err.message}\n`);
+  process.stderr.write(`Fatal error: ${(err as Error).message}\n`);
   process.exit(1);
 });

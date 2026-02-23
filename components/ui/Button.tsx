@@ -1,7 +1,7 @@
-import Link from 'next/link';
+import Link from "next/link";
 
-type ButtonVariant = 'primary' | 'secondary' | 'outline';
-type ButtonSize = 'sm' | 'md' | 'lg';
+type ButtonVariant = "primary" | "secondary" | "outline";
+type ButtonSize = "sm" | "md" | "lg";
 
 interface ButtonBaseProps {
   variant?: ButtonVariant;
@@ -12,7 +12,7 @@ interface ButtonBaseProps {
 
 interface ButtonAsButton extends ButtonBaseProps {
   href?: undefined;
-  type?: 'button' | 'submit' | 'reset';
+  type?: "button" | "submit" | "reset";
   onClick?: () => void;
   disabled?: boolean;
 }
@@ -28,32 +28,33 @@ type ButtonProps = ButtonAsButton | ButtonAsLink;
 
 const variantStyles: Record<ButtonVariant, string> = {
   primary:
-    'bg-primary text-white hover:bg-primary/90 shadow-md hover:shadow-lg',
+    "bg-gradient-to-r from-primary to-[#ff4785] text-white hover:opacity-90 shadow-lg shadow-primary/30 hover:shadow-primary/50 hover:-translate-y-0.5",
   secondary:
-    'bg-secondary text-white hover:bg-secondary/90 shadow-md hover:shadow-lg',
+    "bg-gradient-to-r from-secondary to-[#00b38f] text-white hover:opacity-90 shadow-lg shadow-secondary/30 hover:shadow-secondary/50 hover:-translate-y-0.5",
   outline:
-    'border-2 border-primary text-primary hover:bg-primary hover:text-white',
+    "border-2 border-primary text-primary hover:bg-primary/5 hover:-translate-y-0.5",
 };
 
 const sizeStyles: Record<ButtonSize, string> = {
-  sm: 'px-4 py-1.5 text-sm',
-  md: 'px-6 py-2.5 text-base',
-  lg: 'px-8 py-3.5 text-lg',
+  sm: "px-4 py-1.5 text-sm",
+  md: "px-6 py-2.5 text-base",
+  lg: "px-8 py-3.5 text-lg",
 };
 
 export default function Button({
-  variant = 'primary',
-  size = 'md',
+  variant = "primary",
+  size = "md",
   children,
-  className = '',
+  className = "",
   ...props
 }: ButtonProps) {
   const baseStyles =
-    'inline-flex items-center justify-center font-heading font-semibold rounded-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary/50 focus:ring-offset-2';
+    "inline-flex items-center justify-center font-heading font-semibold rounded-xl transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-primary/50 focus:ring-offset-2 active:scale-95";
 
-  const classes = `${baseStyles} ${variantStyles[variant]} ${sizeStyles[size]} ${className}`.trim();
+  const classes =
+    `${baseStyles} ${variantStyles[variant]} ${sizeStyles[size]} ${className}`.trim();
 
-  if ('href' in props && props.href) {
+  if ("href" in props && props.href) {
     return (
       <Link href={props.href} className={classes}>
         {children}
@@ -61,14 +62,14 @@ export default function Button({
     );
   }
 
-  const { type = 'button', onClick, disabled } = props as ButtonAsButton;
+  const { type = "button", onClick, disabled } = props as ButtonAsButton;
 
   return (
     <button
       type={type}
       onClick={onClick}
       disabled={disabled}
-      className={`${classes} ${disabled ? 'opacity-50 cursor-not-allowed' : ''}`}
+      className={`${classes} ${disabled ? "opacity-50 cursor-not-allowed" : ""}`}
     >
       {children}
     </button>

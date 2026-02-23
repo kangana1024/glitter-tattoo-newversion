@@ -1,25 +1,69 @@
-@import 'tailwindcss';
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
   /* Brand colors — vibrant multi-color palette from glitter-tattoo logo */
-  --color-primary: #FF6B9D;       /* Vibrant pink */
-  --color-secondary: #00D4AA;     /* Teal/mint */
-  --color-accent-yellow: #FFD93D; /* Bright yellow */
-  --color-accent-blue: #6C63FF;   /* Electric purple-blue */
-  --color-accent-orange: #FF8C42; /* Warm orange */
-  --color-accent-green: #4ECB71;  /* Bright green */
+  --color-primary: #ff6b9d; /* Vibrant pink */
+  --color-secondary: #00d4aa; /* Teal/mint */
+  --color-accent-yellow: #ffd93d; /* Bright yellow */
+  --color-accent-blue: #6c63ff; /* Electric purple-blue */
+  --color-accent-orange: #ff8c42; /* Warm orange */
+  --color-accent-green: #4ecb71; /* Bright green */
 
   /* Neutrals */
-  --color-surface: #FFFFFF;
-  --color-surface-dark: #1A1A2E;
-  --color-text-primary: #16213E;
-  --color-text-secondary: #546A7B;
-  --color-text-light: #F0F0F0;
+  --color-surface: var(--surface);
+  --color-surface-dark: #1a1a2e;
+  --color-text-primary: var(--text-main);
+  --color-text-secondary: var(--text-muted);
+  --color-text-light: #f0f0f0;
 
   /* Typography — Thai-compatible Google Fonts */
-  --font-heading: 'Kanit', sans-serif;
-  --font-body: 'Sarabun', sans-serif;
+  --font-heading: "Kanit", sans-serif;
+  --font-body: "Sarabun", sans-serif;
 
   /* Layout */
   --container-max: 1280px;
+
+  /* Animations */
+  --animate-fade-in-up: fade-in-up 0.6s ease-out forwards;
+  --animate-float: float 6s ease-in-out infinite;
+
+  @keyframes fade-in-up {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+}
+
+@layer base {
+  :root {
+    --surface: #ffffff;
+    --text-main: #16213e;
+    --text-muted: #546a7b;
+  }
+  .dark {
+    --surface: #1a1a2e;
+    --text-main: #f0f0f0;
+    --text-muted: #a0aec0;
+  }
+  
+  body {
+    background-color: var(--surface);
+    color: var(--text-main);
+  }
 }

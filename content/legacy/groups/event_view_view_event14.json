@@ -1,0 +1,260 @@
+{
+  "groupName": "event_view_view_event14",
+  "urlPaths": [
+    "/event/view/event14.htm"
+  ],
+  "locales": {
+    "th": {
+      "urlPath": "/event/view/event14.htm",
+      "filePath": "event/view/event14.htm",
+      "locale": "th",
+      "groupName": "event_view_view_event14",
+      "title": "",
+      "description": "",
+      "keywords": "",
+      "headings": [
+        "Thonglor Referral Hospital"
+      ],
+      "bodyText": "Thonglor Referral Hospital « previous | next »",
+      "bodyHtml": "<h1>Thonglor Referral Hospital</h1>\n<div class=\"demo\">\n<div id=\"main_image\"></div>\n<ul class=\"gallery_demo_unstyled\">\n    <li><img src=\"img/event14/1.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event14/2.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event14/3.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event14/4.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event14/5.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event14/6.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event14/7.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event14/8.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event14/9.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event14/10.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event14/11.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event14/12.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event14/13.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event14/14.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event14/15.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event14/16.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event14/17.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event14/18.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event14/19.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event14/20.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event14/21.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event14/22.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event14/23.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event14/24.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event14/25.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event14/26.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event14/27.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event14/28.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event14/29.jpg\" <=\"\" li=\"\">\n</li></ul>\n<p class=\"nav\"><a href=\"#\" onclick=\"$.galleria.prev(); return false;\">« previous</a> | <a href=\"#\" onclick=\"$.galleria.next(); return false;\">next »</a></p>\n</div>",
+      "images": [
+        {
+          "src": "/event/view/img/event14/1.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event14/2.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event14/3.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event14/4.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event14/5.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event14/6.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event14/7.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event14/8.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event14/9.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event14/10.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event14/11.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event14/12.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event14/13.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event14/14.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event14/15.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event14/16.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event14/17.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event14/18.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event14/19.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event14/20.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event14/21.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event14/22.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event14/23.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event14/24.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event14/25.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event14/26.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event14/27.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event14/28.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event14/29.jpg",
+          "alt": ""
+        }
+      ]
+    }
+  },
+  "canonicalPath": "/event/view/event14.htm",
+  "keywords": [],
+  "images": [
+    {
+      "src": "/event/view/img/event14/1.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event14/2.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event14/3.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event14/4.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event14/5.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event14/6.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event14/7.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event14/8.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event14/9.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event14/10.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event14/11.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event14/12.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event14/13.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event14/14.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event14/15.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event14/16.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event14/17.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event14/18.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event14/19.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event14/20.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event14/21.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event14/22.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event14/23.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event14/24.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event14/25.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event14/26.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event14/27.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event14/28.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event14/29.jpg",
+      "alt": ""
+    }
+  ]
+}

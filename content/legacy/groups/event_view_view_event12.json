@@ -1,0 +1,268 @@
+{
+  "groupName": "event_view_view_event12",
+  "urlPaths": [
+    "/event/view/event12.htm"
+  ],
+  "locales": {
+    "th": {
+      "urlPath": "/event/view/event12.htm",
+      "filePath": "event/view/event12.htm",
+      "locale": "th",
+      "groupName": "event_view_view_event12",
+      "title": "",
+      "description": "",
+      "keywords": "",
+      "headings": [
+        "TFBO 2009"
+      ],
+      "bodyText": "TFBO 2009 « previous | next »",
+      "bodyHtml": "<h1>TFBO 2009</h1>\n<div class=\"demo\">\n<div id=\"main_image\"></div>\n<ul class=\"gallery_demo_unstyled\">\n    <li><img src=\"img/event12/1.jpg\"></li>\n    <li><img src=\"img/event12/2.jpg\"></li>\n    <li><img src=\"img/event12/3.jpg\"></li>\n    <li><img src=\"img/event12/4.jpg\"></li>\n    <li><img src=\"img/event12/5.jpg\"></li>\n    <li><img src=\"img/event12/6.jpg\"></li>\n    <li><img src=\"img/event12/7.jpg\"></li>\n    <li><img src=\"img/event12/8.jpg\"></li>\n    <li><img src=\"img/event12/9.jpg\"></li>\n    <li><img src=\"img/event12/9.jpg\"></li>\n    <li><img src=\"img/event12/tfbo_2009/pic-0.jpg\"></li>\n    <li><img src=\"img/event12/tfbo_2009/pic-1.jpg\"></li>\n    <li><img src=\"img/event12/tfbo_2009/pic-2.jpg\"></li>\n    <li><img src=\"img/event12/tfbo_2009/pic-3.jpg\"></li>\n    <li><img src=\"img/event12/tfbo_2009/pic-4.jpg\"></li>\n    <li><img src=\"img/event12/tfbo_2009/pic-5.jpg\"></li>\n    <li><img src=\"img/event12/tfbo_2009/pic-6.jpg\"></li>\n    <li><img src=\"img/event12/tfbo_2009/pic-7.jpg\"></li>\n    <li><img src=\"img/event12/tfbo_2009/pic-8.jpg\"></li>\n    <li><img src=\"img/event12/tfbo_2009/pic-9.jpg\"></li>\n    <li><img src=\"img/event12/tfbo_2009/pic-10.jpg\"></li>\n    <li><img src=\"img/event12/tfbo_2009/pic-11.jpg\"></li>\n    <li><img src=\"img/event12/tfbo_2009/pic-12.jpg\"></li>\n    <li><img src=\"img/event12/tfbo_2009/pic-13.jpg\"></li>\n    <li><img src=\"img/event12/tfbo_2009/pic-14.jpg\"></li>\n    <li><img src=\"img/event12/tfbo_2009/pic-15.jpg\"></li>\n    <li><img src=\"img/event12/tfbo_2009/pic-16.jpg\"></li>\n    <li><img src=\"img/event12/tfbo_2009/pic-17.jpg\"></li>\n    <li><img src=\"img/event12/tfbo_2009/pic-18.jpg\"></li>\n    <li><img src=\"img/event12/tfbo_2009/pic-19.jpg\"></li>\n    <li><img src=\"img/event12/tfbo_2009/pic-20.jpg\"></li>\n</ul>\n<p class=\"nav\"><a href=\"#\" onclick=\"$.galleria.prev(); return false;\">« previous</a> | <a href=\"#\" onclick=\"$.galleria.next(); return false;\">next »</a></p>\n</div>",
+      "images": [
+        {
+          "src": "/event/view/img/event12/1.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event12/2.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event12/3.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event12/4.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event12/5.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event12/6.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event12/7.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event12/8.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event12/9.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event12/tfbo_2009/pic-0.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event12/tfbo_2009/pic-1.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event12/tfbo_2009/pic-2.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event12/tfbo_2009/pic-3.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event12/tfbo_2009/pic-4.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event12/tfbo_2009/pic-5.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event12/tfbo_2009/pic-6.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event12/tfbo_2009/pic-7.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event12/tfbo_2009/pic-8.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event12/tfbo_2009/pic-9.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event12/tfbo_2009/pic-10.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event12/tfbo_2009/pic-11.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event12/tfbo_2009/pic-12.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event12/tfbo_2009/pic-13.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event12/tfbo_2009/pic-14.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event12/tfbo_2009/pic-15.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event12/tfbo_2009/pic-16.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event12/tfbo_2009/pic-17.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event12/tfbo_2009/pic-18.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event12/tfbo_2009/pic-19.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event12/tfbo_2009/pic-20.jpg",
+          "alt": ""
+        }
+      ]
+    }
+  },
+  "canonicalPath": "/event/view/event12.htm",
+  "keywords": [],
+  "images": [
+    {
+      "src": "/event/view/img/event12/1.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event12/2.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event12/3.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event12/4.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event12/5.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event12/6.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event12/7.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event12/8.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event12/9.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event12/tfbo_2009/pic-0.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event12/tfbo_2009/pic-1.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event12/tfbo_2009/pic-2.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event12/tfbo_2009/pic-3.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event12/tfbo_2009/pic-4.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event12/tfbo_2009/pic-5.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event12/tfbo_2009/pic-6.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event12/tfbo_2009/pic-7.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event12/tfbo_2009/pic-8.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event12/tfbo_2009/pic-9.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event12/tfbo_2009/pic-10.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event12/tfbo_2009/pic-11.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event12/tfbo_2009/pic-12.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event12/tfbo_2009/pic-13.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event12/tfbo_2009/pic-14.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event12/tfbo_2009/pic-15.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event12/tfbo_2009/pic-16.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event12/tfbo_2009/pic-17.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event12/tfbo_2009/pic-18.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event12/tfbo_2009/pic-19.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event12/tfbo_2009/pic-20.jpg",
+      "alt": ""
+    }
+  ]
+}

@@ -1,0 +1,516 @@
+{
+  "groupName": "gallery_view_view_photo-gallery17",
+  "urlPaths": [
+    "/gallery/view/photo-gallery17.php"
+  ],
+  "locales": {
+    "th": {
+      "urlPath": "/gallery/view/photo-gallery17.php",
+      "filePath": "gallery/view/photo-gallery17.php",
+      "locale": "th",
+      "groupName": "gallery_view_view_photo-gallery17",
+      "title": "",
+      "description": "",
+      "keywords": "",
+      "headings": [
+        "Photo Gallery 10"
+      ],
+      "bodyText": "Photo Gallery 10 « previous | next »",
+      "bodyHtml": "<h1>Photo Gallery 10</h1>\n<div class=\"demo\">\n<div id=\"main_image\"></div>\n<ul class=\"gallery_demo_unstyled\">\n    <li><img src=\"Photo_Gallery17/g17-00000000042.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000024.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000013.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000001.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000009.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000010.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000036.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000003.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000012.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000043.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000051.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000030.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000052.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000047.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000055.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000022.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000054.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000041.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000014.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000032.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000053.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000057.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000023.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000060.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000035.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000020.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000056.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000019.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000016.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000058.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000039.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000007.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000037.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000021.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000046.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000027.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000044.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000005.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000050.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000029.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000033.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000028.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000015.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000061.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000059.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000006.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000008.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000026.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000031.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000018.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000002.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000004.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000045.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000011.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000034.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000038.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000049.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000048.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000040.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000025.jpg\"></li>\n    \n    <li><img src=\"Photo_Gallery17/g17-00000000017.jpg\"></li>\n    \n</ul>\n<p class=\"nav\"><a href=\"#\" onclick=\"$.galleria.prev(); return false;\">« previous</a> | <a href=\"#\" onclick=\"$.galleria.next(); return false;\">next »</a></p>\n</div>",
+      "images": [
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000042.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000024.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000013.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000001.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000009.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000010.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000036.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000003.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000012.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000043.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000051.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000030.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000052.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000047.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000055.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000022.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000054.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000041.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000014.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000032.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000053.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000057.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000023.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000060.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000035.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000020.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000056.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000019.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000016.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000058.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000039.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000007.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000037.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000021.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000046.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000027.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000044.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000005.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000050.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000029.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000033.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000028.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000015.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000061.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000059.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000006.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000008.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000026.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000031.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000018.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000002.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000004.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000045.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000011.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000034.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000038.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000049.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000048.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000040.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000025.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/Photo_Gallery17/g17-00000000017.jpg",
+          "alt": ""
+        }
+      ]
+    }
+  },
+  "canonicalPath": "/gallery/view/photo-gallery17.php",
+  "keywords": [],
+  "images": [
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000042.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000024.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000013.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000001.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000009.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000010.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000036.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000003.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000012.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000043.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000051.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000030.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000052.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000047.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000055.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000022.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000054.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000041.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000014.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000032.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000053.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000057.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000023.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000060.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000035.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000020.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000056.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000019.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000016.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000058.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000039.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000007.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000037.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000021.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000046.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000027.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000044.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000005.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000050.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000029.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000033.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000028.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000015.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000061.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000059.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000006.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000008.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000026.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000031.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000018.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000002.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000004.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000045.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000011.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000034.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000038.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000049.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000048.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000040.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000025.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/Photo_Gallery17/g17-00000000017.jpg",
+      "alt": ""
+    }
+  ]
+}

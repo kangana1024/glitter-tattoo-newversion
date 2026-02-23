@@ -1,0 +1,108 @@
+{
+  "groupName": "event_view_view_event35",
+  "urlPaths": [
+    "/event/view/event35.htm"
+  ],
+  "locales": {
+    "th": {
+      "urlPath": "/event/view/event35.htm",
+      "filePath": "event/view/event35.htm",
+      "locale": "th",
+      "groupName": "event_view_view_event35",
+      "title": "",
+      "description": "",
+      "keywords": "",
+      "headings": [
+        "งาน คนซ่าส์ กล้าเลียนแบบ ณ Sheraton Grande Sukhumvit Hotel Bangkok"
+      ],
+      "bodyText": "งาน คนซ่าส์ กล้าเลียนแบบ ณ Sheraton Grande Sukhumvit Hotel Bangkok « previous | next »",
+      "bodyHtml": "<h1>งาน คนซ่าส์ กล้าเลียนแบบ ณ Sheraton Grande Sukhumvit Hotel Bangkok</h1>\n<div class=\"demo\">\n<div id=\"main_image\"></div>\n<ul class=\"gallery_demo_unstyled\">\n    <li><img src=\"img/event35/1.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event35/2.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event35/3.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event35/4.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event35/5.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event35/6.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event35/7.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event35/8.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event35/9.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event35/10.jpg\" <=\"\" li=\"\">\n</li></ul>\n<p class=\"nav\"><a href=\"#\" onclick=\"$.galleria.prev(); return false;\">« previous</a> | <a href=\"#\" onclick=\"$.galleria.next(); return false;\">next »</a></p>\n</div>",
+      "images": [
+        {
+          "src": "/event/view/img/event35/1.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event35/2.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event35/3.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event35/4.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event35/5.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event35/6.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event35/7.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event35/8.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event35/9.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event35/10.jpg",
+          "alt": ""
+        }
+      ]
+    }
+  },
+  "canonicalPath": "/event/view/event35.htm",
+  "keywords": [],
+  "images": [
+    {
+      "src": "/event/view/img/event35/1.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event35/2.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event35/3.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event35/4.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event35/5.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event35/6.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event35/7.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event35/8.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event35/9.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event35/10.jpg",
+      "alt": ""
+    }
+  ]
+}

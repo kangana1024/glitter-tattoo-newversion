@@ -73,10 +73,10 @@
   },
   "images": [
     {
-      "src": "/images/scraped/about-team.jpg",
+      "src": "/legacy/images/images/about_us/about_us-1280w.jpg",
       "alt": "Glitter Tattoo team at work",
-      "width": 800,
-      "height": 500
+      "width": 621,
+      "height": 300
     }
   ]
 }

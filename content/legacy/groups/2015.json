@@ -1,0 +1,332 @@
+{
+  "groupName": "2015",
+  "urlPaths": [
+    "/2015/index.php",
+    "/2015/index_th.php"
+  ],
+  "locales": {
+    "th": {
+      "urlPath": "/2015/index_th.php",
+      "filePath": "2015/index_th.php",
+      "locale": "th",
+      "groupName": "2015",
+      "title": "รอยสักกากเพชร | Glitter-Tattoo.com | Home",
+      "description": "",
+      "keywords": "",
+      "headings": [
+        "ยูทูป  | วิธีการทำ",
+        "สินค้า | โปรโมชั่น",
+        "คุณภาพ และความปลอดภัย",
+        "สัมภาษณ์ทางทีวี",
+        "ระวังสินค้าลอกเลียนแบบ",
+        "แกลลอรี่  สเตนซิล | อีเว้นท์",
+        "สัมภาษณ์ / บทความ",
+        "สนใจเป็นตัวแทนจำหน่าย",
+        "เราเป็นผู้ผลิตและส่งออก  รับทำสินค้าตามความต้องการ",
+        "รอยสักกากเพชร",
+        "Glitter-Tattoo | กลิตเตอร์แทททู",
+        "Statistics Site :"
+      ],
+      "bodyText": "โปรโมชั่นประจำเดือน คลิกเลย !!! สุภาพสตรี แวววาว สีสัน สวย สดใส เด็กวัยใส ปลอดภัยกับทุกเพศทุกวัย สุภาพบุรุษ มีสไตล์ในแบบของคุณ เหมาะสมทุกส่วน หลากหลายลวดลาย โดดเด่น เรืองแสงในที่มืด ยูทูป | วิธีการทำ ชุดประกอบธุรกิจ ชุดทำได้ด้วยตนเอง สินค้า | โปรโมชั่น โปรโมชั่น ประจำเดือน กุมภาพันธ์ ของร้านในราคาพิเศษค่ะ คุณภาพ และความปลอดภัย \"กลิตเตอร์แทททู\" หรือ \"รอยสักกากเพชร\" ได้รับรองความปลอดภัยจากสถาบันชั้นนำ สัมภาษณ์ทางทีวี บทความสัมภาษณ์ลูกค้าของเรา, รายการสัมภาษณ์ทางทีวีต่าง ๆ ระวังสินค้าลอกเลียนแบบ แกลลอรี่ สเตนซิล | อีเว้นท์ สัมภาษณ์ / บทความ หลากหลายบทสัมภาษณ์จากรายการทีวีที่ได้ กลิตเตอร์แทททู หรือ \"รอยสักกากเพชร\" ถูกรับเชิญไป . . . สนใจเป็นตัวแทนจำหน่าย ลงทุนง่าย ๆ ไปกับ \"กลิตเตอร์แทททู\" สนใจเปิดร้าน / ตัวแทนจำหน่าย เราเป็นผู้ผลิตและส่งออก รับทำสินค้าตามความต้องการ Shopping Cart Add QR Code",
+      "bodyHtml": "<!-- Black Ribbon Top Right \n<img src=\"images/black_ribbons/black_ribbon_top_right.png\" class=\"black-ribbon stick-top stick-right\"/>-->\n\t\n\t\t<div class=\"clear\"></div>\n\t\t<div class=\"container clearfix\">\n\t<div class=\"flexslider\">\n\t\t<ul class=\"slides\">\n\t\t\t<li><a href=\"th.promotion.php\"><img src=\"images/slider_icon/1.jpg\" alt=\"\">\n\t\t\t\t<p class=\"flex-caption\">โปรโมชั่นประจำเดือน คลิกเลย !!!</p></a></li>\n\t\t\t<li><a href=\"th.slide2.php\"><img src=\"images/slider_icon/2.jpg\" alt=\"\"></a></li>\n\t\t\t<li><a href=\"th.slide3.php\"><img src=\"images/slider_icon/4.jpg\" alt=\"\">\n\t\t\t\t<p class=\"flex-caption\">สุภาพสตรี แวววาว สีสัน สวย สดใส</p></a></li>\n\t\t\t<!--<li><a class=\"fancybox1\" href=\"preview_product/show_how_to_do.png\" target=\"_blank\"><img src=\"images/slider_icon/4.jpg\" alt=\"\" /><p class=\"flex-caption\">วิธีการทำ ง้าย ง่าย +++</p></a></li>-->\n\t\t\t<li><a href=\"th.slide4.php\"><img src=\"images/slider_icon/5.jpg\" alt=\"\"></a>\n\t\t\t\t<p class=\"flex-caption\">เด็กวัยใส ปลอดภัยกับทุกเพศทุกวัย</p></li>\n\t\t\t<li><a href=\"th.slide5.php\"><img src=\"images/slider_icon/6.jpg\" alt=\"\"></a>\n\t\t\t\t<p class=\"flex-caption\">สุภาพบุรุษ มีสไตล์ในแบบของคุณ</p></li>\n\t\t\t<li><a href=\"th.slide6.php\"><img src=\"images/slider_icon/7.jpg\" alt=\"\"></a>\n\t\t\t\t<p class=\"flex-caption\">เหมาะสมทุกส่วน หลากหลายลวดลาย</p></li>\n\t\t\t<li><a href=\"th.slide7.php\"><img src=\"images/slider_icon/8.jpg\" alt=\"\"></a>\n\t\t\t\t<p class=\"flex-caption\">โดดเด่น เรืองแสงในที่มืด</p></li>\n\t\t\t<li><a href=\"th.event_service.php\"><img src=\"images/slider_icon/9.jpg\" alt=\"\"></a></li>\n\t\t\t<li><a href=\"#\"><img src=\"images/slider_icon/10.jpg\" alt=\"\"></a></li>\n\t\t</ul>\n\t</div>\n</div>\n\t\t\n\t\t<div class=\"clear\"></div>\n\t<div class=\"clear padding40\"></div>\n\t<section class=\"container clearfix\">\n\t\t\t<div class=\"col_1_3 featured_bg\">\n    <!--    <a href=\"https://www.youtube.com/watch?v=ANsmk68-AkE\" target=\"_blank\"><img src=\"images/index_icon/youtube_how_to_do.png\" class=\"aligncenter\" alt=\"\" style=\"width:128px; height:128px;\" /></a>\n            <a href=\"https://www.youtube.com/watch?v=ANsmk68-AkE\" target=\"_blank\">\n            <iframe src=\"http://www.youtube.com/embed/ANsmk68-AkE?autohide=1&amp;showinfo=0&amp;wmode=transparent\" width=\"180\" height=\"85\"></iframe>\n        -->\n        <a href=\"th.howtodo.php\"><img src=\"images/index_icon/howto1.png\" class=\"aligncenter\" alt=\"\"></a>\n        <div class=\"featured_block\">\n        \t<h3><a href=\"th.howtodo.php\">ยูทูป </a> | <a href=\"th.howtodo.php\">วิธีการทำ</a></h3>\n        \t<p><a href=\"th.howtodo.php\"><span class=\"highlight green\"> ชุดประกอบธุรกิจ <img src=\"images/click.gif\" class=\"aligncenter\"></span></a>\n        \t\t<a href=\"th.howtodo.php\"><span class=\"highlight pink\"> ชุดทำได้ด้วยตนเอง <img src=\"images/click.gif\" class=\"aligncenter\"></span></a>\n        \t</p>\n        </div>\n    </div>\n\n    <div class=\"col_1_3 featured_bg\">\n    \t<a href=\"th.promotion.php\"><img src=\"images/index_icon/special_offer.png\" class=\"aligncenter\" alt=\"\"></a>\n    \t<div class=\"featured_block\">\n    \t\t<h3><a href=\"http://glitter-tattoo.lnwshop.com/home\" target=\"_blank\">สินค้า</a> | <a href=\"th.promotion.php\">โปรโมชั่น</a></h3>\n    \t\t<p>โปรโมชั่น ประจำเดือน <span class=\"highlight blue\"><b>กุมภาพันธ์</b></span> \n    \t\t<br>ของร้านในราคาพิเศษค่ะ <a href=\"th.promotion.php\"><img src=\"images/click.gif\" class=\"aligncenter\" alt=\"\"></a>\n    \t</p>\n    </div>\n</div>\n<div class=\"col_1_3 featured_bg last\">\n\t<a href=\"th.safety2.php\"><img src=\"images/certificate/SGS.png\" class=\"aligncenter\" alt=\"\"></a>\n\t<div class=\"featured_block\">\n\t\t<h3><a href=\"th.safety2.php\">คุณภาพ และความปลอดภัย</a></h3>\n\t\t<p>\n\t\t\t<span class=\"highlight green\">\"กลิตเตอร์แทททู\"</span> หรือ <span class=\"highlight yellow\"> \"รอยสักกากเพชร\"</span>\n\t\t\t<br>ได้รับรองความปลอดภัยจากสถาบันชั้นนำ <a href=\"th.safety2.php\"><img src=\"images/click.gif\" class=\"aligncenter\" alt=\"\"> </a>\n\t\t</p>\n\t</div>\n</div>\n<!-- END FEATURED COLUMNS -->\n<div class=\"clear\"></div>\n\n<div class=\"col_1_3 featured_bg\">\n\t<a href=\"th.esthete.tv.php\"><img src=\"images/index_icon/howto2.png\" class=\"aligncenter\" alt=\"\"></a>\n\t<div class=\"featured_block\">\n\t\t<h3><a href=\"th.esthete.tv.php\">สัมภาษณ์ทางทีวี</a></h3>\n\t\t<p><a href=\"th.esthete.tv.php\">บทความสัมภาษณ์ลูกค้าของเรา,<br> รายการสัมภาษณ์ทางทีวีต่าง ๆ</a>\n\t\t\t<a href=\"th.esthete.tv.php\"><img src=\"images/click.gif\" class=\"aligncenter\" alt=\"\"></a>\n\t\t</p>\n\t</div>\n</div>\n<div class=\"col_1_3 featured_bg\">\n\t<a href=\"#\"><img src=\"images/index_icon/caution.png\" class=\"aligncenter\" alt=\"\" style=\"width:128px; height:128px;\"></a>\n\t<div class=\"featured_block\">\n\t\t<h3>ระวังสินค้าลอกเลียนแบบ</h3>\n\t\t<!-- <p>ทำไมต้อง By Proud.</p> -->\n\t</div>\n</div>\n<div class=\"col_1_3 featured_bg last\">\n\t<a href=\"event_list.php\"><img src=\"images/index_icon/gallery.png\" class=\"aligncenter\" alt=\"\"></a>\n\t<div class=\"featured_block\">\n\t\t<h3><a href=\"event_list.php\">แกลลอรี่</a> <br> <a href=\"th.product_stencil1.php\">สเตนซิล</a> | <a href=\"event_list.php\">อีเว้นท์</a> </h3>\n\t\t<p></p>\n\t</div>\n</div>\n<!-- END FEATURED COLUMNS -->\n<div class=\"clear\"></div>\n\n<div class=\"col_1_3 featured_bg \">\n\t<a href=\"th.press.php\"><img src=\"images/index_icon/article.png\" class=\"aligncenter\" alt=\"\" style=\"width:128px; height:128px;\"></a>\n\t<div class=\"featured_block\">\n\t\t<h3><a href=\"th.press.php\">สัมภาษณ์ / บทความ</a> </h3>\n\t\t<p>หลากหลายบทสัมภาษณ์จากรายการทีวีที่ได้ <span class=\"highlight green\">กลิตเตอร์แทททู</span> หรือ <span class=\"highlight yellow\"> \"รอยสักกากเพชร\"</span> ถูกรับเชิญไป . . . </p>\n\t</div>\n</div>\n<div class=\"col_1_3 featured_bg\">\n\t<a href=\"th.business.php\"><img src=\"images/index_icon/store.png\" class=\"aligncenter\" alt=\"\"></a>\n\t<div class=\"featured_block\">\n\t\t<h3><a href=\"th.business.php\">สนใจเป็นตัวแทนจำหน่าย</a></h3>\n\t\t<p>ลงทุนง่าย ๆ ไปกับ  <span class=\"highlight green\">\"กลิตเตอร์แทททู\"</span><br>\n\t\t\tสนใจเปิดร้าน / ตัวแทนจำหน่าย <a href=\"th.business.php\"><img src=\"images/click.gif\" class=\"aligncenter\" alt=\"\"></a>\n\t\t</p>\n\t</div>\n</div>\n\n<div class=\"col_1_3 featured_bg last\">\n\t<a href=\"th.create_glitter.php\"><img src=\"images/index_icon/oem.png\" class=\"aligncenter\" alt=\"\" style=\"width:128px; height:128px;\"></a>\n\t<div class=\"featured_block\">\n\t\t<h3><a href=\"th.create_glitter.php\"><!--OEM | -->เราเป็นผู้ผลิตและส่งออก <br> รับทำสินค้าตามความต้องการ </a></h3>\n\t\t<p></p>\n\t</div>\n</div>\n<!-- END FEATURED COLUMNS -->\n<div class=\"clear\"></div>\n<!-- END FEATURED COLUMNS -->\n\t\t\n\t\t<div class=\"clear\"></div>\n\t</section>\n\t\t<div class=\"clear\"></div>\n\t<section class=\"container clearfix\">\n\t\t<div class=\"clear\"></div>\n\t<!--<div class=\"homepage_divider\"></div>-->\n\t<div class=\"container clearfix\">\n\t<!--<div class=\"padding20\"></div>-->\t\n\t\t<!--  Update By Arthit.P 20170923 -->\t\t\n\t\t\t\t\n\t\t<!--\t\t<div class=\"companies clearfix\"  style=\"text-align:center;\">\n\t\t\t<div class=\"ctop\"></div>\n\t\t\t<div class=\"cbody\" style=\"text-align:center;\">\n\t\t\t\t<ul style=\"text-align:center;\">\n\t\t\t\t\t<li><a href=\"http://www.dermaprothailand.com/\" class=\"thumb\" target=\"_blank\"><span><img src=\"images/banner/new_dermapro.png\" alt=\"\" /></span></a>www.dermarprothailand.com</li>\n\t\t\t\t\t<li><a href=\"http://www.haircrystal.com/\" class=\"thumb\" target=\"_blank\"><span><img src=\"images/banner/haircrystalx.png\" alt=\"\" /></span></a>www.haircrystal.com</li>\n\t\t\t\t\t<li><a href=\"http://www.thai-proud.com/new/?lang=th\" class=\"thumb\" target=\"_blank\"><span><img src=\"images/banner/thaiproud.png\" alt=\"\" /></span></a>www.thai-proud.com</li>\n                    <li><a href=\"http://www.clearsugarwax.com/?lang=th\" class=\"thumb\" target=\"\t_blank\"><span><img src=\"images/banner/clearsugarwax1.png\" alt=\"\" /></span></a>www.clearsugarwax.com</li>\n    \t\t\t\t<li><a href=\"http://www.beauty-supplier.com/store/\" class=\"thumb\" target=\"_blank\"><span><img src=\"images/banner/beautysupplyx.png\" alt=\"\" /></span></a>www.beauty-supplier.com</li>\n\t\t\t\t</ul>\n\t\t\t\t<div class=\"clear\"></div>\n\t\t\t</div>\n\t\t\t<div class=\"cbottom\"></div>\n\t\t</div>\n\t-->\n\t<div class=\"clear padding20\"></div>\n\t<div class=\"clear padding20\"></div>\n\t<div class=\"delimiter\"></div>\n\n\t<div class=\"col_1_4\">\n\t\t<a href=\"http://www.dermaprothailand.com/\" class=\"thumb\" target=\"_blank\"><img src=\"images/banner/new_dermapro.png\" alt=\"\"></a>\n\t</div>\n\n\t<div class=\"col_1_4\">\n\t\t<a href=\"http://www.haircrystal.com/\" class=\"thumb\" target=\"_blank\"><img src=\"images/banner/haircrystal.png\" alt=\"\"></a>\n\t</div>\n\n<!--Update By Arthit.P 20170923 \t\n\t<div class=\"col_1_5\">\n\t\t<a href=\"http://www.thai-proud.com/new/?lang=th\" class=\"thumb\" target=\"_blank\"><img src=\"images/banner/thaiproud.png\" alt=\"\" /></a>\n\t</div> -->\n\n\t<div class=\"col_1_4\">\n\t\t<a href=\"http://www.clearsugarwax.com/?lang=th\" class=\"thumb\" target=\"\t_blank\"><img src=\"images/banner/clearsugarwax1.png\" alt=\"\"></a>\n\t</div>\n\n\t<div class=\"col_1_4 last\">\n\t\t<a href=\"http://www.beauty-supplier.com/store/\" class=\"thumb\" target=\"_blank\"><img src=\"images/banner/beautysupplyx.png\" alt=\"\"></a>\n\t</div>\t\n\t<div class=\"clear padding20\"></div>\n\t<div class=\"delimiter\"></div>\n\t\t\n\t</div></section>\n\t<div class=\"clear padding20\"></div>\n\t<section class=\"homepage_widgets_bg clearfix\">\n\t\t\n<div class=\"clear padding10\"></div>\n<p class=\"align_center\"><img src=\"images/green_logo/green_logo.png\" style=\"width:200px; height:90px;\">\n<img src=\"images/green_logo/dbd.png\" style=\"width:200px; height:90px;\"></p>\n<div class=\"clear padding10\"></div>\n\n<!-- \n<div class=\"container homepage_widgets clearfix\">\n\t<div class=\"button_divider clearfix\">\n\t\t<img src=\"images/green_logo/green_logo.png\" style=\"width:200px; height:90px;\" />\n\t\t<img src=\"images/green_logo/dbd.png\" style=\"width:200px; height:90px;\" />\n\t\t<!-- <script src=\"https://www.trustmarkthai.com/callbackData/initialize.js?t=079abb42-39-5-37e9563304a2430a36725f9c8add00d115508\" id=\"dbd-init\"></script><div id=\"Certificate-banners\"></div> -->\n\t\t<!--<img src=\"images/green_logo/dbd.png\" style=\"width:120px; height:50px;\" />-->\n\t\t<!-- <div id='ajaxDivReg'style=\"display:inline-block;\"><script type=\"text/javascript\">(function(o){function e(o){throw RangeError(L[o])}function n(o,e){for(var n=o.length;n--;)o[n]=e(o[n]);return o}function t(o,e){return n(o.split(S),e).join(\".\")}function r(o){for(var e,n,t=[],r=0,u=o.length;u>r;)e=o.charCodeAt(r++),e>=55296&&56319>=e&&u>r?(n=o.charCodeAt(r++),56320==(64512&n)?t.push(((1023&e)<<10)+(1023&n)+65536):(t.push(e),r--)):t.push(e);return t}function u(o){return n(o,function(o){var e=\"\";return o>65535&&(o-=65536,e+=R(55296|1023&o>>>10),o=56320|1023&o),e+=R(o)}).join(\"\")}function i(o){return 10>o-48?o-22:26>o-65?o-65:26>o-97?o-97:x}function f(o,e){return o+22+75*(26>o)-((0!=e)<<5)}function c(o,e,n){var t=0;for(o=n?P(o/m):o>>1,o+=P(o/e);o>M*y>>1;t+=x)o=P(o/M);return P(t+(M+1)*o/(o+j))}function l(o){var n,t,r,f,l,d,s,a,p,h,v=[],g=o.length,w=0,j=I,m=A;for(t=o.lastIndexOf(F),0>t&&(t=0),r=0;t>r;++r)o.charCodeAt(r)>=128&&e(\"not-basic\"),v.push(o.charCodeAt(r));for(f=t>0?t+1:0;g>f;){for(l=w,d=1,s=x;f>=g&&e(\"invalid-input\"),a=i(o.charCodeAt(f++)),(a>=x||a>P((b-w)/d))&&e(\"overflow\"),w+=a*d,p=m>=s?C:s>=m+y?y:s-m,!(p>a);s+=x)h=x-p,d>P(b/h)&&e(\"overflow\"),d*=h;n=v.length+1,m=c(w-l,n,0==l),P(w/n)>b-j&&e(\"overflow\"),j+=P(w/n),w%=n,v.splice(w++,0,j)}return u(v)}function d(o){var n,t,u,i,l,d,s,a,p,h,v,g,w,j,m,E=[];for(o=r(o),g=o.length,n=I,t=0,l=A,d=0;g>d;++d)v=o[d],128>v&&E.push(R(v));for(u=i=E.length,i&&E.push(F);g>u;){for(s=b,d=0;g>d;++d)v=o[d],v>=n&&s>v&&(s=v);for(w=u+1,s-n>P((b-t)/w)&&e(\"overflow\"),t+=(s-n)*w,n=s,d=0;g>d;++d)if(v=o[d],n>v&&++t>b&&e(\"overflow\"),v==n){for(a=t,p=x;h=l>=p?C:p>=l+y?y:p-l,!(h>a);p+=x)m=a-h,j=x-h,E.push(R(f(h+m%j,0))),a=P(m/j);E.push(R(f(a,0))),l=c(t,w,u==i),t=0,++u}++t,++n}return E.join(\"\")}function s(o){return t(o,function(o){return E.test(o)?l(o.slice(4).toLowerCase()):o})}function a(o){return t(o,function(o){return O.test(o)?\"xn--\"+d(o):o})}var p=\"object\"==typeof exports&&exports,h=\"object\"==typeof module&&module&&module.exports==p&&module,v=\"object\"==typeof global&&global;(v.global===v||v.window===v)&&(o=v);var g,w,b=2147483647,x=36,C=1,y=26,j=38,m=700,A=72,I=128,F=\"-\",E=/^xn--/,O=/[^ -~]/,S=/\\x2E|\\u3002|\\uFF0E|\\uFF61/g,L={overflow:\"Overflow: input needs wider integers to process\",\"not-basic\":\"Illegal input >= 0x80 (not a basic code point)\",\"invalid-input\":\"Invalid input\"},M=x-C,P=Math.floor,R=String.fromCharCode;if(g={version:\"1.2.3\",ucs2:{decode:r,encode:u},decode:l,encode:d,toASCII:a,toUnicode:s},\"function\"==typeof define&&\"object\"==typeof define.amd&&define.amd)define(function(){return g});else if(p&&!p.nodeType)if(h)h.exports=g;else for(w in g)g.hasOwnProperty(w)&&(p[w]=g[w]);else o.punycodereg=g})(this);var port=(window.location.protocol==\"https:\")?\"\":\":80\";var redirect=false;var secureurl=(window.location.protocol==\"https:\")?\"www.trustmarkthai.com\":\"www.dbdecommerce.com\";var ebansite=window.location.protocol+\"//\"+secureurl+port+\"/eban/logowebid\";var sites=[ebansite];function initialScriptReg(){callOtherDomain(sites,1,'3100800212456','www.trustmarkthai.com','ajaxDivReg','115411')}function addLoadEventReg(a){var b=window.onload;if(typeof window.onload!='function'){window.onload=a}else{window.onload=function(){b();a()}}}addLoadEventReg(initialScriptReg);function AJAXInteraction(e,f,g,h,i,j){var k=document.getElementById(i);var l;var m=navigator.userAgent;if(m.indexOf('MSIE')>0){if('XDomainRequest'in window&&window.XDomainRequest!==null){var n;l=new XDomainRequest();l.open(\"get\",e+'?uid='+punycodereg.toASCII(g)+'&url='+punycodereg.toASCII(window.top.location.host)+'&pic='+f+'&webId='+j);l.onload=function(){eval(l.responseText)};l.onerror=function(){_result=false};l.send()}}else{l=new XMLHttpRequest();l.onreadystatechange=processRequest}var d=new Date;function processRequest(){if(l.readyState==4){var a=new Date;var b=a.getTime()-d.getTime();if(b<18000&&((l.status!=0&&l.status!=502)||l.status==200)){var c=l.responseText;eval(l.responseText)}else{if(window.location.protocol==\"http:\"&&!redirect){makeRequest(\"https://\"+h+\"/eban/logowebid\",f,g,h,i,j);redirect=true}else{k.innerHTML=\"LOGO Doesn't exist\"}}}}this.doGet=function(){l.open(\"GET\",e+'?uid='+punycodereg.toASCII(g)+'&url='+punycodereg.toASCII(window.top.location.host)+'&pic='+f+'&webId='+j,true);l.send()}}function makeRequest(a,b,c,d,e,f){var g=new AJAXInteraction(a,b,c,d,e,f);g.doGet()}function callOtherDomain(a,b,c,d,e,f){for(var i=0;i<a.length;i++){makeRequest(a[i],b,c,d,e,f)}}function dbd_popup_show(a){window.open(a,'dbdcer','width=530,height=640,scrollbars=no,location=no,resizable=no')}</script></div> \n\t</div> \n</div> \n -->\n\t\t\n    </section>\n\t\t\t\n    \n    \t<!-- START FOOTER SMALL -->\n\t\n\t<!-- END FOOTER SMALL -->\n\t\t\n\t\t        <!--<ul id=\"example-1\" class=\"sticklr\">\n            <li><img src=\"../flag/thai.png\" style=\"width:25px; height:20px;\" />\n                <a href=\"#\" class=\"icon-tag\" title=\"Site switcher\"></a>\n            </li>\n            <li><img src=\"../flag/eng.png\" style=\"width:25px; height:20px;\" />\n                <a href=\"#\" class=\"icon-zoom\" title=\"Search\"></a>\n            </li>\n            <li><img src=\"../flag/chn.png\" style=\"width:25px; height:20px;\" />\n                <a href=\"#\" class=\"icon-sitemap\" title=\"Multiple-column ready\"></a>\n            </li>\n            <li><img src=\"../flag/thai.png\" style=\"width:25px; height:20px;\" />\n            </li>\n            <li><img src=\"../flag/thai.png\" style=\"width:25px; height:20px;\" />\n            </li>\n            <li>\n                <a href=\"#\" class=\"icon-email\" title=\"Notification\"><span class=\"notification-count\">3</span></a>\n                <ul>\n                    <li class=\"sticklr-title\">\n                        <a href=\"#\">Notification (3)</a>\n                    </li>\n                    <li>\n                        <form action=\"\" method=\"POST\">\n                            <input type=\"text\" name=\"search\" value=\"\" placeholder=\"Someone is typing..\" />\n                        </form>\n                    </li>\n                    <li>\n                        <a href=\"#\" class=\"icon-user\">00:32 Hello!</a>\n                    </li>\n                    <li>\n                        <a href=\"#\" class=\"icon-user\">23:52 Not really works</a>\n                    </li>\n                    <li>\n                        <a href=\"#\" class=\"icon-user\">22:07 Just example use</a>\n                    </li>\n                </ul>\n            </li>\n        </ul>\n \n \n \n \n        <ul id=\"example-3\" class=\"sticklr\">\n            <li>\n                <a href=\"#\" class=\"icon-login\" title=\"Site switcher\"><img src=\"../flag/thai.png\" style=\"width:25px; height:20px;\" /></a>\n                <ul>\n                    <li class=\"sticklr-title\">\n                        <a href=\"#\">Select Language | เลือกภาษา</a>\n                    </li>\n                    <li>\n                        <a href=\"index_th.php\" class=\"icon-amazon\"><img src=\"../flag/thai.png\" style=\"width:25px; height:20px;\" /> | ภาษาไทย</a>\n                    </li>\n                    <li>\n                        <a href=\"#\" class=\"icon-flickr\"><img src=\"../flag/eng.png\" style=\"width:25px; height:20px;\" /> | English</a>\n                    </li>\n                    <li>\n                        <a href=\"#\" class=\"icon-flickr\"><img src=\"../flag/chn.png\" style=\"width:25px; height:20px;\" /> | Chainese</a>\n                    </li>\n                    <li>\n                        <a href=\"#\" class=\"icon-flickr\">xxx</a>\n                    </li>\n                </ul>\n            </li>\n        </ul>\n\n\n\n\n\n-->\n<ul id=\"example-2\" class=\"sticklr\">\n\t\t\t<li><a href=\"http://glitter-tattoo.lnwshop.com/home\" class=\"icon-xcart\" target=\"_blank\" title=\"shopping online\"></a>\n                 <ul>\n                    <li class=\"sticklr-title\"><a href=\"http://glitter-tattoo.lnwshop.com/home\">Shopping Cart</a></li>\n                    <li><a href=\"http://glitter-tattoo.lnwshop.com/home\" target=\"_blank\" title=\"shopping online\"><img src=\"icon/cartxx.png\" alt=\"\" style=\"width:128px; height:128px;\"></a></li>\n                </ul>\n\t\t\t</li>\n\t\t\t<li><a href=\"https://www.facebook.com/glittertattoothailand/\" class=\"icon-xfacebook\" target=\"_blank\"></a></li>\n\t\t\t<li><a href=\"https://plus.google.com/u/0/105944656864473776768/posts\" class=\"icon-xgooglen\" title=\"Google+\" target=\"_blank\"></a></li>\n            <li><a href=\"https://instagram.com/glittertattoothailand/\" class=\"icon-xinsta\" title=\"Instragram\" target=\"_blank\"></a></li>\n            <li><a href=\"#\" class=\"icon-xline\" title=\"tattoo_gt\"></a>\n                <ul>\n                    <li class=\"sticklr-title\"><a href=\"#\">Add QR Code</a></li>\n                    <li><img src=\"icon/QR.jpg\" alt=\"\" style=\"width:190px; height:190px;\"></li>\n                </ul>\n            </li>\n           <li><a href=\"https://www.youtube.com/channel/UCDAn6USOY9enQ436qjkgSyg/videos?flow=list&amp;view=0&amp;sort=p\" class=\"icon-xyoutube\" title=\"Youtube\" target=\"_blank\"></a></li>   \n</ul>",
+      "images": [
+        {
+          "src": "/2015/images/logo.png",
+          "alt": ""
+        },
+        {
+          "src": "/2015/images/hothot.gif",
+          "alt": ""
+        },
+        {
+          "src": "/2015/images/coolcool.gif",
+          "alt": ""
+        },
+        {
+          "src": "/flag/thai.png",
+          "alt": ""
+        },
+        {
+          "src": "/flag/eng.png",
+          "alt": ""
+        },
+        {
+          "src": "/flag/chn.png",
+          "alt": ""
+        },
+        {
+          "src": "/2015/images/slider_icon/1.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/2015/images/slider_icon/2.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/2015/images/slider_icon/4.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/2015/images/slider_icon/5.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/2015/images/slider_icon/6.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/2015/images/slider_icon/7.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/2015/images/slider_icon/8.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/2015/images/slider_icon/9.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/2015/images/slider_icon/10.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/2015/images/index_icon/howto1.png",
+          "alt": ""
+        },
+        {
+          "src": "/2015/images/click.gif",
+          "alt": ""
+        },
+        {
+          "src": "/2015/images/index_icon/special_offer.png",
+          "alt": ""
+        },
+        {
+          "src": "/2015/images/certificate/SGS.png",
+          "alt": ""
+        },
+        {
+          "src": "/2015/images/index_icon/howto2.png",
+          "alt": ""
+        },
+        {
+          "src": "/2015/images/index_icon/caution.png",
+          "alt": ""
+        },
+        {
+          "src": "/2015/images/index_icon/gallery.png",
+          "alt": ""
+        },
+        {
+          "src": "/2015/images/index_icon/article.png",
+          "alt": ""
+        },
+        {
+          "src": "/2015/images/index_icon/store.png",
+          "alt": ""
+        },
+        {
+          "src": "/2015/images/index_icon/oem.png",
+          "alt": ""
+        },
+        {
+          "src": "/2015/images/banner/new_dermapro.png",
+          "alt": ""
+        },
+        {
+          "src": "/2015/images/banner/haircrystal.png",
+          "alt": ""
+        },
+        {
+          "src": "/2015/images/banner/clearsugarwax1.png",
+          "alt": ""
+        },
+        {
+          "src": "/2015/images/banner/beautysupplyx.png",
+          "alt": ""
+        },
+        {
+          "src": "/2015/images/green_logo/green_logo.png",
+          "alt": ""
+        },
+        {
+          "src": "/2015/images/green_logo/dbd.png",
+          "alt": ""
+        },
+        {
+          "src": "/2015/icon/mobile.png",
+          "alt": ""
+        },
+        {
+          "src": "/2015/icon/telephone.png",
+          "alt": ""
+        },
+        {
+          "src": "/2015/images/butterfly.png",
+          "alt": ""
+        },
+        {
+          "src": "/2015/icon/cartxx.png",
+          "alt": ""
+        },
+        {
+          "src": "/2015/icon/QR.jpg",
+          "alt": ""
+        }
+      ]
+    }
+  },
+  "canonicalPath": "/2015/index.php",
+  "keywords": [],
+  "images": [
+    {
+      "src": "/2015/images/logo.png",
+      "alt": ""
+    },
+    {
+      "src": "/2015/images/green_logo/green_logo.png",
+      "alt": ""
+    },
+    {
+      "src": "/2015/images/green_logo/dbd.png",
+      "alt": ""
+    },
+    {
+      "src": "/2015/icon/mobile.png",
+      "alt": ""
+    },
+    {
+      "src": "/2015/icon/telephone.png",
+      "alt": ""
+    },
+    {
+      "src": "/2015/icon/fax.png",
+      "alt": ""
+    },
+    {
+      "src": "/2015/images/butterfly.png",
+      "alt": ""
+    },
+    {
+      "src": "/2015/icon/cartxx.png",
+      "alt": ""
+    },
+    {
+      "src": "/2015/icon/QR.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/2015/images/hothot.gif",
+      "alt": ""
+    },
+    {
+      "src": "/2015/images/coolcool.gif",
+      "alt": ""
+    },
+    {
+      "src": "/flag/thai.png",
+      "alt": ""
+    },
+    {
+      "src": "/flag/eng.png",
+      "alt": ""
+    },
+    {
+      "src": "/flag/chn.png",
+      "alt": ""
+    },
+    {
+      "src": "/2015/images/slider_icon/1.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/2015/images/slider_icon/2.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/2015/images/slider_icon/4.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/2015/images/slider_icon/5.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/2015/images/slider_icon/6.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/2015/images/slider_icon/7.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/2015/images/slider_icon/8.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/2015/images/slider_icon/9.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/2015/images/slider_icon/10.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/2015/images/index_icon/howto1.png",
+      "alt": ""
+    },
+    {
+      "src": "/2015/images/click.gif",
+      "alt": ""
+    },
+    {
+      "src": "/2015/images/index_icon/special_offer.png",
+      "alt": ""
+    },
+    {
+      "src": "/2015/images/certificate/SGS.png",
+      "alt": ""
+    },
+    {
+      "src": "/2015/images/index_icon/howto2.png",
+      "alt": ""
+    },
+    {
+      "src": "/2015/images/index_icon/caution.png",
+      "alt": ""
+    },
+    {
+      "src": "/2015/images/index_icon/gallery.png",
+      "alt": ""
+    },
+    {
+      "src": "/2015/images/index_icon/article.png",
+      "alt": ""
+    },
+    {
+      "src": "/2015/images/index_icon/store.png",
+      "alt": ""
+    },
+    {
+      "src": "/2015/images/index_icon/oem.png",
+      "alt": ""
+    },
+    {
+      "src": "/2015/images/banner/new_dermapro.png",
+      "alt": ""
+    },
+    {
+      "src": "/2015/images/banner/haircrystal.png",
+      "alt": ""
+    },
+    {
+      "src": "/2015/images/banner/clearsugarwax1.png",
+      "alt": ""
+    },
+    {
+      "src": "/2015/images/banner/beautysupplyx.png",
+      "alt": ""
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "groupName": "event_detail",
+  "urlPaths": [
+    "/2015/event_detail.php"
+  ],
+  "locales": {
+    "th": {
+      "urlPath": "/2015/event_detail.php",
+      "filePath": "2015/event_detail.php",
+      "locale": "th",
+      "groupName": "event_detail",
+      "title": "รอยสักกากเพชร | Glitter-Tattoo.com | Event Detail",
+      "description": "",
+      "keywords": "",
+      "headings": [
+        "Event Detail"
+      ],
+      "bodyText": "Error Query [SELECT * FROM tbl_event_image_new WHERE ID =]",
+      "bodyHtml": "Error Query [SELECT * FROM tbl_event_image_new WHERE ID =]",
+      "images": [
+        {
+          "src": "/2015/images/black_ribbons/black_ribbon_top_right.png",
+          "alt": ""
+        },
+        {
+          "src": "/2015/images/logo.png",
+          "alt": ""
+        },
+        {
+          "src": "/2015/images/hothot.gif",
+          "alt": ""
+        },
+        {
+          "src": "/2015/images/coolcool.gif",
+          "alt": ""
+        },
+        {
+          "src": "/flag/thai.png",
+          "alt": ""
+        },
+        {
+          "src": "/flag/eng.png",
+          "alt": ""
+        },
+        {
+          "src": "/flag/chn.png",
+          "alt": ""
+        },
+        {
+          "src": "/2015/anitmation/butterfly3.gif",
+          "alt": ""
+        }
+      ]
+    }
+  },
+  "canonicalPath": "/2015/event_detail.php",
+  "keywords": [],
+  "images": [
+    {
+      "src": "/2015/images/black_ribbons/black_ribbon_top_right.png",
+      "alt": ""
+    },
+    {
+      "src": "/2015/images/logo.png",
+      "alt": ""
+    },
+    {
+      "src": "/2015/images/hothot.gif",
+      "alt": ""
+    },
+    {
+      "src": "/2015/images/coolcool.gif",
+      "alt": ""
+    },
+    {
+      "src": "/flag/thai.png",
+      "alt": ""
+    },
+    {
+      "src": "/flag/eng.png",
+      "alt": ""
+    },
+    {
+      "src": "/flag/chn.png",
+      "alt": ""
+    },
+    {
+      "src": "/2015/anitmation/butterfly3.gif",
+      "alt": ""
+    }
+  ]
+}

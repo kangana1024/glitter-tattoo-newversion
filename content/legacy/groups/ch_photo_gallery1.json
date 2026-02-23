@@ -1,0 +1,242 @@
+{
+  "groupName": "ch_photo_gallery1",
+  "urlPaths": [
+    "/ch/photo_gallery1_ch.html"
+  ],
+  "locales": {
+    "zh": {
+      "urlPath": "/ch/photo_gallery1_ch.html",
+      "filePath": "ch/photo_gallery1_ch.html",
+      "locale": "zh",
+      "groupName": "ch_photo_gallery1",
+      "title": "www.glitter-tattoo.com",
+      "description": "",
+      "keywords": "",
+      "headings": [],
+      "bodyText": "Languages Photo Gallery 1 Photo Gallery 2 Photo Gallery 3 Photo Gallery 4 Photo Gallery 5 Photo Gallery 6 Photo Gallery 7 Photo Gallery 8 Photo Gallery 9 Photo Gallery 10 Copyright www.glitter-tattoo.com 2220/11 Soi Ramkhamhaeng , 36/1 Ramkhamhaeng , Huamark, Bangkapi, Bangkok 10240 Thailand Tel. (66) 2732-9870-1 Fax. (66) 2732-0879",
+      "bodyHtml": "<br>\n<table width=\"708\" border=\"0\" align=\"center\" cellpadding=\"5\" cellspacing=\"0\">\n  <tbody><tr>\n    <td align=\"right\" valign=\"middle\" class=\"t3 style1\">Languages \n    <a href=\"/photo_gallery1_th.html\"><img src=\"/images/bulet/thai.jpg\" width=\"25\" height=\"15\" border=\"0\"></a>\n    <a href=\"../photo_gallery_new/index_eng.php\"><img src=\"/images/bulet/eng.jpg\" width=\"24\" height=\"15\" border=\"0\"> </a>\n    <a href=\"/ch/photo_gallery1_ch.html\"><img src=\"/images/hongkongflag.png\" border=\"0\"></a>\n      \n      \n\n      \n      \n      </td>\n  </tr>\n</tbody></table>\n<table width=\"720\" border=\"0\" align=\"center\" cellpadding=\"0\" cellspacing=\"0\">\n  <tbody><tr>\n    <td width=\"8\"><img src=\"/images/b_bg/b1.gif\" width=\"8\" height=\"8\"></td>\n    <td width=\"702\" bgcolor=\"#EBEBEB\"><img src=\"/images/dot.gif\" width=\"1\" height=\"1\"></td>\n    <td width=\"8\"><img src=\"/images/b_bg/b2.gif\" width=\"8\" height=\"8\"></td>\n  </tr>\n  <tr>\n    <td bgcolor=\"#EBEBEB\">&nbsp;</td>\n    <td bgcolor=\"#EBEBEB\"><table width=\"692\" border=\"0\" align=\"center\" cellpadding=\"0\" cellspacing=\"0\">\n      <tbody><tr>\n        <td><img src=\"/images/dot.gif\" width=\"1\" height=\"7\"></td>\n      </tr>\n      <tr>\n        <td><table width=\"692\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n          <tbody><tr>\n            <td></td>\n          </tr>\n          <tr>\n            <td></td>\n          </tr>\n        </tbody></table></td>\n      </tr>\n      <tr>\n        <td><img src=\"/images/dot.gif\" width=\"10\" height=\"10\"></td>\n      </tr>\n      <tr>\n        <td valign=\"top\"><table width=\"692\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n          <tbody><tr>\n            <td width=\"17\"><img src=\"/images/b_b/b1.gif\" width=\"17\" height=\"17\"></td>\n            <td width=\"658\" bgcolor=\"#FFFFFF\"><img src=\"/images/dot.gif\" width=\"1\" height=\"1\"></td>\n            <td width=\"17\"><img src=\"/images/b_b/b2.gif\" width=\"17\" height=\"17\"></td>\n          </tr>\n          <tr>\n            <td bgcolor=\"#FFFFFF\"><img src=\"/images/dot.gif\" width=\"17\" height=\"1\"></td>\n            <td align=\"center\" valign=\"top\" bgcolor=\"#FFFFFF\"><table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n              <tbody><tr>\n                <td width=\"49%\" align=\"left\">&nbsp;&nbsp;&nbsp;<img src=\"/images/photo_gallery/head_photo_gallery.jpg\" width=\"295\" height=\"56\"></td>\n                <td width=\"51%\" align=\"left\" valign=\"bottom\">&nbsp;</td>\n              </tr>\n              <tr>\n                <td colspan=\"2\"><img src=\"/images/line01.gif\" width=\"656\" height=\"13\"></td>\n              </tr>\n            </tbody></table>\n              <ul class=\"gallery\">\n                <li><a href=\"/gallery/view/photo-gallery1.htm\" target=\"_blank\"><img src=\"/timthumb.php?src=/gallery/view/img/p3b.jpg&amp;w=170&amp;h=100&amp;a=c\" alt=\"image\"></a><em>Photo Gallery 1</em> <div class=\"bg\"></div></li>\n                <li><a href=\"/gallery/view/photo-gallery3.htm\" target=\"_blank\"><img src=\"/timthumb.php?src=/gallery/view/img/p62b.jpg&amp;w=170&amp;h=100&amp;a=c\" alt=\"image\"></a><em>Photo Gallery 2</em> <div class=\"bg\"></div></li>\n                <li><a href=\"/gallery/view/photo-gallery5.htm\" target=\"_blank\"><img src=\"/timthumb.php?src=/gallery/view/img/p128.jpg&amp;w=170&amp;h=100&amp;a=c\" alt=\"image\"></a><em>Photo Gallery 3</em> <div class=\"bg\"></div></li>\n                <li><a href=\"/gallery/view/photo-gallery8.php\" target=\"_blank\"><img src=\"/timthumb.php?src=/gallery/view/img/p170.jpg&amp;w=170&amp;h=100&amp;a=c\" alt=\"image\"></a><em>Photo Gallery 4</em> <div class=\"bg\"></div></li>\n                <li><a href=\"/gallery/view/photo-gallery9.php\" target=\"_blank\"><img src=\"/timthumb.php?src=/gallery/view/gall8/7.jpg&amp;w=170&amp;h=100&amp;a=c\" alt=\"image\"></a><em>Photo Gallery 5</em> <div class=\"bg\"></div></li>\n                <li><a href=\"/gallery/view/photo-gallery12.php\" target=\"_blank\"><img src=\"/timthumb.php?src=/gallery/view/Phpto_Gallery_12/_MG_9290.1.jpg&amp;w=170&amp;h=100&amp;a=c\" alt=\"image\"></a><em>Photo Gallery 6</em> <div class=\"bg\"></div></li>\n                <li><a href=\"/gallery/view/photo-gallery11.php\" target=\"_blank\"><img src=\"/timthumb.php?src=/gallery/view/gall11/SDC10906.1.jpg&amp;w=170&amp;h=100&amp;a=c\" alt=\"image\"></a><em>Photo Gallery 7</em> <div class=\"bg\"></div></li>\n                <li><a href=\"/gallery/view/photo-gallery13.php\" target=\"_blank\"><img src=\"/timthumb.php?src=/gallery/view/photo_gallery_13/SDC11802.1.jpg&amp;w=170&amp;h=100&amp;a=c\" alt=\"image\"></a><em>Photo Gallery 8</em> <div class=\"bg\"></div></li>\n                <li><a href=\"/gallery/view/photo-gallery15.php\" target=\"_blank\"><img src=\"/timthumb.php?src=/gallery/view/Photo_Gallery15/g15-9.JPG&amp;w=170&amp;h=100&amp;a=c\" alt=\"image\"></a><em>Photo Gallery 9</em> <div class=\"bg\"></div></li>\n                 <li><a href=\"/gallery/view/photo-gallery17.php\" target=\"_blank\"><img src=\"/timthumb.php?src=/gallery/view/Photo_Gallery17/g17-00000000028.jpg&amp;w=170&amp;h=100&amp;a=c\" alt=\"image\"></a><em>Photo Gallery 10</em> <div class=\"bg\"></div></li>\n                </ul>\n              <table width=\"92%\" border=\"0\" cellspacing=\"0\" cellpadding=\"5\">\n                <tbody><tr>\n                  <td align=\"left\">&nbsp;</td>\n                </tr>\n              </tbody></table>\n              <p><br>\n                </p>              </td>\n            <td bgcolor=\"#FFFFFF\"><img src=\"/images/dot.gif\" width=\"17\" height=\"1\"></td>\n          </tr>\n          <tr>\n            <td><img src=\"/images/b_b/b3.gif\" width=\"17\" height=\"17\"></td>\n            <td bgcolor=\"#FFFFFF\"><img src=\"/images/dot.gif\" width=\"1\" height=\"17\"></td>\n            <td><img src=\"/images/b_b/b4.gif\" width=\"17\" height=\"17\"></td>\n          </tr>\n        </tbody></table></td>\n      </tr>\n      <tr>\n        <td><img src=\"/images/dot.gif\" width=\"1\" height=\"10\"></td>\n      </tr>\n      <tr>\n        <td><table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n          <tbody><tr>\n            <td width=\"17\"><img src=\"/images/b_footer/b1.gif\" width=\"17\" height=\"65\"></td>\n            <td width=\"46\" align=\"center\" bgcolor=\"#282C37\" class=\"t3\"><img src=\"/images/b_footer/lg.jpg\" width=\"46\" height=\"48\"></td>\n            <td colspan=\"3\" align=\"center\" bgcolor=\"#282C37\" class=\"t3\"><p><span class=\"t2 style6\"><strong>Copyright   www.glitter-tattoo.com</strong></span><br>\n              <span class=\"t3 style6\">2220/11 Soi Ramkhamhaeng , 36/1 Ramkhamhaeng , Huamark, Bangkapi, Bangkok 10240 Thailand</span><span class=\"style3\"><br>\n                Tel. (66) 2732-9870-1  Fax. (66) 2732-0879</span></p>              </td>\n            <td width=\"17\"><img src=\"/images/b_footer/b2.gif\" width=\"17\" height=\"65\"></td>\n          </tr>\n          \n        </tbody></table></td>\n      </tr>\n      <tr>\n        <td><img src=\"/images/dot.gif\" width=\"1\" height=\"7\"></td>\n      </tr>\n    </tbody></table>      </td>\n    <td bgcolor=\"#EBEBEB\"><img src=\"/images/dot.gif\" width=\"8\" height=\"1\"></td>\n  </tr>\n  <tr>\n    <td><img src=\"/images/b_bg/b3.gif\" width=\"8\" height=\"8\"></td>\n    <td bgcolor=\"#EBEBEB\"><img src=\"/images/dot.gif\" width=\"1\" height=\"1\"></td>\n    <td><img src=\"/images/b_bg/b4.gif\" width=\"8\" height=\"8\"></td>\n  </tr>\n</tbody></table>\n<br>",
+      "images": [
+        {
+          "src": "/images/bulet/thai.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/images/bulet/eng.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/images/hongkongflag.png",
+          "alt": ""
+        },
+        {
+          "src": "/images/b_bg/b1.gif",
+          "alt": ""
+        },
+        {
+          "src": "/images/dot.gif",
+          "alt": ""
+        },
+        {
+          "src": "/images/b_bg/b2.gif",
+          "alt": ""
+        },
+        {
+          "src": "/images/b_b/b1.gif",
+          "alt": ""
+        },
+        {
+          "src": "/images/b_b/b2.gif",
+          "alt": ""
+        },
+        {
+          "src": "/images/photo_gallery/head_photo_gallery.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/images/line01.gif",
+          "alt": ""
+        },
+        {
+          "src": "/timthumb.php?src=/gallery/view/img/p3b.jpg&w=170&h=100&a=c",
+          "alt": "image"
+        },
+        {
+          "src": "/timthumb.php?src=/gallery/view/img/p62b.jpg&w=170&h=100&a=c",
+          "alt": "image"
+        },
+        {
+          "src": "/timthumb.php?src=/gallery/view/img/p128.jpg&w=170&h=100&a=c",
+          "alt": "image"
+        },
+        {
+          "src": "/timthumb.php?src=/gallery/view/img/p170.jpg&w=170&h=100&a=c",
+          "alt": "image"
+        },
+        {
+          "src": "/timthumb.php?src=/gallery/view/gall8/7.jpg&w=170&h=100&a=c",
+          "alt": "image"
+        },
+        {
+          "src": "/timthumb.php?src=/gallery/view/Phpto_Gallery_12/_MG_9290.1.jpg&w=170&h=100&a=c",
+          "alt": "image"
+        },
+        {
+          "src": "/timthumb.php?src=/gallery/view/gall11/SDC10906.1.jpg&w=170&h=100&a=c",
+          "alt": "image"
+        },
+        {
+          "src": "/timthumb.php?src=/gallery/view/photo_gallery_13/SDC11802.1.jpg&w=170&h=100&a=c",
+          "alt": "image"
+        },
+        {
+          "src": "/timthumb.php?src=/gallery/view/Photo_Gallery15/g15-9.JPG&w=170&h=100&a=c",
+          "alt": "image"
+        },
+        {
+          "src": "/timthumb.php?src=/gallery/view/Photo_Gallery17/g17-00000000028.jpg&w=170&h=100&a=c",
+          "alt": "image"
+        },
+        {
+          "src": "/images/b_b/b3.gif",
+          "alt": ""
+        },
+        {
+          "src": "/images/b_b/b4.gif",
+          "alt": ""
+        },
+        {
+          "src": "/images/b_footer/b1.gif",
+          "alt": ""
+        },
+        {
+          "src": "/images/b_footer/lg.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/images/b_footer/b2.gif",
+          "alt": ""
+        },
+        {
+          "src": "/images/b_bg/b3.gif",
+          "alt": ""
+        },
+        {
+          "src": "/images/b_bg/b4.gif",
+          "alt": ""
+        }
+      ]
+    }
+  },
+  "canonicalPath": "/ch/photo_gallery1_ch.html",
+  "keywords": [],
+  "images": [
+    {
+      "src": "/images/bulet/thai.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/images/bulet/eng.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/images/hongkongflag.png",
+      "alt": ""
+    },
+    {
+      "src": "/images/b_bg/b1.gif",
+      "alt": ""
+    },
+    {
+      "src": "/images/dot.gif",
+      "alt": ""
+    },
+    {
+      "src": "/images/b_bg/b2.gif",
+      "alt": ""
+    },
+    {
+      "src": "/images/b_b/b1.gif",
+      "alt": ""
+    },
+    {
+      "src": "/images/b_b/b2.gif",
+      "alt": ""
+    },
+    {
+      "src": "/images/photo_gallery/head_photo_gallery.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/images/line01.gif",
+      "alt": ""
+    },
+    {
+      "src": "/timthumb.php?src=/gallery/view/img/p3b.jpg&w=170&h=100&a=c",
+      "alt": "image"
+    },
+    {
+      "src": "/timthumb.php?src=/gallery/view/img/p62b.jpg&w=170&h=100&a=c",
+      "alt": "image"
+    },
+    {
+      "src": "/timthumb.php?src=/gallery/view/img/p128.jpg&w=170&h=100&a=c",
+      "alt": "image"
+    },
+    {
+      "src": "/timthumb.php?src=/gallery/view/img/p170.jpg&w=170&h=100&a=c",
+      "alt": "image"
+    },
+    {
+      "src": "/timthumb.php?src=/gallery/view/gall8/7.jpg&w=170&h=100&a=c",
+      "alt": "image"
+    },
+    {
+      "src": "/timthumb.php?src=/gallery/view/Phpto_Gallery_12/_MG_9290.1.jpg&w=170&h=100&a=c",
+      "alt": "image"
+    },
+    {
+      "src": "/timthumb.php?src=/gallery/view/gall11/SDC10906.1.jpg&w=170&h=100&a=c",
+      "alt": "image"
+    },
+    {
+      "src": "/timthumb.php?src=/gallery/view/photo_gallery_13/SDC11802.1.jpg&w=170&h=100&a=c",
+      "alt": "image"
+    },
+    {
+      "src": "/timthumb.php?src=/gallery/view/Photo_Gallery15/g15-9.JPG&w=170&h=100&a=c",
+      "alt": "image"
+    },
+    {
+      "src": "/timthumb.php?src=/gallery/view/Photo_Gallery17/g17-00000000028.jpg&w=170&h=100&a=c",
+      "alt": "image"
+    },
+    {
+      "src": "/images/b_b/b3.gif",
+      "alt": ""
+    },
+    {
+      "src": "/images/b_b/b4.gif",
+      "alt": ""
+    },
+    {
+      "src": "/images/b_footer/b1.gif",
+      "alt": ""
+    },
+    {
+      "src": "/images/b_footer/lg.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/images/b_footer/b2.gif",
+      "alt": ""
+    },
+    {
+      "src": "/images/b_bg/b3.gif",
+      "alt": ""
+    },
+    {
+      "src": "/images/b_bg/b4.gif",
+      "alt": ""
+    }
+  ]
+}

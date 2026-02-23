@@ -9,13 +9,19 @@
     "lint": "eslint .",
     "test": "jest",
     "scrape": "tsx scripts/scrape.ts",
+    "scrape:content": "tsx scripts/scrape-content.ts",
     "scrape:images": "tsx scripts/scrape-images.ts",
+    "optimize:images": "tsx scripts/optimize-images.ts",
+    "parse:legacy": "tsx scripts/parse-legacy-pages.ts",
     "generate:redirects": "tsx scripts/generate-redirects.ts",
-    "generate:sitemap": "tsx scripts/generate-sitemap.ts"
+    "generate:sitemap": "tsx scripts/generate-sitemap.ts",
+    "prepare:content": "npm run parse:legacy && npm run optimize:images && npm run generate:redirects && npm run generate:sitemap"
   },
   "dependencies": {
+    "lucide-react": "^0.575.0",
     "next": "16.1.6",
     "next-intl": "^4.8.3",
+    "next-themes": "^0.4.6",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "schema-dts": "^1.1.5",

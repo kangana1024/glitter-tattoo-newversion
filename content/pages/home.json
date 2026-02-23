@@ -1,7 +1,7 @@
 {
   "page": "home",
   "title": "Glitter Tattoo - Temporary Glitter Body Art",
-  "description": "Professional glitter tattoo services for events, parties, and celebrations. Beautiful, safe, and temporary body art in Bangkok, Thailand.",
+  "description": "Professional glitter tattoo supplies, stencils, and services from Thailand. SGS certified, skin-safe materials. Manufacturer and distributor of glitter tattoo products.",
   "sections": {
     "hero": {
       "heading": {
@@ -10,76 +10,238 @@
         "zh": "闪粉纹身 - 临时闪粉身体艺术"
       },
       "subheading": {
-        "th": "สวยงาม ปลอดภัย และเหมาะสำหรับทุกวัย",
-        "en": "Beautiful, safe, and perfect for all ages",
-        "zh": "美丽、安全，适合所有年龄段"
+        "th": "ผลิตและจำหน่ายชุดกลิตเตอร์แทททูมืออาชีพ ปลอดภัยสำหรับทุกวัย ผ่านมาตรฐาน SGS",
+        "en": "Professional glitter tattoo kits manufacturer. Safe for all ages. SGS certified quality.",
+        "zh": "专业闪粉纹身套装制造商。适合所有年龄。SGS认证品质。"
       },
       "cta": {
-        "th": "ดูบริการของเรา",
-        "en": "View Our Services",
-        "zh": "查看我们的服务"
-      }
+        "th": "ดูสินค้าของเรา",
+        "en": "View Our Products",
+        "zh": "查看我们的产品"
+      },
+      "slides": [
+        {
+          "src": "/legacy/images/slider_icon/1.jpg",
+          "alt": "Monthly promotion",
+          "caption": { "th": "โปรโมชั่นประจำเดือน คลิกเลย !!!", "en": "Monthly Promotions Click Now !!!", "zh": "每月促销点击这里！！！" },
+          "href": "/promotion"
+        },
+        {
+          "src": "/legacy/images/slider_icon/2.jpg",
+          "alt": "Glitter tattoo banner 2",
+          "caption": { "th": "", "en": "", "zh": "" },
+          "href": "/about"
+        },
+        {
+          "src": "/legacy/images/slider_icon/4.jpg",
+          "alt": "Ladies sparkly colorful bright",
+          "caption": { "th": "สุภาพสตรี แวววาว สีสัน สวย สดใส", "en": "Ladies: Sparkly, Colorful, Beautiful, Bright", "zh": "女士：闪亮，多彩，美丽，明亮" },
+          "href": "/services"
+        },
+        {
+          "src": "/legacy/images/slider_icon/5.jpg",
+          "alt": "Kids safe for all ages",
+          "caption": { "th": "เด็กวัยใส ปลอดภัยกับทุกเพศทุกวัย", "en": "Kids: Safe for all ages and genders", "zh": "儿童：适合所有年龄和性别安全" },
+          "href": "/services"
+        },
+        {
+          "src": "/legacy/images/slider_icon/6.jpg",
+          "alt": "Gentlemen stylish",
+          "caption": { "th": "สุภาพบุรุษ มีสไตล์ในแบบของคุณ", "en": "Gentlemen: Stylish in your own way", "zh": "男士：以你自己的方式时尚" },
+          "href": "/services"
+        },
+        {
+          "src": "/legacy/images/slider_icon/7.jpg",
+          "alt": "Suitable for all parts",
+          "caption": { "th": "เหมาะสมทุกส่วน หลากหลายลวดลาย", "en": "Suitable for all parts, various patterns", "zh": "适合所有部位，各种图案" },
+          "href": "/gallery"
+        },
+        {
+          "src": "/legacy/images/slider_icon/8.jpg",
+          "alt": "Glow in the dark",
+          "caption": { "th": "โดดเด่น เรืองแสงในที่มืด", "en": "Outstanding: Glow in the dark", "zh": "突出：在黑暗中发光" },
+          "href": "/services"
+        },
+        {
+          "src": "/legacy/images/slider_icon/9.jpg",
+          "alt": "Event Service Banner",
+          "caption": { "th": "", "en": "", "zh": "" },
+          "href": "/services"
+        },
+        {
+          "src": "/legacy/images/slider_icon/10.jpg",
+          "alt": "Banner 10",
+          "caption": { "th": "", "en": "", "zh": "" },
+          "href": "/gallery"
+        }
+      ]
     },
-    "features": [
-      {
-        "title": {
-          "th": "ปลอดภัยสำหรับทุกคน",
-          "en": "Safe for Everyone",
-          "zh": "人人安全"
-        },
-        "description": {
-          "th": "ใช้วัสดุที่ปลอดภัยต่อผิว ไม่ก่อให้เกิดอาการแพ้",
-          "en": "We use skin-safe, hypoallergenic materials approved for body art",
-          "zh": "我们使用对皮肤安全的低过敏性材料"
-        },
-        "icon": "shield"
-      },
-      {
-        "title": {
-          "th": "อยู่ได้นาน 3-7 วัน",
-          "en": "Lasts 3-7 Days",
-          "zh": "持续3-7天"
-        },
-        "description": {
-          "th": "กลิตเตอร์แทททูสามารถอยู่ได้นาน 3-7 วัน ขึ้นอยู่กับการดูแล",
-          "en": "Our glitter tattoos last 3-7 days depending on care and placement",
-          "zh": "我们的闪粉纹身可持续3-7天，取决于护理和位置"
-        },
-        "icon": "clock"
-      },
-      {
-        "title": {
-          "th": "แบบลายมากกว่า 200 แบบ",
-          "en": "200+ Designs Available",
-          "zh": "200多种设计可选"
-        },
-        "description": {
-          "th": "มีแบบลายให้เลือกมากกว่า 200 แบบ ตั้งแต่ผีเสื้อไปจนถึงมังกร",
-          "en": "Choose from over 200 stencil designs, from butterflies to dragons",
-          "zh": "从蝴蝶到龙，超过200种模板设计可供选择"
-        },
-        "icon": "palette"
-      }
-    ],
-    "about_preview": {
+    "products": {
       "heading": {
-        "th": "เกี่ยวกับเรา",
-        "en": "About Us",
-        "zh": "关于我们"
+        "th": "สินค้าของเรา",
+        "en": "Our Products",
+        "zh": "我们的产品"
       },
-      "text": {
-        "th": "เราเป็นผู้เชี่ยวชาญด้านกลิตเตอร์แทททูในประเทศไทย ให้บริการมากกว่า 10 ปี",
-        "en": "We are Thailand's leading glitter tattoo specialists with over 10 years of experience serving events across Bangkok and beyond.",
-        "zh": "我们是泰国领先的闪粉纹身专家，拥有超过10年的服务经验。"
+      "categories": [
+        {
+          "id": "professional",
+          "title": {
+            "th": "ชุดมืออาชีพ",
+            "en": "Professional Kits",
+            "zh": "专业套装"
+          },
+          "description": {
+            "th": "ชุดกลิตเตอร์แทททูสำหรับมืออาชีพ พร้อมอุปกรณ์ครบชุด",
+            "en": "Complete professional glitter tattoo kits with all accessories",
+            "zh": "专业闪粉纹身套装，配件齐全"
+          },
+          "images": [
+            "/legacy/images/images_newproduct/Pro-a-1280w.png",
+            "/legacy/images/images_newproduct/Pro-b-1280w.png",
+            "/legacy/images/images_newproduct/Pro-c-1280w.png"
+          ]
+        },
+        {
+          "id": "diy",
+          "title": {
+            "th": "ชุด DIY",
+            "en": "DIY Sets",
+            "zh": "DIY套装"
+          },
+          "description": {
+            "th": "ชุดกลิตเตอร์แทททูทำเอง สนุก ง่าย ทำได้ที่บ้าน",
+            "en": "Fun and easy do-it-yourself glitter tattoo sets for home use",
+            "zh": "有趣简单的DIY闪粉纹身套装，家用方便"
+          },
+          "images": [
+            "/legacy/images/images_newproduct/d1-1280w.png",
+            "/legacy/images/images_newproduct/d2-1280w.png",
+            "/legacy/images/images_newproduct/d3-1280w.png"
+          ]
+        },
+        {
+          "id": "stencils",
+          "title": {
+            "th": "แผ่นลาย (Stencils)",
+            "en": "Stencil Packs",
+            "zh": "模板套装"
+          },
+          "description": {
+            "th": "แผ่นลายกลิตเตอร์แทททูมากกว่า 200 แบบ ผีเสื้อ ดอกไม้ มังกร และอื่นๆ",
+            "en": "Over 200 stencil designs: butterflies, flowers, dragons, and more",
+            "zh": "超过200种模板设计：蝴蝶、花卉、龙等"
+          },
+          "images": [
+            "/legacy/images/images_newproduct/stencil1-1280w.png",
+            "/legacy/images/images_newproduct/stencil2-1280w.png",
+            "/legacy/images/images_newproduct/stencil3-1280w.png"
+          ]
+        }
+      ]
+    },
+    "safety": {
+      "heading": {
+        "th": "ปลอดภัยและได้มาตรฐาน",
+        "en": "Safe & Certified Quality",
+        "zh": "安全认证品质"
+      },
+      "items": [
+        {
+          "title": {
+            "th": "ผ่านมาตรฐาน SGS",
+            "en": "SGS Certified",
+            "zh": "SGS认证"
+          },
+          "description": {
+            "th": "ผลิตภัณฑ์ทุกชิ้นผ่านการทดสอบจาก SGS ซึ่งเป็นมาตรฐานสากล",
+            "en": "All products are tested and certified by SGS, the international standard",
+            "zh": "所有产品均经SGS国际标准测试认证"
+          },
+          "icon": "certificate"
+        },
+        {
+          "title": {
+            "th": "ปลอดภัยต่อผิว",
+            "en": "Skin-Safe Materials",
+            "zh": "皮肤安全材料"
+          },
+          "description": {
+            "th": "ใช้กาวและสีที่ปลอดภัยต่อผิว ไม่ก่อให้เกิดอาการแพ้ เหมาะสำหรับเด็กและผู้ใหญ่",
+            "en": "We use hypoallergenic glue and colors, safe for children and adults",
+            "zh": "使用低过敏性胶水和颜色，对儿童和成人安全"
+          },
+          "icon": "shield"
+        },
+        {
+          "title": {
+            "th": "อยู่ได้นาน 3-7 วัน",
+            "en": "Lasts 3-7 Days",
+            "zh": "持续3-7天"
+          },
+          "description": {
+            "th": "กลิตเตอร์แทททูอยู่ได้ 3-7 วัน กันน้ำ ล้างออกได้ง่าย",
+            "en": "Glitter tattoos last 3-7 days, waterproof, and easy to remove",
+            "zh": "闪粉纹身持续3-7天，防水，易于去除"
+          },
+          "icon": "heart"
+        }
+      ],
+      "images": [
+        "/legacy/images/images_new_by_tong/SafetyFullSize2-1280w.png",
+        "/legacy/images/images_new_by_tong/SafetyfullSize1-1280w.png"
+      ]
+    },
+    "gallery_preview": {
+      "heading": {
+        "th": "ผลงานของเรา",
+        "en": "Our Work",
+        "zh": "我们的作品"
+      },
+      "images": [
+        { "src": "/legacy/images/promotion/D1-1280w.jpg", "alt": "Glitter tattoo design 1" },
+        { "src": "/legacy/images/promotion/D2-1280w.jpg", "alt": "Glitter tattoo design 2" },
+        { "src": "/legacy/images/promotion/D3-1280w.jpg", "alt": "Glitter tattoo design 3" },
+        { "src": "/legacy/images/promotion/F1-1280w.jpg", "alt": "Glitter tattoo design 4" },
+        { "src": "/legacy/images/event/MagicYearInternationalKindergarten/1-1280w.jpg", "alt": "Event photo 1" },
+        { "src": "/legacy/images/event/MagicYearInternationalKindergarten/2-1280w.jpg", "alt": "Event photo 2" },
+        { "src": "/legacy/images/event/MagicYearInternationalKindergarten/3-1280w.jpg", "alt": "Event photo 3" },
+        { "src": "/legacy/images/promotion/D4-1280w.jpg", "alt": "Glitter tattoo design 5" }
+      ]
+    },
+    "press": {
+      "heading": {
+        "th": "สื่อและข่าว",
+        "en": "Press & Media",
+        "zh": "媒体报道"
+      },
+      "images": [
+        { "src": "/legacy/images/images_newproduct/press1-1280w.png", "alt": "Press coverage 1" },
+        { "src": "/legacy/images/images_newproduct/press2-1280w.png", "alt": "Press coverage 2" },
+        { "src": "/legacy/images/images_newproduct/press3-1280w.png", "alt": "Press coverage 3" },
+        { "src": "/legacy/images/images_newproduct/press4-1280w.png", "alt": "Press coverage 4" },
+        { "src": "/legacy/images/images_newproduct/press5-1280w.png", "alt": "Press coverage 5" },
+        { "src": "/legacy/images/images_newproduct/press6-1280w.png", "alt": "Press coverage 6" }
+      ]
+    },
+    "contact_preview": {
+      "heading": {
+        "th": "ติดต่อเรา",
+        "en": "Contact Us",
+        "zh": "联系我们"
+      },
+      "companyName": "DERMAPRO LIMITED PARTNERSHIP",
+      "address": {
+        "th": "2220/11 ซอยรามคำแหง 36/1 แขวงหัวหมาก เขตบางกะปิ กรุงเทพฯ 10240",
+        "en": "2220/11 Soi Ramkhamhaeng 36/1, Hua Mak, Bang Kapi, Bangkok 10240, Thailand",
+        "zh": "泰国曼谷 Ramkhamhaeng 36/1巷 2220/11号 10240"
+      },
+      "phones": ["(+66) 8-631-0262-2", "(+66) 2-732-9870"],
+      "email": "info@glitter-tattoo.com",
+      "cta": {
+        "th": "ส่งข้อความหาเรา",
+        "en": "Send Us a Message",
+        "zh": "给我们发消息"
       }
     }
-  },
-  "images": [
-    {
-      "src": "/images/scraped/hero-banner.jpg",
-      "alt": "Glitter tattoo art showcase",
-      "width": 1200,
-      "height": 600
-    }
-  ]
+  }
 }

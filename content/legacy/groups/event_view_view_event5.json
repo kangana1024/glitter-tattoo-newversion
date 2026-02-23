@@ -1,0 +1,412 @@
+{
+  "groupName": "event_view_view_event5",
+  "urlPaths": [
+    "/event/view/event5.htm"
+  ],
+  "locales": {
+    "th": {
+      "urlPath": "/event/view/event5.htm",
+      "filePath": "event/view/event5.htm",
+      "locale": "th",
+      "groupName": "event_view_view_event5",
+      "title": "",
+      "description": "",
+      "keywords": "",
+      "headings": [
+        "AIS Press Trip 2551"
+      ],
+      "bodyText": "AIS Press Trip 2551 « previous | next »",
+      "bodyHtml": "<h1>AIS Press Trip 2551</h1>\n<div class=\"demo\">\n<div id=\"main_image\"></div>\n<ul class=\"gallery_demo_unstyled\">\n    <li><img src=\"img/event05/1.jpg\"></li>\n    <li><img src=\"img/event05/3.jpg\"></li>\n    <li><img src=\"img/event05/4.jpg\"></li>\n    <li><img src=\"img/event05/5.jpg\"></li>\n    <li><img src=\"img/event05/6.jpg\"></li>\n    <li><img src=\"img/event05/7.jpg\"></li>\n    <li><img src=\"img/event05/8.jpg\"></li>\n    <li><img src=\"img/event05/9.jpg\"></li>\n    <li><img src=\"img/event05/10.jpg\"></li>\n    <li><img src=\"img/event05/11.jpg\"></li>\n    <li><img src=\"img/event05/13.jpg\"></li>\n    <li><img src=\"img/event05/14.jpg\"></li>\n    <li><img src=\"img/event05/15.jpg\"></li>\n    <li><img src=\"img/event05/16.jpg\"></li>\n    <li><img src=\"img/event05/17.jpg\"></li>\n    <li><img src=\"img/event05/18.jpg\"></li>\n    <li><img src=\"img/event05/19.jpg\"></li>\n    <li><img src=\"img/event05/20.jpg\"></li>\n    <li><img src=\"img/event05/21.jpg\"></li>\n    <li><img src=\"img/event05/22.jpg\"></li>\n    <li><img src=\"img/event05/23.jpg\"></li>\n    <li><img src=\"img/event05/24.jpg\"></li>\n    <li><img src=\"img/event05/25.jpg\"></li>\n    <li><img src=\"img/event05/26.jpg\"></li>\n    <li><img src=\"img/event05/27.jpg\"></li>\n    <li><img src=\"img/event05/28.jpg\"></li>\n    <li><img src=\"img/event05/29.jpg\"></li>\n    <li><img src=\"img/event05/30.jpg\"></li>\n    <li><img src=\"img/event05/31.jpg\"></li>\n    <li><img src=\"img/event05/32.jpg\"></li>\n    <li><img src=\"img/event05/33.jpg\"></li>\n    <li><img src=\"img/event05/34.jpg\"></li>\n    <li><img src=\"img/event05/35.jpg\"></li>\n    <li><img src=\"img/event05/36.jpg\"></li>\n    <li><img src=\"img/event05/37.jpg\"></li>\n    <li><img src=\"img/event05/38.jpg\"></li>\n    <li><img src=\"img/event05/39.jpg\"></li>\n    <li><img src=\"img/event05/40.jpg\"></li>\n    <li><img src=\"img/event05/41.jpg\"></li>\n    <li><img src=\"img/event05/42.jpg\"></li>\n    <li><img src=\"img/event05/43.jpg\"></li>\n    <li><img src=\"img/event05/44.jpg\"></li>\n    <li><img src=\"img/event05/45.jpg\"></li>\n    <li><img src=\"img/event05/46.jpg\"></li>\n    <li><img src=\"img/event05/47.jpg\"></li>\n    <li><img src=\"img/event05/48.jpg\"></li>\n    <li><img src=\"img/event05/49.jpg\"></li>\n    <li><img src=\"img/event05/50.jpg\"></li>\n</ul>\n<p class=\"nav\"><a href=\"#\" onclick=\"$.galleria.prev(); return false;\">« previous</a> | <a href=\"#\" onclick=\"$.galleria.next(); return false;\">next »</a></p>\n</div>",
+      "images": [
+        {
+          "src": "/event/view/img/event05/1.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/3.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/4.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/5.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/6.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/7.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/8.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/9.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/10.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/11.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/13.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/14.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/15.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/16.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/17.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/18.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/19.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/20.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/21.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/22.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/23.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/24.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/25.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/26.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/27.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/28.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/29.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/30.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/31.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/32.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/33.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/34.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/35.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/36.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/37.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/38.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/39.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/40.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/41.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/42.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/43.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/44.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/45.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/46.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/47.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/48.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/49.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event05/50.jpg",
+          "alt": ""
+        }
+      ]
+    }
+  },
+  "canonicalPath": "/event/view/event5.htm",
+  "keywords": [],
+  "images": [
+    {
+      "src": "/event/view/img/event05/1.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/3.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/4.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/5.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/6.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/7.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/8.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/9.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/10.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/11.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/13.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/14.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/15.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/16.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/17.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/18.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/19.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/20.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/21.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/22.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/23.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/24.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/25.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/26.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/27.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/28.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/29.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/30.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/31.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/32.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/33.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/34.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/35.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/36.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/37.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/38.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/39.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/40.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/41.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/42.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/43.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/44.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/45.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/46.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/47.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/48.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/49.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event05/50.jpg",
+      "alt": ""
+    }
+  ]
+}

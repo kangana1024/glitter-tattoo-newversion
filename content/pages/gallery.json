@@ -57,88 +57,88 @@
     ],
     "items": [
       {
-        "src": "/images/scraped/gallery-01.jpg",
-        "alt": "Butterfly glitter tattoo on arm",
+        "src": "/legacy/images/promotion/D1-1280w.jpg",
+        "alt": "Glitter tattoo design showcase",
         "category": "butterflies",
-        "width": 400,
-        "height": 400
+        "width": 576,
+        "height": 480
       },
       {
-        "src": "/images/scraped/gallery-02.jpg",
-        "alt": "Rose flower glitter tattoo",
+        "src": "/legacy/images/promotion/D2-1280w.jpg",
+        "alt": "Glitter tattoo flower design",
         "category": "flowers",
-        "width": 400,
-        "height": 400
+        "width": 576,
+        "height": 480
       },
       {
-        "src": "/images/scraped/gallery-03.jpg",
-        "alt": "Dolphin glitter tattoo on shoulder",
+        "src": "/legacy/images/promotion/D3-1280w.jpg",
+        "alt": "Glitter tattoo animal design",
         "category": "animals",
-        "width": 400,
-        "height": 400
+        "width": 576,
+        "height": 480
       },
       {
-        "src": "/images/scraped/gallery-04.jpg",
-        "alt": "Dragon glitter tattoo design",
+        "src": "/legacy/images/promotion/D4-1280w.jpg",
+        "alt": "Glitter tattoo fantasy design",
         "category": "fantasy",
-        "width": 400,
-        "height": 400
+        "width": 576,
+        "height": 480
       },
       {
-        "src": "/images/scraped/gallery-05.jpg",
-        "alt": "Unicorn glitter tattoo for kids",
+        "src": "/legacy/images/promotion/D5-1280w.jpg",
+        "alt": "Glitter tattoo creative design",
         "category": "fantasy",
-        "width": 400,
-        "height": 400
+        "width": 576,
+        "height": 480
       },
       {
-        "src": "/images/scraped/gallery-06.jpg",
-        "alt": "Star pattern glitter tattoo",
+        "src": "/legacy/images/promotion/D6-1280w.jpg",
+        "alt": "Glitter tattoo special design",
         "category": "fantasy",
-        "width": 400,
-        "height": 400
+        "width": 576,
+        "height": 480
       },
       {
-        "src": "/images/scraped/gallery-07.jpg",
-        "alt": "Birthday party glitter tattoo event",
+        "src": "/legacy/images/event/MagicYearInternationalKindergarten/1-1280w.jpg",
+        "alt": "Glitter tattoo at birthday party event",
         "category": "events",
-        "width": 400,
-        "height": 400
+        "width": 1000,
+        "height": 1333
       },
       {
-        "src": "/images/scraped/gallery-08.jpg",
-        "alt": "Corporate event glitter tattoo booth",
+        "src": "/legacy/images/event/MagicYearInternationalKindergarten/2-1280w.jpg",
+        "alt": "Glitter tattoo event booth",
         "category": "events",
-        "width": 400,
-        "height": 400
+        "width": 1000,
+        "height": 750
       },
       {
-        "src": "/images/scraped/gallery-09.jpg",
-        "alt": "Hibiscus flower glitter tattoo",
+        "src": "/legacy/images/promotion/F1-1280w.jpg",
+        "alt": "Glitter tattoo flower pattern",
         "category": "flowers",
-        "width": 400,
-        "height": 400
+        "width": 576,
+        "height": 480
       },
       {
-        "src": "/images/scraped/gallery-10.jpg",
-        "alt": "Cat glitter tattoo on ankle",
+        "src": "/legacy/images/images/product/d1-1280w.jpg",
+        "alt": "Glitter tattoo DIY kit",
         "category": "animals",
-        "width": 400,
-        "height": 400
+        "width": 448,
+        "height": 336
       },
       {
-        "src": "/images/scraped/gallery-11.jpg",
-        "alt": "Butterfly with flowers glitter tattoo",
+        "src": "/legacy/images/images/product/f1-1280w.jpg",
+        "alt": "Glitter tattoo butterfly stencil",
         "category": "butterflies",
-        "width": 400,
-        "height": 400
+        "width": 448,
+        "height": 336
       },
       {
-        "src": "/images/scraped/gallery-12.jpg",
-        "alt": "Festival booth with glitter tattoos",
+        "src": "/legacy/images/event/MagicYearInternationalKindergarten/3-1280w.jpg",
+        "alt": "Glitter tattoo festival event",
         "category": "events",
-        "width": 400,
-        "height": 400
+        "width": 1000,
+        "height": 750
       }
     ]
   }

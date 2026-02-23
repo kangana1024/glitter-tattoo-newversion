@@ -1,0 +1,260 @@
+{
+  "groupName": "event_view_view_event13",
+  "urlPaths": [
+    "/event/view/event13.htm"
+  ],
+  "locales": {
+    "th": {
+      "urlPath": "/event/view/event13.htm",
+      "filePath": "event/view/event13.htm",
+      "locale": "th",
+      "groupName": "event_view_view_event13",
+      "title": "",
+      "description": "",
+      "keywords": "",
+      "headings": [
+        "Thailand Health & Beauty Show 2009"
+      ],
+      "bodyText": "Thailand Health & Beauty Show 2009 « previous | next »",
+      "bodyHtml": "<h1>Thailand Health &amp; Beauty Show 2009</h1>\n<div class=\"demo\">\n<div id=\"main_image\"></div>\n<ul class=\"gallery_demo_unstyled\">\n    <li><img src=\"img/event13/1.jpg\"></li>\n    <li><img src=\"img/event13/2.jpg\"></li>\n    <li><img src=\"img/event13/3.jpg\"></li>\n    <li><img src=\"img/event13/4.jpg\"></li>\n    <li><img src=\"img/event13/5.jpg\"></li>\n    <li><img src=\"img/event13/6.jpg\"></li>\n    <li><img src=\"img/event13/7.jpg\"></li>\n    <li><img src=\"img/event13/8.jpg\"></li>\n    <li><img src=\"img/event13/9.jpg\"></li>\n    <li><img src=\"img/event13/10.jpg\"></li>\n    <li><img src=\"img/event13/11.jpg\"></li>\n    <li><img src=\"img/event13/12.jpg\"></li>\n    <li><img src=\"img/event13/13.jpg\"></li>\n    <li><img src=\"img/event13/14.jpg\"></li>\n    <li><img src=\"img/event13/15.jpg\"></li>\n    <li><img src=\"img/event13/thbs_2009/pic-0.jpg\"></li>\n    <li><img src=\"img/event13/thbs_2009/pic-1.jpg\"></li>\n    <li><img src=\"img/event13/thbs_2009/pic-2.jpg\"></li>\n    <li><img src=\"img/event13/thbs_2009/pic-3.jpg\"></li>\n    <li><img src=\"img/event13/thbs_2009/pic-4.jpg\"></li>\n    <li><img src=\"img/event13/thbs_2009/pic-5.jpg\"></li>\n    <li><img src=\"img/event13/thbs_2009/pic-6.jpg\"></li>\n    <li><img src=\"img/event13/thbs_2009/pic-7.jpg\"></li>\n    <li><img src=\"img/event13/thbs_2009/pic-8.jpg\"></li>\n    <li><img src=\"img/event13/thbs_2009/pic-9.jpg\"></li>\n    <li><img src=\"img/event13/thbs_2009/pic-10.jpg\"></li>\n    <li><img src=\"img/event13/thbs_2009/pic-11.jpg\"></li>\n    <li><img src=\"img/event13/thbs_2009/pic-12.jpg\"></li>\n    <li><img src=\"img/event13/thbs_2009/pic-13.jpg\"></li>\n</ul>\n<p class=\"nav\"><a href=\"#\" onclick=\"$.galleria.prev(); return false;\">« previous</a> | <a href=\"#\" onclick=\"$.galleria.next(); return false;\">next »</a></p>\n</div>",
+      "images": [
+        {
+          "src": "/event/view/img/event13/1.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event13/2.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event13/3.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event13/4.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event13/5.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event13/6.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event13/7.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event13/8.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event13/9.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event13/10.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event13/11.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event13/12.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event13/13.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event13/14.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event13/15.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event13/thbs_2009/pic-0.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event13/thbs_2009/pic-1.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event13/thbs_2009/pic-2.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event13/thbs_2009/pic-3.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event13/thbs_2009/pic-4.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event13/thbs_2009/pic-5.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event13/thbs_2009/pic-6.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event13/thbs_2009/pic-7.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event13/thbs_2009/pic-8.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event13/thbs_2009/pic-9.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event13/thbs_2009/pic-10.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event13/thbs_2009/pic-11.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event13/thbs_2009/pic-12.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event13/thbs_2009/pic-13.jpg",
+          "alt": ""
+        }
+      ]
+    }
+  },
+  "canonicalPath": "/event/view/event13.htm",
+  "keywords": [],
+  "images": [
+    {
+      "src": "/event/view/img/event13/1.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event13/2.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event13/3.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event13/4.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event13/5.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event13/6.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event13/7.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event13/8.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event13/9.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event13/10.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event13/11.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event13/12.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event13/13.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event13/14.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event13/15.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event13/thbs_2009/pic-0.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event13/thbs_2009/pic-1.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event13/thbs_2009/pic-2.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event13/thbs_2009/pic-3.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event13/thbs_2009/pic-4.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event13/thbs_2009/pic-5.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event13/thbs_2009/pic-6.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event13/thbs_2009/pic-7.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event13/thbs_2009/pic-8.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event13/thbs_2009/pic-9.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event13/thbs_2009/pic-10.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event13/thbs_2009/pic-11.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event13/thbs_2009/pic-12.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event13/thbs_2009/pic-13.jpg",
+      "alt": ""
+    }
+  ]
+}

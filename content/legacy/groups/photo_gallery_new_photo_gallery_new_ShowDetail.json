@@ -1,0 +1,52 @@
+{
+  "groupName": "photo_gallery_new_photo_gallery_new_ShowDetail",
+  "urlPaths": [
+    "/photo_gallery_new/ShowDetail.php"
+  ],
+  "locales": {
+    "th": {
+      "urlPath": "/photo_gallery_new/ShowDetail.php",
+      "filePath": "photo_gallery_new/ShowDetail.php",
+      "locale": "th",
+      "groupName": "photo_gallery_new_photo_gallery_new_ShowDetail",
+      "title": "Glitter Tattoo | Photo Gallery new",
+      "description": "",
+      "keywords": "",
+      "headings": [
+        "GlitterTattoo Our Photo Gallery"
+      ],
+      "bodyText": "GlitterTattoo Our Photo Gallery All Gallery Created by malihu and his cats on a hot summer day.",
+      "bodyHtml": "<h1>Glitter<span class=\"lightgrey\">Tattoo</span> <br><span class=\"light\"><span class=\"grey\"><span class=\"s36\">Our Photo Gallery</span></span></span></h1>\n            \n            \n            <p><a href=\"../photo_gallery_new/\" target=\"_parent\">All Gallery</a></p>\n            \n            \n            \n            <div id=\"toolbar\"></div><div class=\"clear\"></div>\n            \n            \n            \n            \n            \n          \n           \n          \n          \n          \n          \n          \n          \n          \n            \n\n            <p class=\"clear\"></p>\n            <p>Created by <a href=\"http://manos.malihu.gr\" target=\"_blank\">malihu</a> and his cats on a hot summer day.</p>",
+      "images": [
+        {
+          "src": "/photo_gallery_new/Bottom_texture.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/photo_gallery_new/ajax-loader_dark.gif",
+          "alt": ""
+        },
+        {
+          "src": "/photo_gallery_new/sw_arrow_indicator.png",
+          "alt": ""
+        }
+      ]
+    }
+  },
+  "canonicalPath": "/photo_gallery_new/ShowDetail.php",
+  "keywords": [],
+  "images": [
+    {
+      "src": "/photo_gallery_new/Bottom_texture.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/photo_gallery_new/ajax-loader_dark.gif",
+      "alt": ""
+    },
+    {
+      "src": "/photo_gallery_new/sw_arrow_indicator.png",
+      "alt": ""
+    }
+  ]
+}

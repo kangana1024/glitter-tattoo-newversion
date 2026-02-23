@@ -1,0 +1,124 @@
+{
+  "groupName": "event_view_view_event3",
+  "urlPaths": [
+    "/event/view/event3.htm"
+  ],
+  "locales": {
+    "th": {
+      "urlPath": "/event/view/event3.htm",
+      "filePath": "event/view/event3.htm",
+      "locale": "th",
+      "groupName": "event_view_view_event3",
+      "title": "",
+      "description": "",
+      "keywords": "",
+      "headings": [
+        "Thailand Health & Beauty Show 2007"
+      ],
+      "bodyText": "Thailand Health & Beauty Show 2007 « previous | next »",
+      "bodyHtml": "<h1>Thailand Health &amp; Beauty Show 2007</h1>\n<div class=\"demo\">\n<div id=\"main_image\"></div>\n<ul class=\"gallery_demo_unstyled\">\n    <li><img src=\"img/event03/1.jpg\"></li>\n    <li><img src=\"img/event03/2.jpg\"></li>\n    <li><img src=\"img/event03/3.jpg\"></li>\n    <li><img src=\"img/event03/4.jpg\"></li>\n    <li><img src=\"img/event03/5.jpg\"></li>\n    <li><img src=\"img/event03/6.jpg\"></li>\n    <li><img src=\"img/event03/7.jpg\"></li>\n    <li><img src=\"img/event03/8.jpg\"></li>\n    <li><img src=\"img/event03/9.jpg\"></li>\n    <li><img src=\"img/event03/10.jpg\"></li>\n    <li><img src=\"img/event03/11.jpg\"></li>\n    <li><img src=\"img/event03/12.jpg\"></li>\n    \n    \n</ul>\n<p class=\"nav\"><a href=\"#\" onclick=\"$.galleria.prev(); return false;\">« previous</a> | <a href=\"#\" onclick=\"$.galleria.next(); return false;\">next »</a></p>\n</div>",
+      "images": [
+        {
+          "src": "/event/view/img/event03/1.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event03/2.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event03/3.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event03/4.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event03/5.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event03/6.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event03/7.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event03/8.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event03/9.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event03/10.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event03/11.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event03/12.jpg",
+          "alt": ""
+        }
+      ]
+    }
+  },
+  "canonicalPath": "/event/view/event3.htm",
+  "keywords": [],
+  "images": [
+    {
+      "src": "/event/view/img/event03/1.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event03/2.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event03/3.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event03/4.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event03/5.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event03/6.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event03/7.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event03/8.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event03/9.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event03/10.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event03/11.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event03/12.jpg",
+      "alt": ""
+    }
+  ]
+}

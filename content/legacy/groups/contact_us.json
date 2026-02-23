@@ -1,0 +1,161 @@
+{
+  "groupName": "contact_us",
+  "urlPaths": [
+    "/2015/th.contact_us.php"
+  ],
+  "locales": {
+    "th": {
+      "urlPath": "/2015/th.contact_us.php",
+      "filePath": "2015/th.contact_us.php",
+      "locale": "th",
+      "groupName": "contact_us",
+      "title": "รอยสักกากเพชร | Glitter-Tattoo.com | ติดต่อเรา",
+      "description": "",
+      "keywords": "",
+      "headings": [
+        "ติดต่อเรา",
+        "สถานที่ตั้ง",
+        "ติดต่อเรา",
+        "รอยสักกากเพชร",
+        "Glitter-Tattoo | กลิตเตอร์แทททู",
+        "Statistics Site :"
+      ],
+      "bodyText": "สถานที่ตั้ง Adress: กลิตเตอร์แทททู - Glitter-Tattoo 2220/11 ซ.รามคำแหง 36/1 ถ.รามคำแหง แขวงหัวหมาก เขตบางกะปิ กรุงเทพฯ 10240 Phone: (+66) 0-2732-9870-1 Mobile: 0-8631-0262-2 Fax: (+66) 0-2732-0879 Email: [email protected] Website: http://www.glitter-tattoo.com/ ติดต่อเรา Required fields are marked * Email successfully sent. Thank you! Please complete all required fields. Name * Phone * E-mail * Website Message * ส่งข้อความ Shopping Cart Add QR Code",
+      "bodyHtml": "<section class=\"container clearfix\">\n\t<section class=\"container clearfix\" style=\"text-align:center;  \">\n\t\t\t\n\t\t\t<div class=\"delimiter\"></div>\n\t<div class=\"col_1_3\">\n\t\t\t<h1 class=\"red\">สถานที่ตั้ง</h1>\n\t\t\t<p>\n\t\t\t\t<strong>Adress:</strong> กลิตเตอร์แทททู - Glitter-Tattoo <br>\n\t\t\t\t\t2220/11 ซ.รามคำแหง 36/1 <br>\n\t\t\t\t\tถ.รามคำแหง แขวงหัวหมาก<br>\n\t\t\t\t\tเขตบางกะปิ กรุงเทพฯ 10240 <br>\n\t\t\t\t<strong>Phone:</strong> (+66) 0-2732-9870-1 <br>\n\t\t\t\t<strong>Mobile:</strong> 0-8631-0262-2 <br>\n\t\t\t\t<strong>Fax:</strong> (+66) 0-2732-0879 <br>\n\t\t\t\t<strong>Email:</strong> <a href=\"/cdn-cgi/l/email-protection#4a392b262f0a2d26233e3e2f38673e2b3e3e252564292527\"><span class=\"__cf_email__\" data-cfemail=\"2655474a4366414a4f525243540b5247525249490845494b\">[email&nbsp;protected]</span></a> <br>\n\t\t\t\t<strong>Website:</strong> <a href=\"#\">http://www.glitter-tattoo.com/</a>\n\t\t\t</p>\n\t\t\t<div class=\"contact_map\">\n\t\t\t\t<div id=\"map_canvas\" class=\"map_canvas\"></div>\n\t\t\t</div>\n\t\t</div>\n\t\t<div class=\"col_2_3 last\">\n\t\t\t<h3 class=\"red\">ติดต่อเรา</h3>\n\t\t\t<p>Required fields are marked <span>*</span></p>\n\t\t\t<div class=\"line\"></div>\n\t\t\t<div class=\"padding15\"></div>\n\t\t\t<div class=\"success_box none\">\n\t\t\t\t\tEmail successfully sent.\n\t\t\t\t<br> Thank you!\n\t\t\t\t\t\n\t\t\t</div>\n\t\t\t<div class=\"error_box none\">\n\t\t\t\tPlease complete all required fields.\n\t\t\t</div>\n\t\t\t<div class=\"padding15\"></div>\n\t\t\t<form action=\"#\" class=\"contact_form\">\n\t\t\t<p style=\"text-align:left;\">\n\t\t\t\t<label for=\"name\">Name <span>*</span></label>\n\t\t\t\t<input class=\"inputText\" type=\"text\" id=\"name\" name=\"name\">\n\t\t\t</p>\n\t\t\t<div class=\"clear\"></div>\n\t\t\t<p style=\"text-align:left;\">\n\t\t\t\t<label for=\"phone\">Phone <span>*</span></label>\n\t\t\t\t<input class=\"inputText\" type=\"text\" id=\"phone\" name=\"phone\" placeholder=\"000-000-0000\">\n\t\t\t</p>\n\t\t\t<div class=\"clear\"></div>\n\t\t\t<p style=\"text-align:left;\">\n\t\t\t\t<label for=\"email\">E-mail <span>*</span></label>\n\t\t\t\t<input class=\"inputText\" type=\"text\" id=\"email\" name=\"email\">\n\t\t\t</p>\n\t\t\t<div class=\"clear\"></div>\n\t\t\t<p style=\"text-align:left;\">\n\t\t\t\t<label for=\"website\">Website</label>\n\t\t\t\t<input class=\"inputText\" type=\"text\" id=\"website\" name=\"website\">\n\t\t\t</p>\n\t\t\t<div class=\"clear\"></div>\n\t\t\t<p style=\"text-align:left;\">\n\t\t\t\t<label for=\"message\">Message <span>*</span></label>\n\t\t\t\t<textarea class=\"inputTextarea\" cols=\"60\" rows=\"3\" id=\"message\" name=\"message\"></textarea>\n\t\t\t</p>\n\t\t\t<div class=\"clear\"></div>\n\t\t\t<p class=\"submit\">\n\t\t\t<a href=\"javascript:void(0);\" class=\"button_small red\" onclick=\"$('.contact_form').submit();\"><span>ส่งข้อความ</span></a>\n\t\t\t</p>\n\t\t\t</form>\n\t\t</div>\n\t\t<div class=\"clear padding20\"></div>\n\t</section>\n\t\t<div class=\"clear\"></div>\n<!--\t\t<div class=\"companies clearfix\"  style=\"text-align:center;\">\n\t\t\t<div class=\"ctop\"></div>\n\t\t\t<div class=\"cbody\" style=\"text-align:center;\">\n\t\t\t\t<ul style=\"text-align:center;\">\n\t\t\t\t\t<li><a href=\"http://www.dermaprothailand.com/\" class=\"thumb\" target=\"_blank\"><span><img src=\"images/banner/new_dermapro.png\" alt=\"\" /></span></a>www.dermarprothailand.com</li>\n\t\t\t\t\t<li><a href=\"http://www.haircrystal.com/\" class=\"thumb\" target=\"_blank\"><span><img src=\"images/banner/haircrystalx.png\" alt=\"\" /></span></a>www.haircrystal.com</li>\n\t\t\t\t\t<li><a href=\"http://www.thai-proud.com/new/?lang=th\" class=\"thumb\" target=\"_blank\"><span><img src=\"images/banner/thaiproud.png\" alt=\"\" /></span></a>www.thai-proud.com</li>\n                    <li><a href=\"http://www.clearsugarwax.com/?lang=th\" class=\"thumb\" target=\"\t_blank\"><span><img src=\"images/banner/clearsugarwax1.png\" alt=\"\" /></span></a>www.clearsugarwax.com</li>\n    \t\t\t\t<li><a href=\"http://www.beauty-supplier.com/store/\" class=\"thumb\" target=\"_blank\"><span><img src=\"images/banner/beautysupplyx.png\" alt=\"\" /></span></a>www.beauty-supplier.com</li>\n\t\t\t\t</ul>\n\t\t\t\t<div class=\"clear\"></div>\n\t\t\t</div>\n\t\t\t<div class=\"cbottom\"></div>\n\t\t</div>\n\t-->\n\t<div class=\"clear padding20\"></div>\n\t<div class=\"clear padding20\"></div>\n\t<div class=\"delimiter\"></div>\n\n\t<div class=\"col_1_4\">\n\t\t<a href=\"http://www.dermaprothailand.com/\" class=\"thumb\" target=\"_blank\"><img src=\"images/banner/new_dermapro.png\" alt=\"\"></a>\n\t</div>\n\n\t<div class=\"col_1_4\">\n\t\t<a href=\"http://www.haircrystal.com/\" class=\"thumb\" target=\"_blank\"><img src=\"images/banner/haircrystal.png\" alt=\"\"></a>\n\t</div>\n\n<!--Update By Arthit.P 20170923 \t\n\t<div class=\"col_1_5\">\n\t\t<a href=\"http://www.thai-proud.com/new/?lang=th\" class=\"thumb\" target=\"_blank\"><img src=\"images/banner/thaiproud.png\" alt=\"\" /></a>\n\t</div> -->\n\n\t<div class=\"col_1_4\">\n\t\t<a href=\"http://www.clearsugarwax.com/?lang=th\" class=\"thumb\" target=\"\t_blank\"><img src=\"images/banner/clearsugarwax1.png\" alt=\"\"></a>\n\t</div>\n\n\t<div class=\"col_1_4 last\">\n\t\t<a href=\"http://www.beauty-supplier.com/store/\" class=\"thumb\" target=\"_blank\"><img src=\"images/banner/beautysupplyx.png\" alt=\"\"></a>\n\t</div>\t\n\t<div class=\"clear padding20\"></div>\n\t<div class=\"delimiter\"></div>\n\t\t\n</section>\n<section class=\"homepage_widgets_bg clearfix\"></section>\n\t\n    \n    \t<!-- START FOOTER SMALL -->\n\t\n\t<!-- END FOOTER SMALL -->\n\t\t\n        <!--<ul id=\"example-1\" class=\"sticklr\">\n            <li><img src=\"../flag/thai.png\" style=\"width:25px; height:20px;\" />\n                <a href=\"#\" class=\"icon-tag\" title=\"Site switcher\"></a>\n            </li>\n            <li><img src=\"../flag/eng.png\" style=\"width:25px; height:20px;\" />\n                <a href=\"#\" class=\"icon-zoom\" title=\"Search\"></a>\n            </li>\n            <li><img src=\"../flag/chn.png\" style=\"width:25px; height:20px;\" />\n                <a href=\"#\" class=\"icon-sitemap\" title=\"Multiple-column ready\"></a>\n            </li>\n            <li><img src=\"../flag/thai.png\" style=\"width:25px; height:20px;\" />\n            </li>\n            <li><img src=\"../flag/thai.png\" style=\"width:25px; height:20px;\" />\n            </li>\n            <li>\n                <a href=\"#\" class=\"icon-email\" title=\"Notification\"><span class=\"notification-count\">3</span></a>\n                <ul>\n                    <li class=\"sticklr-title\">\n                        <a href=\"#\">Notification (3)</a>\n                    </li>\n                    <li>\n                        <form action=\"\" method=\"POST\">\n                            <input type=\"text\" name=\"search\" value=\"\" placeholder=\"Someone is typing..\" />\n                        </form>\n                    </li>\n                    <li>\n                        <a href=\"#\" class=\"icon-user\">00:32 Hello!</a>\n                    </li>\n                    <li>\n                        <a href=\"#\" class=\"icon-user\">23:52 Not really works</a>\n                    </li>\n                    <li>\n                        <a href=\"#\" class=\"icon-user\">22:07 Just example use</a>\n                    </li>\n                </ul>\n            </li>\n        </ul>\n \n \n \n \n        <ul id=\"example-3\" class=\"sticklr\">\n            <li>\n                <a href=\"#\" class=\"icon-login\" title=\"Site switcher\"><img src=\"../flag/thai.png\" style=\"width:25px; height:20px;\" /></a>\n                <ul>\n                    <li class=\"sticklr-title\">\n                        <a href=\"#\">Select Language | เลือกภาษา</a>\n                    </li>\n                    <li>\n                        <a href=\"index_th.php\" class=\"icon-amazon\"><img src=\"../flag/thai.png\" style=\"width:25px; height:20px;\" /> | ภาษาไทย</a>\n                    </li>\n                    <li>\n                        <a href=\"#\" class=\"icon-flickr\"><img src=\"../flag/eng.png\" style=\"width:25px; height:20px;\" /> | English</a>\n                    </li>\n                    <li>\n                        <a href=\"#\" class=\"icon-flickr\"><img src=\"../flag/chn.png\" style=\"width:25px; height:20px;\" /> | Chainese</a>\n                    </li>\n                    <li>\n                        <a href=\"#\" class=\"icon-flickr\">xxx</a>\n                    </li>\n                </ul>\n            </li>\n        </ul>\n\n\n\n\n\n-->\n<ul id=\"example-2\" class=\"sticklr\">\n\t\t\t<li><a href=\"http://glitter-tattoo.lnwshop.com/home\" class=\"icon-xcart\" target=\"_blank\" title=\"shopping online\"></a>\n                 <ul>\n                    <li class=\"sticklr-title\"><a href=\"http://glitter-tattoo.lnwshop.com/home\">Shopping Cart</a></li>\n                    <li><a href=\"http://glitter-tattoo.lnwshop.com/home\" target=\"_blank\" title=\"shopping online\"><img src=\"icon/cartxx.png\" alt=\"\" style=\"width:128px; height:128px;\"></a></li>\n                </ul>\n\t\t\t</li>\n\t\t\t<li><a href=\"https://www.facebook.com/glittertattoothailand/\" class=\"icon-xfacebook\" target=\"_blank\"></a></li>\n\t\t\t<li><a href=\"https://plus.google.com/u/0/105944656864473776768/posts\" class=\"icon-xgooglen\" title=\"Google+\" target=\"_blank\"></a></li>\n            <li><a href=\"https://instagram.com/glittertattoothailand/\" class=\"icon-xinsta\" title=\"Instragram\" target=\"_blank\"></a></li>\n            <li><a href=\"#\" class=\"icon-xline\" title=\"tattoo_gt\"></a>\n                <ul>\n                    <li class=\"sticklr-title\"><a href=\"#\">Add QR Code</a></li>\n                    <li><img src=\"icon/QR.jpg\" alt=\"\" style=\"width:190px; height:190px;\"></li>\n                </ul>\n            </li>\n           <li><a href=\"https://www.youtube.com/channel/UCDAn6USOY9enQ436qjkgSyg/videos?flow=list&amp;view=0&amp;sort=p\" class=\"icon-xyoutube\" title=\"Youtube\" target=\"_blank\"></a></li>   \n</ul>",
+      "images": [
+        {
+          "src": "/2015/images/logo.png",
+          "alt": ""
+        },
+        {
+          "src": "/2015/images/hothot.gif",
+          "alt": ""
+        },
+        {
+          "src": "/2015/images/coolcool.gif",
+          "alt": ""
+        },
+        {
+          "src": "/flag/thai.png",
+          "alt": ""
+        },
+        {
+          "src": "/flag/eng.png",
+          "alt": ""
+        },
+        {
+          "src": "/flag/chn.png",
+          "alt": ""
+        },
+        {
+          "src": "/2015/anitmation/butterfly3.gif",
+          "alt": ""
+        },
+        {
+          "src": "/2015/images/banner/new_dermapro.png",
+          "alt": ""
+        },
+        {
+          "src": "/2015/images/banner/haircrystal.png",
+          "alt": ""
+        },
+        {
+          "src": "/2015/images/banner/clearsugarwax1.png",
+          "alt": ""
+        },
+        {
+          "src": "/2015/images/banner/beautysupplyx.png",
+          "alt": ""
+        },
+        {
+          "src": "/2015/icon/mobile.png",
+          "alt": ""
+        },
+        {
+          "src": "/2015/icon/telephone.png",
+          "alt": ""
+        },
+        {
+          "src": "/2015/images/butterfly.png",
+          "alt": ""
+        },
+        {
+          "src": "/2015/icon/cartxx.png",
+          "alt": ""
+        },
+        {
+          "src": "/2015/icon/QR.jpg",
+          "alt": ""
+        }
+      ]
+    }
+  },
+  "canonicalPath": "/2015/th.contact_us.php",
+  "keywords": [],
+  "images": [
+    {
+      "src": "/2015/images/logo.png",
+      "alt": ""
+    },
+    {
+      "src": "/2015/images/hothot.gif",
+      "alt": ""
+    },
+    {
+      "src": "/2015/images/coolcool.gif",
+      "alt": ""
+    },
+    {
+      "src": "/flag/thai.png",
+      "alt": ""
+    },
+    {
+      "src": "/flag/eng.png",
+      "alt": ""
+    },
+    {
+      "src": "/flag/chn.png",
+      "alt": ""
+    },
+    {
+      "src": "/2015/anitmation/butterfly3.gif",
+      "alt": ""
+    },
+    {
+      "src": "/2015/images/banner/new_dermapro.png",
+      "alt": ""
+    },
+    {
+      "src": "/2015/images/banner/haircrystal.png",
+      "alt": ""
+    },
+    {
+      "src": "/2015/images/banner/clearsugarwax1.png",
+      "alt": ""
+    },
+    {
+      "src": "/2015/images/banner/beautysupplyx.png",
+      "alt": ""
+    },
+    {
+      "src": "/2015/icon/mobile.png",
+      "alt": ""
+    },
+    {
+      "src": "/2015/icon/telephone.png",
+      "alt": ""
+    },
+    {
+      "src": "/2015/images/butterfly.png",
+      "alt": ""
+    },
+    {
+      "src": "/2015/icon/cartxx.png",
+      "alt": ""
+    },
+    {
+      "src": "/2015/icon/QR.jpg",
+      "alt": ""
+    }
+  ]
+}

@@ -64,3 +64,6 @@ next-env.d.ts
 .worktrees/
 .security-key
 logs/security/
+
+public/legacy/images/*
+.claude

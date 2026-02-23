@@ -26,7 +26,7 @@
           "en": "Make your party special with glitter tattoos for kids and adults. Wide selection of designs available.",
           "zh": "用闪粉纹身让您的派对特别。提供各种设计供儿童和成人选择。"
         },
-        "image": "/images/scraped/service-party.jpg",
+        "image": "/legacy/images/event/MagicYearInternationalKindergarten/1-1280w.jpg",
         "features": ["200+ designs", "All ages", "2-3 hour sessions"]
       },
       {
@@ -41,7 +41,7 @@
           "en": "Add a special touch to weddings with elegant glitter tattoos for the bride and guests.",
           "zh": "用优雅的闪粉纹身为新娘和宾客增添婚礼的特别魅力。"
         },
-        "image": "/images/scraped/service-wedding.jpg",
+        "image": "/legacy/images/promotion/D1-1280w.jpg",
         "features": ["Elegant designs", "Custom patterns", "Bridal packages"]
       },
       {
@@ -56,7 +56,7 @@
           "en": "Glitter tattoo services for corporate events, product launches, and conferences.",
           "zh": "为企业活动、产品发布会和会议提供闪粉纹身服务。"
         },
-        "image": "/images/scraped/service-corporate.jpg",
+        "image": "/legacy/images/promotion/D2-1280w.jpg",
         "features": ["Custom branding", "High volume", "Professional setup"]
       },
       {
@@ -71,7 +71,7 @@
           "en": "Glitter tattoo booth services for festivals, markets, and outdoor events.",
           "zh": "为节日、市场和户外活动提供闪粉纹身摊位服务。"
         },
-        "image": "/images/scraped/service-festival.jpg",
+        "image": "/legacy/images/event/MagicYearInternationalKindergarten/2-1280w.jpg",
         "features": ["Booth setup", "Quick application", "Weather resistant"]
       }
     ],
@@ -83,10 +83,10 @@
   },
   "images": [
     {
-      "src": "/images/scraped/services-banner.jpg",
+      "src": "/legacy/images/images_newproduct/happy_family_2012_1-1280w.png",
       "alt": "Glitter tattoo services overview",
-      "width": 1200,
-      "height": 600
+      "width": 611,
+      "height": 450
     }
   ]
 }

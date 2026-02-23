@@ -1,0 +1,348 @@
+{
+  "groupName": "event_view_view_event22",
+  "urlPaths": [
+    "/event/view/event22.htm"
+  ],
+  "locales": {
+    "th": {
+      "urlPath": "/event/view/event22.htm",
+      "filePath": "event/view/event22.htm",
+      "locale": "th",
+      "groupName": "event_view_view_event22",
+      "title": "",
+      "description": "",
+      "keywords": "",
+      "headings": [
+        "Cosmoprof Asia 2009 (Hongkong) 11-13 November 2009"
+      ],
+      "bodyText": "Cosmoprof Asia 2009 (Hongkong) 11-13 November 2009 « previous | next »",
+      "bodyHtml": "<h1>Cosmoprof Asia 2009 (Hongkong) 11-13 November 2009</h1>\n<div class=\"demo\">\n<div id=\"main_image\"></div>\n<ul class=\"gallery_demo_unstyled\">\n    <li><img src=\"img/event22/1.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event22/2.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event22/3.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event22/4.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event22/5.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event22/6.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event22/7.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event22/8.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event22/9.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event22/10.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event22/11.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event22/12.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event22/13.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event22/14.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event22/15.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event22/16.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event22/17.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event22/18.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event22/19.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event22/20.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event22/21.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event22/22.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event22/23.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event22/24.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event22/25.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event22/26.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event22/27.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event22/28.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event22/29.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event22/30.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event22/31.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event22/32.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event22/33.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event22/34.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event22/35.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event22/36.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event22/37.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event22/38.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event22/39.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event22/40.jpg\" <=\"\" li=\"\">\n</li></ul>\n<p class=\"nav\"><a href=\"#\" onclick=\"$.galleria.prev(); return false;\">« previous</a> | <a href=\"#\" onclick=\"$.galleria.next(); return false;\">next »</a></p>\n</div>",
+      "images": [
+        {
+          "src": "/event/view/img/event22/1.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event22/2.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event22/3.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event22/4.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event22/5.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event22/6.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event22/7.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event22/8.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event22/9.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event22/10.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event22/11.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event22/12.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event22/13.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event22/14.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event22/15.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event22/16.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event22/17.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event22/18.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event22/19.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event22/20.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event22/21.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event22/22.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event22/23.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event22/24.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event22/25.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event22/26.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event22/27.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event22/28.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event22/29.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event22/30.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event22/31.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event22/32.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event22/33.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event22/34.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event22/35.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event22/36.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event22/37.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event22/38.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event22/39.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event22/40.jpg",
+          "alt": ""
+        }
+      ]
+    }
+  },
+  "canonicalPath": "/event/view/event22.htm",
+  "keywords": [],
+  "images": [
+    {
+      "src": "/event/view/img/event22/1.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event22/2.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event22/3.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event22/4.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event22/5.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event22/6.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event22/7.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event22/8.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event22/9.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event22/10.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event22/11.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event22/12.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event22/13.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event22/14.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event22/15.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event22/16.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event22/17.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event22/18.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event22/19.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event22/20.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event22/21.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event22/22.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event22/23.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event22/24.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event22/25.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event22/26.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event22/27.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event22/28.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event22/29.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event22/30.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event22/31.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event22/32.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event22/33.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event22/34.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event22/35.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event22/36.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event22/37.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event22/38.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event22/39.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event22/40.jpg",
+      "alt": ""
+    }
+  ]
+}

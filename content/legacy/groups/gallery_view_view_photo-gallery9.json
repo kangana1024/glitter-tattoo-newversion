@@ -1,0 +1,388 @@
+{
+  "groupName": "gallery_view_view_photo-gallery9",
+  "urlPaths": [
+    "/gallery/view/photo-gallery9.php"
+  ],
+  "locales": {
+    "th": {
+      "urlPath": "/gallery/view/photo-gallery9.php",
+      "filePath": "gallery/view/photo-gallery9.php",
+      "locale": "th",
+      "groupName": "gallery_view_view_photo-gallery9",
+      "title": "",
+      "description": "",
+      "keywords": "",
+      "headings": [
+        "Photo Gallery 5"
+      ],
+      "bodyText": "Photo Gallery 5 « previous | next »",
+      "bodyHtml": "<h1>Photo Gallery 5</h1>\n<div class=\"demo\">\n<div id=\"main_image\"></div>\n<ul class=\"gallery_demo_unstyled\">\n    <li><img src=\"gall8/1.jpg\"></li>\n    \n    <li><img src=\"gall8/2.jpg\"></li>\n    \n    <li><img src=\"gall8/3.jpg\"></li>\n    \n    <li><img src=\"gall8/4.jpg\"></li>\n    \n    <li><img src=\"gall8/5.jpg\"></li>\n    \n    <li><img src=\"gall8/6.jpg\"></li>\n    \n    <li><img src=\"gall8/7.jpg\"></li>\n    \n    <li><img src=\"gall8/8.jpg\"></li>\n    \n    <li><img src=\"gall8/9.jpg\"></li>\n    \n    <li><img src=\"gall8/10.jpg\"></li>\n    \n    <li><img src=\"gall8/11.jpg\"></li>\n    \n    <li><img src=\"gall10/2.jpg\"></li>\n    \n    <li><img src=\"gall10/17.jpg\"></li>\n    \n    <li><img src=\"gall10/16.jpg\"></li>\n    \n    <li><img src=\"gall10/29.jpg\"></li>\n    \n    <li><img src=\"gall10/20.jpg\"></li>\n    \n    <li><img src=\"gall10/3.jpg\"></li>\n    \n    <li><img src=\"gall10/27.jpg\"></li>\n    \n    <li><img src=\"gall10/10.jpg\"></li>\n    \n    <li><img src=\"gall10/25.jpg\"></li>\n    \n    <li><img src=\"gall10/9.jpg\"></li>\n    \n    <li><img src=\"gall10/21.jpg\"></li>\n    \n    <li><img src=\"gall10/33.jpg\"></li>\n    \n    <li><img src=\"gall10/31.jpg\"></li>\n    \n    <li><img src=\"gall10/32.jpg\"></li>\n    \n    <li><img src=\"gall10/18.JPG\"></li>\n    \n    <li><img src=\"gall10/19.JPG\"></li>\n    \n    <li><img src=\"gall10/4.jpg\"></li>\n    \n    <li><img src=\"gall10/15.JPG\"></li>\n    \n    <li><img src=\"gall10/5.jpg\"></li>\n    \n    <li><img src=\"gall10/24.jpg\"></li>\n    \n    <li><img src=\"gall10/1.jpg\"></li>\n    \n    <li><img src=\"gall10/8.jpg\"></li>\n    \n    <li><img src=\"gall10/28.jpg\"></li>\n    \n    <li><img src=\"gall10/23.jpg\"></li>\n    \n    <li><img src=\"gall10/26.jpg\"></li>\n    \n    <li><img src=\"gall10/7.jpg\"></li>\n    \n    <li><img src=\"gall10/30.jpg\"></li>\n    \n    <li><img src=\"gall10/22.jpg\"></li>\n    \n    <li><img src=\"gall10/34.jpg\"></li>\n    \n    <li><img src=\"gall10/14.JPG\"></li>\n    \n    <li><img src=\"gall10/6.jpg\"></li>\n    \n    <li><img src=\"gall10/11.jpg\"></li>\n    \n    <li><img src=\"gall10/12.JPG\"></li>\n    \n    <li><img src=\"gall10/13.JPG\"></li>\n    \n</ul>\n<p class=\"nav\"><a href=\"#\" onclick=\"$.galleria.prev(); return false;\">« previous</a> | <a href=\"#\" onclick=\"$.galleria.next(); return false;\">next »</a></p>\n</div>",
+      "images": [
+        {
+          "src": "/gallery/view/gall8/1.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall8/2.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall8/3.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall8/4.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall8/5.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall8/6.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall8/7.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall8/8.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall8/9.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall8/10.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall8/11.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall10/2.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall10/17.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall10/16.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall10/29.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall10/20.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall10/3.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall10/27.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall10/10.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall10/25.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall10/9.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall10/21.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall10/33.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall10/31.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall10/32.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall10/18.JPG",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall10/19.JPG",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall10/4.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall10/15.JPG",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall10/5.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall10/24.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall10/1.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall10/8.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall10/28.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall10/23.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall10/26.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall10/7.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall10/30.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall10/22.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall10/34.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall10/14.JPG",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall10/6.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall10/11.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall10/12.JPG",
+          "alt": ""
+        },
+        {
+          "src": "/gallery/view/gall10/13.JPG",
+          "alt": ""
+        }
+      ]
+    }
+  },
+  "canonicalPath": "/gallery/view/photo-gallery9.php",
+  "keywords": [],
+  "images": [
+    {
+      "src": "/gallery/view/gall8/1.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall8/2.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall8/3.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall8/4.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall8/5.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall8/6.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall8/7.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall8/8.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall8/9.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall8/10.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall8/11.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall10/2.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall10/17.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall10/16.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall10/29.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall10/20.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall10/3.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall10/27.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall10/10.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall10/25.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall10/9.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall10/21.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall10/33.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall10/31.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall10/32.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall10/18.JPG",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall10/19.JPG",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall10/4.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall10/15.JPG",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall10/5.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall10/24.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall10/1.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall10/8.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall10/28.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall10/23.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall10/26.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall10/7.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall10/30.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall10/22.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall10/34.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall10/14.JPG",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall10/6.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall10/11.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall10/12.JPG",
+      "alt": ""
+    },
+    {
+      "src": "/gallery/view/gall10/13.JPG",
+      "alt": ""
+    }
+  ]
+}

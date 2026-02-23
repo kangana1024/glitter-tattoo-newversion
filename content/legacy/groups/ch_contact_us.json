@@ -1,0 +1,170 @@
+{
+  "groupName": "ch_contact_us",
+  "urlPaths": [
+    "/ch/contact_us_ch.php"
+  ],
+  "locales": {
+    "zh": {
+      "urlPath": "/ch/contact_us_ch.php",
+      "filePath": "ch/contact_us_ch.php",
+      "locale": "zh",
+      "groupName": "ch_contact_us",
+      "title": "www.glitter-tattoo.com",
+      "description": "",
+      "keywords": "",
+      "headings": [],
+      "bodyText": "語言 您們的意見對我們非常重要。如果您有其他問題或意見，請不要猶豫與我們聯繫。 我們將很樂意協助您： 如何聯絡我們 ? - Contact Form : 聯絡表格 Your Name: *您的姓名 Your E-Mail: *您的電郵 Contact number: *聯絡電話號碼 URL Address: 網址 Fax: 傳真號碼 Your Company: 您的公司名稱 Country: Comments: 意見 February 22, 2026 - 地址: 閃爍紋身 2220/11 , 36/1 Ramkhamhaeng Road, Huamark, Bangkapi, Bangkok 10240 Thailand Tel : (66) 0-2732-9870-1 Fax : (66) 0-2732-0879 Copyright www.glitter-tattoo.com 2220/11 Soi Ramkhamhaeng , 36/1 Ramkhamhaeng , Huamark, Bangkapi, Bangkok 10240 Thailand Tel. (66) 2732-9870-1 Fax. (66) 2732-0879",
+      "bodyHtml": "<br>\n<table width=\"708\" border=\"0\" align=\"center\" cellpadding=\"5\" cellspacing=\"0\">\n  <tbody><tr>\n    <td align=\"right\" valign=\"middle\" class=\"t3 style1\">語言 <a href=\"/contact_us_th.php\"><img src=\"/images/bulet/thai.jpg\" width=\"25\" height=\"15\" border=\"0\"></a>  <a href=\"/contact_us_en.php\"><img src=\"/images/bulet/eng.jpg\" width=\"24\" height=\"15\" border=\"0\"></a> <img src=\"/images/hongkongflag.png\" alt=\"china\" border=\"0\"></td>\n  </tr>\n</tbody></table>\n<table width=\"720\" border=\"0\" align=\"center\" cellpadding=\"0\" cellspacing=\"0\">\n  <tbody><tr>\n    <td width=\"8\"><img src=\"/images/b_bg/b1.gif\" width=\"8\" height=\"8\"></td>\n    <td width=\"702\" bgcolor=\"#EBEBEB\"><img src=\"/images/dot.gif\" width=\"1\" height=\"1\"></td>\n    <td width=\"8\"><img src=\"/images/b_bg/b2.gif\" width=\"8\" height=\"8\"></td>\n  </tr>\n  <tr>\n    <td bgcolor=\"#EBEBEB\">&nbsp;</td>\n    <td bgcolor=\"#EBEBEB\"><table width=\"692\" border=\"0\" align=\"center\" cellpadding=\"0\" cellspacing=\"0\">\n      <tbody><tr>\n        <td><img src=\"/images/dot.gif\" width=\"1\" height=\"7\"></td>\n      </tr>\n      <tr>\n        <td><table width=\"692\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n          <tbody><tr>\n            <td></td>\n          </tr>\n          <tr>\n            <td></td>\n          </tr>\n        </tbody></table></td>\n      </tr>\n      <tr>\n        <td><img src=\"/images/dot.gif\" width=\"10\" height=\"10\"></td>\n      </tr>\n      <tr>\n        <td valign=\"top\"><table width=\"692\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n          <tbody><tr>\n            <td width=\"17\"><img src=\"/images/b_b/b1.gif\" width=\"17\" height=\"17\"></td>\n            <td width=\"658\" bgcolor=\"#FFFFFF\"><img src=\"/images/dot.gif\" width=\"1\" height=\"1\"></td>\n            <td width=\"17\"><img src=\"/images/b_b/b2.gif\" width=\"17\" height=\"17\"></td>\n          </tr>\n          <tr>\n            <td bgcolor=\"#FFFFFF\"><img src=\"/images/dot.gif\" width=\"17\" height=\"1\"></td>\n            <td align=\"center\" valign=\"top\" bgcolor=\"#FFFFFF\"><table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n              <tbody><tr>\n                <td align=\"left\"> &nbsp;&nbsp;&nbsp;<img src=\"/images/head_contact_us.jpg\" width=\"295\" height=\"56\"></td>\n              </tr>\n              <tr>\n                <td><img src=\"/images/line01.gif\" width=\"656\" height=\"13\"></td>\n              </tr>\n            </tbody></table>\n              <table width=\"544\" border=\"0\" align=\"center\" cellpadding=\"10\" cellspacing=\"0\" class=\"front\">\n                <tbody><tr>\n                  <td align=\"left\" valign=\"top\" class=\"txt1\"><p class=\"t1\">您們的意見對我們非常重要。如果您有其他問題或意見，請不要猶豫與我們聯繫。<br>\n我們將很樂意協助您：<br>\n                  </p>\n                  <p class=\"t2\"><b> 如何聯絡我們 ?</b><br>\n                          <br>\n                        <strong>- C</strong><strong>ontact Form :&nbsp;聯絡表格</strong>&nbsp;&nbsp;</p>\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"5\" width=\"100%\">\n                        <tbody><tr>\n                          <td><form action=\"/result_form.php\" method=\"post\">\n                              <table align=\"left\">\n                                <tbody><tr>\n                                  <td width=\"112\" align=\"right\" class=\"t4-m12\"><b>Your Name:</b></td>\n                                  <td width=\"363\" align=\"left\"><input name=\"name\" size=\"30\" value=\"\">\n                                    <span class=\"t4-m12 style7\"> *您的姓名</span></td>\n                                </tr>\n                                <tr>\n                                  <td align=\"right\" class=\"t4-m12\"><b>Your E-Mail:</b></td>\n                                  <td align=\"left\"><input name=\"email\" size=\"30\" value=\"\">\n                                    <span class=\"t4-m12 style7\">                                    *您的電郵</span></td>\n                                </tr>\n                                <tr>\n                                  <td align=\"right\" class=\"t4-m12\"><b>Contact number:</b></td>\n                                  <td align=\"left\"><input name=\"tel\" id=\"tel\" value=\"\" size=\"30\">\n                                    <span class=\"t4-m12 style7\"> *聯絡電話號碼</span></td>\n                                </tr>\n                                <tr>\n                                  <td align=\"right\" class=\"t4-m12\"><b>URL Address:</b></td>\n                                  <td align=\"left\"><input name=\"URL\" size=\"30\" value=\"http://\">\n                                    網址</td>\n                                </tr>\n                                <tr>\n                                  <td align=\"right\" valign=\"top\" class=\"t4-m12\"><b>Fax:</b></td>\n                                  <td align=\"left\"><input name=\"fax\" id=\"fax\" value=\"\" size=\"30\">\n                                    傳真號碼</td>\n                                </tr>\n                                <tr>\n                                  <td align=\"right\" valign=\"top\" class=\"t4-m12\"><b>Your Company:</b></td>\n                                  <td align=\"left\"><input name=\"company\" size=\"30\" value=\"\">\n                                    您的公司名稱</td>\n                                </tr>\n                                 <tr>\n                                  <td align=\"right\" valign=\"top\" class=\"t4-m12\"><b>Country:</b></td>\n                                  <td align=\"left\"><input name=\"country\" size=\"30\" value=\"\" id=\"country\"></td>\n                                  \n                                </tr>\n                                <tr>\n                                  <td align=\"right\" valign=\"top\" class=\"t4-m12\"><b>Comments:</b></td>\n                                  <td align=\"left\"><b>\n                                    <textarea name=\"Comments\" cols=\"50\" rows=\"10\" wrap=\"soft\"></textarea>\n                                    <strong><br>\n                                    意見</strong></b></td>\n                                </tr>\n                                <tr>\n                                  <td class=\"t4-m12\"></td>\n                                  <td><input name=\"submit\" type=\"submit\" value=\"發送\" style=\"font-family:Tahoma, Geneva, sans-serif;\">\n                                    <input name=\"reset\" type=\"reset\" value=\"重設\" style=\"font-family:Tahoma, Geneva, sans-serif;\">                                  </td>\n                                </tr>\n                              </tbody></table>\n                            <input type=\"hidden\" name=\"ipadress\" value=\"\"><input type=\"hidden\" name=\"referer\" value=\"\">                          </form></td>\n                        </tr>\n                        <tr>\n                          <td height=\"18\" valign=\"center\"><center>\n                              <font color=\"#ffffff\"><b>\n                              February 22, 2026                              </b> </font>\n                          </center></td>\n                        </tr>\n                    </tbody></table>\n                    <p class=\"t2\"><strong>- <span class=\"text\"><strong>地址:</strong> <font color=\"#FF0066\"><strong>閃爍紋身</strong></font></span></strong><span class=\"t4-m12\"><br>\n                      <span class=\"text\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2220/11 , 36/1 Ramkhamhaeng Road,  Huamark, Bangkapi, <br>\n                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bangkok 10240 Thailand<br>\n                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tel  : (66) 0-2732-9870-1 Fax : (66) 0-2732-0879</span></span><span class=\"text\"><br>\n                      <br>\n                      &nbsp;&nbsp;&nbsp;\n                      \n                      \n                    </span></p><table width=\"100%\" border=\"0\" align=\"center\" cellpadding=\"0\" cellspacing=\"0\">\n                      <tbody><tr>\n                        <td><img src=\"../images/map_s.jpg\" width=\"410\" height=\"307\" border=\"0\"></td>\n                      </tr>\n                    </tbody></table>\n\n                      \n                      \n                      <!--<strong>Mini Studio :</strong> TAWANNA (beside The Mall Bangkapi) Zone Fashion Room: AE 207 <br />\n                                    <br />\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \n                        &nbsp; &nbsp;&nbsp;&nbsp;<a href=\"/images/map_en_b.jpg\" target=\"_blank\"><img src=\"/images/map_en_s.jpg\" width=\"310\" height=\"207\" border=\"0\" /></a></span></p>\n                    <p class=\"t2\"> <strong>- Distributor in China 中国总代理</strong><br />\n                      <br />\n                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ADD: Room 802, 52C Building, BaoLi Community, China<br />\n                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;广州市海珠区保利花园52栋C梯802<br />\n                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact person（联系人）: Ms. Zhang<br />\n                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mobile（手机）: 13640787836<br />\n                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e-mai（邮箱）: thaispa@126.com                     \t    </p>\n<p class=\"t2\"><strong>- Distributor in Hong Kong</strong>   <strong>香港代理</strong></p>\n                    <p class=\"t2\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;15/F,  Radiocity, 505 Hennessy Road,  Causeway Bay,  Hong Kong<br />\n                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;香港銅鑼灣軒尼詩道505號15樓電業城 </p>\n<p class=\"t2\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact Person  (聯絡人):                    </p>\n                    <p class=\"t2\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ms. Heidi Sung    (Mobile 手提): 852-9188-6263<br />\n                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ms. Maryann  Yip  (Mobile 手提): 852-9096-0515                    </p>\n                    <p class=\"t2\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fax (傳真):             852-2836-7582<br />\n  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email (電郵):         soie.intl@gmail.com--><p></p>\n                    <span class=\"text\">\n                    <p class=\"t2\"><br>\n</p>                    \n                    </span>\n                      </td>\n                </tr>\n              </tbody></table>\n              <p><br>\n                </p>              </td>\n            <td bgcolor=\"#FFFFFF\"><img src=\"/images/dot.gif\" width=\"17\" height=\"1\"></td>\n          </tr>\n          <tr>\n            <td><img src=\"/images/b_b/b3.gif\" width=\"17\" height=\"17\"></td>\n            <td bgcolor=\"#FFFFFF\"><img src=\"/images/dot.gif\" width=\"1\" height=\"17\"></td>\n            <td><img src=\"/images/b_b/b4.gif\" width=\"17\" height=\"17\"></td>\n          </tr>\n        </tbody></table></td>\n      </tr>\n      <tr>\n        <td><img src=\"/images/dot.gif\" width=\"1\" height=\"10\"></td>\n      </tr>\n      <tr>\n        <td><table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n          <tbody><tr>\n            <td width=\"17\"><img src=\"/images/b_footer/b1.gif\" width=\"17\" height=\"65\"></td>\n            <td width=\"46\" align=\"center\" bgcolor=\"#282C37\" class=\"t3\"><img src=\"/images/b_footer/lg.jpg\" width=\"46\" height=\"48\"></td>\n            <td colspan=\"3\" align=\"center\" bgcolor=\"#282C37\" class=\"t3\"><p><span class=\"t2 style6\"><strong>Copyright   www.glitter-tattoo.com</strong></span><br>\n              <span class=\"t3 style6\">2220/11 Soi Ramkhamhaeng , 36/1 Ramkhamhaeng , Huamark, Bangkapi, Bangkok 10240 Thailand</span><span class=\"style3\"><br>\n                Tel. (66) 2732-9870-1  Fax. (66) 2732-0879</span></p>              </td>\n            <td width=\"17\"><img src=\"/images/b_footer/b2.gif\" width=\"17\" height=\"65\"></td>\n          </tr>\n          \n        </tbody></table></td>\n      </tr>\n      <tr>\n        <td><img src=\"/images/dot.gif\" width=\"1\" height=\"7\"></td>\n      </tr>\n    </tbody></table>      </td>\n    <td bgcolor=\"#EBEBEB\"><img src=\"/images/dot.gif\" width=\"8\" height=\"1\"></td>\n  </tr>\n  <tr>\n    <td><img src=\"/images/b_bg/b3.gif\" width=\"8\" height=\"8\"></td>\n    <td bgcolor=\"#EBEBEB\"><img src=\"/images/dot.gif\" width=\"1\" height=\"1\"></td>\n    <td><img src=\"/images/b_bg/b4.gif\" width=\"8\" height=\"8\"></td>\n  </tr>\n</tbody></table>\n<br>",
+      "images": [
+        {
+          "src": "/images/bulet/thai.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/images/bulet/eng.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/images/hongkongflag.png",
+          "alt": "china"
+        },
+        {
+          "src": "/images/b_bg/b1.gif",
+          "alt": ""
+        },
+        {
+          "src": "/images/dot.gif",
+          "alt": ""
+        },
+        {
+          "src": "/images/b_bg/b2.gif",
+          "alt": ""
+        },
+        {
+          "src": "/images/b_b/b1.gif",
+          "alt": ""
+        },
+        {
+          "src": "/images/b_b/b2.gif",
+          "alt": ""
+        },
+        {
+          "src": "/images/head_contact_us.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/images/line01.gif",
+          "alt": ""
+        },
+        {
+          "src": "/images/map_s.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/images/b_b/b3.gif",
+          "alt": ""
+        },
+        {
+          "src": "/images/b_b/b4.gif",
+          "alt": ""
+        },
+        {
+          "src": "/images/b_footer/b1.gif",
+          "alt": ""
+        },
+        {
+          "src": "/images/b_footer/lg.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/images/b_footer/b2.gif",
+          "alt": ""
+        },
+        {
+          "src": "/images/b_bg/b3.gif",
+          "alt": ""
+        },
+        {
+          "src": "/images/b_bg/b4.gif",
+          "alt": ""
+        }
+      ]
+    }
+  },
+  "canonicalPath": "/ch/contact_us_ch.php",
+  "keywords": [],
+  "images": [
+    {
+      "src": "/images/bulet/thai.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/images/bulet/eng.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/images/hongkongflag.png",
+      "alt": "china"
+    },
+    {
+      "src": "/images/b_bg/b1.gif",
+      "alt": ""
+    },
+    {
+      "src": "/images/dot.gif",
+      "alt": ""
+    },
+    {
+      "src": "/images/b_bg/b2.gif",
+      "alt": ""
+    },
+    {
+      "src": "/images/b_b/b1.gif",
+      "alt": ""
+    },
+    {
+      "src": "/images/b_b/b2.gif",
+      "alt": ""
+    },
+    {
+      "src": "/images/head_contact_us.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/images/line01.gif",
+      "alt": ""
+    },
+    {
+      "src": "/images/map_s.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/images/b_b/b3.gif",
+      "alt": ""
+    },
+    {
+      "src": "/images/b_b/b4.gif",
+      "alt": ""
+    },
+    {
+      "src": "/images/b_footer/b1.gif",
+      "alt": ""
+    },
+    {
+      "src": "/images/b_footer/lg.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/images/b_footer/b2.gif",
+      "alt": ""
+    },
+    {
+      "src": "/images/b_bg/b3.gif",
+      "alt": ""
+    },
+    {
+      "src": "/images/b_bg/b4.gif",
+      "alt": ""
+    }
+  ]
+}

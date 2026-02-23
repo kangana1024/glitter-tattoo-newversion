@@ -1,0 +1,140 @@
+{
+  "groupName": "event_view_view_event33",
+  "urlPaths": [
+    "/event/view/event33.htm"
+  ],
+  "locales": {
+    "th": {
+      "urlPath": "/event/view/event33.htm",
+      "filePath": "event/view/event33.htm",
+      "locale": "th",
+      "groupName": "event_view_view_event33",
+      "title": "",
+      "description": "",
+      "keywords": "",
+      "headings": [
+        "งาน 17th Discovery Thailand 2009 & Discovery World 2009 at IMPACT Muang Thong Thani‏"
+      ],
+      "bodyText": "งาน 17th Discovery Thailand 2009 & Discovery World 2009 at IMPACT Muang Thong Thani‏ « previous | next »",
+      "bodyHtml": "<h1>งาน 17th Discovery Thailand 2009 &amp; Discovery World 2009 at IMPACT Muang Thong Thani‏</h1>\n<div class=\"demo\">\n<div id=\"main_image\"></div>\n<ul class=\"gallery_demo_unstyled\">\n    <li><img src=\"img/event33/1.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event33/2.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event33/3.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event33/4.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event33/5.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event33/6.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event33/7.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event33/8.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event33/9.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event33/10.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event33/11.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event33/12.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event33/13.jpg\" <=\"\" li=\"\">\n    </li><li><img src=\"img/event33/14.jpg\" <=\"\" li=\"\">\n</li></ul>\n<p class=\"nav\"><a href=\"#\" onclick=\"$.galleria.prev(); return false;\">« previous</a> | <a href=\"#\" onclick=\"$.galleria.next(); return false;\">next »</a></p>\n</div>",
+      "images": [
+        {
+          "src": "/event/view/img/event33/1.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event33/2.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event33/3.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event33/4.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event33/5.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event33/6.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event33/7.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event33/8.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event33/9.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event33/10.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event33/11.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event33/12.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event33/13.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event33/14.jpg",
+          "alt": ""
+        }
+      ]
+    }
+  },
+  "canonicalPath": "/event/view/event33.htm",
+  "keywords": [],
+  "images": [
+    {
+      "src": "/event/view/img/event33/1.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event33/2.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event33/3.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event33/4.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event33/5.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event33/6.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event33/7.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event33/8.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event33/9.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event33/10.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event33/11.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event33/12.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event33/13.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event33/14.jpg",
+      "alt": ""
+    }
+  ]
+}

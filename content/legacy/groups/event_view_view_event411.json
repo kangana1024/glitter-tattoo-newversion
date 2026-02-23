@@ -1,0 +1,308 @@
+{
+  "groupName": "event_view_view_event411",
+  "urlPaths": [
+    "/event/view/event411.php"
+  ],
+  "locales": {
+    "th": {
+      "urlPath": "/event/view/event411.php",
+      "filePath": "event/view/event411.php",
+      "locale": "th",
+      "groupName": "event_view_view_event411",
+      "title": "",
+      "description": "",
+      "keywords": "",
+      "headings": [
+        "Woman Live 2010"
+      ],
+      "bodyText": "Woman Live 2010 « previous | next »",
+      "bodyHtml": "<h1>Woman Live 2010</h1>\n<div class=\"demo\">\n<div id=\"main_image\"></div>\n<ul class=\"gallery_demo_unstyled\">\n    <li><img src=\"img/event411/img (5).jpg\"></li>\n    \n    <li><img src=\"img/event411/SDC10689.1.jpg\"></li>\n    \n    <li><img src=\"img/event411/img (1).jpg\"></li>\n    \n    <li><img src=\"img/event411/SDC10710.1.jpg\"></li>\n    \n    <li><img src=\"img/event411/img (16).jpg\"></li>\n    \n    <li><img src=\"img/event411/img (17).jpg\"></li>\n    \n    <li><img src=\"img/event411/SDC10613.1.jpg\"></li>\n    \n    <li><img src=\"img/event411/SDC10610.1.jpg\"></li>\n    \n    <li><img src=\"img/event411/img (4).jpg\"></li>\n    \n    <li><img src=\"img/event411/img (2).jpg\"></li>\n    \n    <li><img src=\"img/event411/DSCN9430.1.jpg\"></li>\n    \n    <li><img src=\"img/event411/img (11).jpg\"></li>\n    \n    <li><img src=\"img/event411/img (9).jpg\"></li>\n    \n    <li><img src=\"img/event411/img (12).jpg\"></li>\n    \n    <li><img src=\"img/event411/img (10).jpg\"></li>\n    \n    <li><img src=\"img/event411/img (14).jpg\"></li>\n    \n    <li><img src=\"img/event411/DSCN9436.1.jpg\"></li>\n    \n    <li><img src=\"img/event411/DSCN9433.1.jpg\"></li>\n    \n    <li><img src=\"img/event411/SDC10611.1.jpg\"></li>\n    \n    <li><img src=\"img/event411/img (6).jpg\"></li>\n    \n    <li><img src=\"img/event411/img (3).jpg\"></li>\n    \n    <li><img src=\"img/event411/SDC10709.1.jpg\"></li>\n    \n    <li><img src=\"img/event411/img (7).jpg\"></li>\n    \n    <li><img src=\"img/event411/DSCN9442.1.jpg\"></li>\n    \n    <li><img src=\"img/event411/img (8).jpg\"></li>\n    \n    <li><img src=\"img/event411/DSCN9432.1.jpg\"></li>\n    \n    <li><img src=\"img/event411/DSCN9431.1.jpg\"></li>\n    \n    <li><img src=\"img/event411/DSCN9443.1.jpg\"></li>\n    \n    <li><img src=\"img/event411/SDC10667.1.jpg\"></li>\n    \n    <li><img src=\"img/event411/SDC10696.1.jpg\"></li>\n    \n    <li><img src=\"img/event411/SDC10717.1.jpg\"></li>\n    \n    <li><img src=\"img/event411/DSCN9437.1.jpg\"></li>\n    \n    <li><img src=\"img/event411/img (13).jpg\"></li>\n    \n    <li><img src=\"img/event411/img (1).db\"></li>\n    \n    <li><img src=\"img/event411/img (15).jpg\"></li>\n    \n</ul>\n<p class=\"nav\"><a href=\"#\" onclick=\"$.galleria.prev(); return false;\">« previous</a> | <a href=\"#\" onclick=\"$.galleria.next(); return false;\">next »</a></p>\n</div>",
+      "images": [
+        {
+          "src": "/event/view/img/event411/img (5).jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event411/SDC10689.1.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event411/img (1).jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event411/SDC10710.1.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event411/img (16).jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event411/img (17).jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event411/SDC10613.1.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event411/SDC10610.1.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event411/img (4).jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event411/img (2).jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event411/DSCN9430.1.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event411/img (11).jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event411/img (9).jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event411/img (12).jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event411/img (10).jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event411/img (14).jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event411/DSCN9436.1.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event411/DSCN9433.1.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event411/SDC10611.1.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event411/img (6).jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event411/img (3).jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event411/SDC10709.1.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event411/img (7).jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event411/DSCN9442.1.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event411/img (8).jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event411/DSCN9432.1.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event411/DSCN9431.1.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event411/DSCN9443.1.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event411/SDC10667.1.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event411/SDC10696.1.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event411/SDC10717.1.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event411/DSCN9437.1.jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event411/img (13).jpg",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event411/img (1).db",
+          "alt": ""
+        },
+        {
+          "src": "/event/view/img/event411/img (15).jpg",
+          "alt": ""
+        }
+      ]
+    }
+  },
+  "canonicalPath": "/event/view/event411.php",
+  "keywords": [],
+  "images": [
+    {
+      "src": "/event/view/img/event411/img (5).jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event411/SDC10689.1.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event411/img (1).jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event411/SDC10710.1.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event411/img (16).jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event411/img (17).jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event411/SDC10613.1.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event411/SDC10610.1.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event411/img (4).jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event411/img (2).jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event411/DSCN9430.1.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event411/img (11).jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event411/img (9).jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event411/img (12).jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event411/img (10).jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event411/img (14).jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event411/DSCN9436.1.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event411/DSCN9433.1.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event411/SDC10611.1.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event411/img (6).jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event411/img (3).jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event411/SDC10709.1.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event411/img (7).jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event411/DSCN9442.1.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event411/img (8).jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event411/DSCN9432.1.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event411/DSCN9431.1.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event411/DSCN9443.1.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event411/SDC10667.1.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event411/SDC10696.1.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event411/SDC10717.1.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event411/DSCN9437.1.jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event411/img (13).jpg",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event411/img (1).db",
+      "alt": ""
+    },
+    {
+      "src": "/event/view/img/event411/img (15).jpg",
+      "alt": ""
+    }
+  ]
+}

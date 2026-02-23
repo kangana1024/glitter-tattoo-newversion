@@ -1,0 +1,40 @@
+{
+  "page": "promotion",
+  "title": "Glitter Tattoo - Promotions",
+  "description": "Special offers and monthly promotions for glitter tattoo kits, stencils, and accessories.",
+  "hero": {
+    "heading": {
+      "th": "โปรโมชั่น",
+      "en": "Promotions",
+      "zh": "促销活动"
+    },
+    "subheading": {
+      "th": "อัปเดตข้อเสนอพิเศษและโปรโมชั่นประจำเดือนจากเรา",
+      "en": "Check out our special offers and monthly promotions.",
+      "zh": "查看我们的特别优惠和每月促销活动。"
+    },
+    "image": "/legacy/images/promotion/2015_august-1280w.png"
+  },
+  "content": {
+    "heading": {
+      "th": "+ + กลิตเตอร์แทททู แนะนำโปรโมชั่นพิเศษ + +",
+      "en": "+ + Glitter Tattoo Special Promotions + +",
+      "zh": "+ + 闪粉纹身特别促销 + +"
+    },
+    "items": [
+      {
+        "title": {
+          "th": "Limited Edition ชุดละ 750 บาท เท่านั้น",
+          "en": "Limited Edition Kits for only 750 THB",
+          "zh": "限量版套装仅售750泰铢"
+        },
+        "description": {
+          "th": "โปรโมชั่นพิเศษสุดคุ้ม พร้อมฟรีค่าจัดส่ง (แบบลงทะเบียน)",
+          "en": "Great value promotion, including free registered regular shipping.",
+          "zh": "超值促销，包含免费挂号常规运费。"
+        },
+        "image": "/legacy/images/promotion/2016_09/2016_09_01.jpg"
+      }
+    ]
+  }
+}

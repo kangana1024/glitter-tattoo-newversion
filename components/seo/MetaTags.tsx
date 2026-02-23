@@ -10,6 +10,9 @@ interface GeneratePageMetadataOptions {
   locale: string;
   path: string; // e.g. '/about' or '' for home
   ogImage?: string;
+  keywords?: string[];
+  canonicalUrl?: string;
+  noindex?: boolean;
 }
 
 export function generatePageMetadata({
@@ -17,9 +20,12 @@ export function generatePageMetadata({
   description,
   locale,
   path,
-  ogImage = '/images/scraped/hero-banner.jpg',
+  ogImage = '/legacy/images/images_newproduct/happy_family_2012_3-1280w.png',
+  keywords,
+  canonicalUrl,
+  noindex,
 }: GeneratePageMetadataOptions): Metadata {
-  const url = `${SITE_URL}/${locale}${path}`;
+  const url = canonicalUrl || `${SITE_URL}/${locale}${path}`;
 
   const languages: Record<string, string> = {};
   for (const loc of locales) {
@@ -29,6 +35,8 @@ export function generatePageMetadata({
   return {
     title,
     description,
+    ...(keywords && keywords.length > 0 ? { keywords: keywords.join(', ') } : {}),
+    ...(noindex ? { robots: { index: false, follow: true } } : {}),
     openGraph: {
       title,
       description,
