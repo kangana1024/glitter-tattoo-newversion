@@ -30,7 +30,6 @@ usage() {
   echo "  -d, --domain DOMAIN   Primary domain (will prompt if not set)"
   echo "  -p, --port PORT       Upstream app port (default: $UPSTREAM_PORT)"
   echo "  -o, --output FILE     Output file path (default: stdout)"
-  echo "  -r, --root DIR        Static files root directory (default: $OUT_DIR)"
   echo "  --alt DOMAIN          Alternate domain to redirect (e.g. www.example.com)"
   echo "  --no-alt              Skip alternate domain redirect"
   echo "  --cert PATH           SSL certificate path (required for 'full' mode)"
@@ -272,9 +271,6 @@ NGINX
 
 # --- Common server block content ---
 cat <<NGINX
-    root ${OUT_DIR};
-    index index.html;
-
     # ---- Gzip Compression ----
     gzip on;
     gzip_vary on;
@@ -299,55 +295,8 @@ cat <<NGINX
     add_header X-XSS-Protection "1; mode=block" always;
     add_header Referrer-Policy "strict-origin-when-cross-origin" always;
 
-    # ---- Static Assets (long cache) ----
-    # Next.js hashed assets - cache forever
-    location /_next/static/ {
-        expires max;
-        add_header Cache-Control "public, max-age=31536000, immutable";
-        access_log off;
-    }
-
-    # Legacy images (responsive WebP + fallbacks)
-    location /legacy/ {
-        expires 30d;
-        add_header Cache-Control "public, max-age=2592000";
-        access_log off;
-    }
-
-    # Other static files
-    location ~* \.(ico|css|js|gif|jpe?g|png|webp|avif|svg|woff2?|ttf|eot)$ {
-        expires 7d;
-        add_header Cache-Control "public, max-age=604800";
-        access_log off;
-    }
-
-    # ---- Locale Routing ----
-    # Default root → Thai locale
-    location = / {
-        return 302 /th;
-    }
-
-    # Locale paths - try static files, then proxy to serve
-    location ~ ^/(th|en|zh)(/.*)?$ {
-        try_files \$uri \$uri/ \$uri/index.html @upstream;
-    }
-
-    # Legacy paths (old PHP URLs)
-    location ~ ^/(th|en|zh)/2015/ {
-        try_files \$uri \$uri/ \$uri/index.html @upstream;
-    }
-
-    # Sitemap and robots
-    location = /robots.txt {
-        try_files \$uri =404;
-        access_log off;
-    }
-    location = /sitemap.xml {
-        try_files \$uri =404;
-        access_log off;
-    }
-
-    # ---- Fallback to upstream (serve) ----
+    # ---- Proxy to upstream (serve) ----
+    # All requests go to PM2 serve; nginx adds caching headers and gzip
     location @upstream {
         proxy_pass http://glitter_tattoo;
         proxy_http_version 1.1;
@@ -359,14 +308,54 @@ cat <<NGINX
         proxy_cache_bypass \$http_upgrade;
     }
 
-    # General fallback
+    # ---- Static Assets (long cache via upstream) ----
+    # Next.js hashed assets - cache forever
+    location /_next/static/ {
+        proxy_pass http://glitter_tattoo;
+        proxy_http_version 1.1;
+        proxy_set_header Host \$host;
+        proxy_set_header Connection "";
+        expires max;
+        add_header Cache-Control "public, max-age=31536000, immutable";
+        access_log off;
+    }
+
+    # Legacy images (responsive WebP + fallbacks)
+    location /legacy/ {
+        proxy_pass http://glitter_tattoo;
+        proxy_http_version 1.1;
+        proxy_set_header Host \$host;
+        proxy_set_header Connection "";
+        expires 30d;
+        add_header Cache-Control "public, max-age=2592000";
+        access_log off;
+    }
+
+    # ---- Locale Routing ----
+    # Default root → Thai locale
+    location = / {
+        return 302 /th;
+    }
+
+    # ---- General fallback → upstream ----
     location / {
-        try_files \$uri \$uri/ \$uri/index.html @upstream;
+        proxy_pass http://glitter_tattoo;
+        proxy_http_version 1.1;
+        proxy_set_header Host \$host;
+        proxy_set_header X-Real-IP \$remote_addr;
+        proxy_set_header X-Forwarded-For \$proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto \$scheme;
+        proxy_set_header Connection "";
+        proxy_cache_bypass \$http_upgrade;
     }
 
     # ---- Error Pages ----
     error_page 404 /404/index.html;
     location = /404/index.html {
+        proxy_pass http://glitter_tattoo;
+        proxy_http_version 1.1;
+        proxy_set_header Host \$host;
+        proxy_set_header Connection "";
         internal;
     }
 
