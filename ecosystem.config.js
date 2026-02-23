@@ -3,7 +3,7 @@ module.exports = {
     {
       name: "glitter-tattoo",
       script: "node_modules/serve/build/main.js",
-      args: "-s out -p 3004",
+      args: "-s out -p 3334",
       instances: "max", // Use max CPU cores for cluster mode (zero downtime reload capability)
       exec_mode: "cluster", // Run in cluster mode
       autorestart: true,

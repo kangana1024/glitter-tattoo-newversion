@@ -1,5 +1,5 @@
 APP_NAME = glitter-tattoo
-PORT = 3004
+PORT = 3334
 
 # Define PHONY targets
 .PHONY: help install build start stop reload deploy logs monitor

@@ -8,7 +8,7 @@ set -euo pipefail
 
 DOMAIN=""
 DOMAIN_ALT=""
-UPSTREAM_PORT=3004
+UPSTREAM_PORT=3334
 OUT_DIR="$(cd "$(dirname "$0")" && pwd)/out"
 OUTPUT_FILE=""
 SSL_MODE=""
