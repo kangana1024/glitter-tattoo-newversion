@@ -31,6 +31,8 @@ usage() {
   echo "  -p, --port PORT       Upstream app port (default: $UPSTREAM_PORT)"
   echo "  -o, --output FILE     Output file path (default: stdout)"
   echo "  -r, --root DIR        Static files root directory (default: $OUT_DIR)"
+  echo "  --alt DOMAIN          Alternate domain to redirect (e.g. www.example.com)"
+  echo "  --no-alt              Skip alternate domain redirect"
   echo "  --cert PATH           SSL certificate path (required for 'full' mode)"
   echo "  --key PATH            SSL private key path (required for 'full' mode)"
   echo "  -h, --help            Show this help"
@@ -44,11 +46,14 @@ usage() {
 
 SSL_CERT=""
 SSL_KEY=""
+NO_ALT=false
 
 while [[ $# -gt 0 ]]; do
   case $1 in
     -m|--mode)    SSL_MODE="$2"; shift 2 ;;
     -d|--domain)  DOMAIN="$2"; shift 2 ;;
+    --alt)        DOMAIN_ALT="$2"; shift 2 ;;
+    --no-alt)     NO_ALT=true; DOMAIN_ALT="__none__"; shift ;;
     -p|--port)    UPSTREAM_PORT="$2"; shift 2 ;;
     -o|--output)  OUTPUT_FILE="$2"; shift 2 ;;
     -r|--root)    OUT_DIR="$2"; shift 2 ;;
@@ -59,24 +64,42 @@ while [[ $# -gt 0 ]]; do
   esac
 done
 
+# Clear sentinel value
+if [[ "$DOMAIN_ALT" == "__none__" ]]; then
+  DOMAIN_ALT=""
+fi
+
 # Validate domain
 if [[ -z "$DOMAIN" ]]; then
-  read -rp "$(echo -e "${YELLOW}Enter domain (e.g. www.glitter-tattoo.com):${NC} ")" DOMAIN
+  read -rp "$(echo -e "${YELLOW}Enter domain (e.g. glitter-tattoo.com):${NC} ")" DOMAIN
   if [[ -z "$DOMAIN" ]]; then
     echo -e "${RED}Error: domain is required${NC}"
     exit 1
   fi
 fi
 
-# Derive non-www / www alternate
-if [[ "$DOMAIN" == www.* ]]; then
-  DOMAIN_ALT="${DOMAIN#www.}"
-else
-  DOMAIN_ALT="$DOMAIN"
-  DOMAIN="www.${DOMAIN}"
+# Ask about alternate domain (www ↔ non-www redirect)
+if [[ -z "$DOMAIN_ALT" && "$NO_ALT" == false ]]; then
+  if [[ "$DOMAIN" == www.* ]]; then
+    default_alt="${DOMAIN#www.}"
+  else
+    default_alt="www.${DOMAIN}"
+  fi
+  read -rp "$(echo -e "${YELLOW}Redirect alternate domain? [${default_alt}] (enter to use, 'n' to skip):${NC} ")" alt_input
+  if [[ "$alt_input" == "n" || "$alt_input" == "N" ]]; then
+    DOMAIN_ALT=""
+  elif [[ -n "$alt_input" ]]; then
+    DOMAIN_ALT="$alt_input"
+  else
+    DOMAIN_ALT="$default_alt"
+  fi
 fi
 
-echo -e "${GREEN}Domain: ${DOMAIN} (alt: ${DOMAIN_ALT})${NC}" >&2
+if [[ -n "$DOMAIN_ALT" ]]; then
+  echo -e "${GREEN}Domain: ${DOMAIN} (redirect: ${DOMAIN_ALT} → ${DOMAIN})${NC}" >&2
+else
+  echo -e "${GREEN}Domain: ${DOMAIN} (no alternate redirect)${NC}" >&2
+fi
 echo "" >&2
 
 # Validate mode
@@ -141,10 +164,11 @@ upstream glitter_tattoo {
 
 NGINX
 
-# --- Redirect non-www to www ---
-if [[ "$SSL_MODE" == "flexible" ]]; then
+# --- Alternate domain redirect ---
+if [[ -n "$DOMAIN_ALT" ]]; then
+  if [[ "$SSL_MODE" == "flexible" ]]; then
 cat <<NGINX
-# Redirect non-www → www (HTTP)
+# Redirect ${DOMAIN_ALT} → ${DOMAIN} (HTTP)
 server {
     listen 80;
     listen [::]:80;
@@ -152,42 +176,10 @@ server {
     return 301 http://${DOMAIN}\$request_uri;
 }
 
-# Main server block (HTTP - Cloudflare Flexible)
-server {
-    listen 80;
-    listen [::]:80;
-    server_name ${DOMAIN};
-
-    # Trust Cloudflare proxy headers
-    set_real_ip_from 173.245.48.0/20;
-    set_real_ip_from 103.21.244.0/22;
-    set_real_ip_from 103.22.200.0/22;
-    set_real_ip_from 103.31.4.0/22;
-    set_real_ip_from 141.101.64.0/18;
-    set_real_ip_from 108.162.192.0/18;
-    set_real_ip_from 190.93.240.0/20;
-    set_real_ip_from 188.114.96.0/20;
-    set_real_ip_from 197.234.240.0/22;
-    set_real_ip_from 198.41.128.0/17;
-    set_real_ip_from 162.158.0.0/15;
-    set_real_ip_from 104.16.0.0/13;
-    set_real_ip_from 104.24.0.0/14;
-    set_real_ip_from 172.64.0.0/13;
-    set_real_ip_from 131.0.72.0/22;
-    # IPv6
-    set_real_ip_from 2400:cb00::/32;
-    set_real_ip_from 2606:4700::/32;
-    set_real_ip_from 2803:f800::/32;
-    set_real_ip_from 2405:b500::/32;
-    set_real_ip_from 2405:8100::/32;
-    set_real_ip_from 2a06:98c0::/29;
-    set_real_ip_from 2c0f:f248::/32;
-    real_ip_header CF-Connecting-IP;
-
 NGINX
-else
+  else
 cat <<NGINX
-# Redirect non-www → www (HTTPS)
+# Redirect ${DOMAIN_ALT} → ${DOMAIN} (HTTPS)
 server {
     listen 443 ssl;
     listen [::]:443 ssl;
@@ -199,11 +191,32 @@ server {
     return 301 https://${DOMAIN}\$request_uri;
 }
 
+NGINX
+  fi
+fi
+
+# --- Main server block ---
+if [[ "$SSL_MODE" == "flexible" ]]; then
+cat <<NGINX
+# Main server block (HTTP - Cloudflare Flexible)
+server {
+    listen 80;
+    listen [::]:80;
+    server_name ${DOMAIN};
+
+NGINX
+else
+  # HTTP → HTTPS redirect
+  _alt_names=""
+  if [[ -n "$DOMAIN_ALT" ]]; then
+    _alt_names=" ${DOMAIN_ALT}"
+  fi
+cat <<NGINX
 # Redirect HTTP → HTTPS
 server {
     listen 80;
     listen [::]:80;
-    server_name ${DOMAIN} ${DOMAIN_ALT};
+    server_name ${DOMAIN}${_alt_names};
     return 301 https://${DOMAIN}\$request_uri;
 }
 
@@ -224,6 +237,11 @@ server {
     ssl_session_timeout 1d;
     ssl_session_tickets off;
 
+NGINX
+fi
+
+# Cloudflare real IP (common for both modes)
+cat <<NGINX
     # Trust Cloudflare proxy headers
     set_real_ip_from 173.245.48.0/20;
     set_real_ip_from 103.21.244.0/22;
@@ -251,7 +269,6 @@ server {
     real_ip_header CF-Connecting-IP;
 
 NGINX
-fi
 
 # --- Common server block content ---
 cat <<NGINX
