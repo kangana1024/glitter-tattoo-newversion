@@ -6,8 +6,8 @@ set -euo pipefail
 # Supports Cloudflare SSL Flexible (port 80) and Full (port 443)
 # ============================================================
 
-DOMAIN="www.glitter-tattoo.com"
-DOMAIN_ALT="glitter-tattoo.com"
+DOMAIN=""
+DOMAIN_ALT=""
 UPSTREAM_PORT=3004
 OUT_DIR="$(cd "$(dirname "$0")" && pwd)/out"
 OUTPUT_FILE=""
@@ -27,7 +27,7 @@ usage() {
   echo ""
   echo "Options:"
   echo "  -m, --mode MODE       SSL mode: 'flexible' (port 80) or 'full' (port 443)"
-  echo "  -d, --domain DOMAIN   Primary domain (default: $DOMAIN)"
+  echo "  -d, --domain DOMAIN   Primary domain (will prompt if not set)"
   echo "  -p, --port PORT       Upstream app port (default: $UPSTREAM_PORT)"
   echo "  -o, --output FILE     Output file path (default: stdout)"
   echo "  -r, --root DIR        Static files root directory (default: $OUT_DIR)"
@@ -58,6 +58,26 @@ while [[ $# -gt 0 ]]; do
     *)            echo -e "${RED}Unknown option: $1${NC}"; usage; exit 1 ;;
   esac
 done
+
+# Validate domain
+if [[ -z "$DOMAIN" ]]; then
+  read -rp "$(echo -e "${YELLOW}Enter domain (e.g. www.glitter-tattoo.com):${NC} ")" DOMAIN
+  if [[ -z "$DOMAIN" ]]; then
+    echo -e "${RED}Error: domain is required${NC}"
+    exit 1
+  fi
+fi
+
+# Derive non-www / www alternate
+if [[ "$DOMAIN" == www.* ]]; then
+  DOMAIN_ALT="${DOMAIN#www.}"
+else
+  DOMAIN_ALT="$DOMAIN"
+  DOMAIN="www.${DOMAIN}"
+fi
+
+echo -e "${GREEN}Domain: ${DOMAIN} (alt: ${DOMAIN_ALT})${NC}" >&2
+echo "" >&2
 
 # Validate mode
 if [[ -z "$SSL_MODE" ]]; then
